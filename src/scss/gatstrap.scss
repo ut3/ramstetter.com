@@ -36,10 +36,10 @@ $enable-print-styles: true !default;
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
-  md: 640px,
-  lg: 710px,
-  xl: 780px,
+  sm: 1920px,
+  md: 1920px,
+  lg: 1920px,
+  xl: 3840px,
 ) !default;
 
 // Body
