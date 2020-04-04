@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
+    title: 'J Rick Ramstetter',
     description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    siteUrl: 'https://ramstetter.com',
+    author: 'J Rick Ramstetter',
+    twitter: '',
     adsense: '',
   },
   pathPrefix: '/',
@@ -55,8 +55,8 @@ module.exports = {
         description: 'Gatsby starter for bootstrap a blog',
         homepage_url: 'https://gatstrap.netlify.com',
         start_url: '/',
-        background_color: '#fff',
-        theme_color: '#673ab7',
+        background_color: '#000000',
+        theme_color: '#ffffff',
         display: 'standalone',
         icons: [
           {
