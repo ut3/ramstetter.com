@@ -10,14 +10,19 @@
 
 // Reassign color vars to semantic color scheme
 $theme-colors: (
+  // original: purple
   primary: $gray-900,
   secondary: $gray-600,
   success: $green,
   info: $cyan,
   warning: $yellow,
   danger: $red,
-  light: $gray-100,
-  dark: $gray-800,
+
+  // original: gray-100
+  light: $gray-900,
+
+  // original: gray-800
+  dark: $gray-200,
 ) !default;
 
 // Options
@@ -36,8 +41,8 @@ $enable-print-styles: true !default;
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 1920px,
-  md: 1920px,
+  sm: 710px,
+  md: 1080px,
   lg: 1920px,
   xl: 3840px,
 ) !default;
