@@ -46,10 +46,17 @@ $container-max-widths: (
 //
 // Settings for the `<body>` element.
 
-$body-bg: $white !default;
-$body-color: $gray-700 !default;
-$inverse-bg: $gray-900 !default;
-$inverse-color: $gray-600 !default;
+// original: white
+$body-bg: $black !default;
+
+// original: gray-700
+$body-color: $gray-300 !default;
+
+// original: gray-900
+$inverse-bg: $gray-600 !default;
+
+// original: gray-600
+$inverse-color: $gray-900 !default;
 
 // Links
 //
