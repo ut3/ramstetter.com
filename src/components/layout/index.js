@@ -6,7 +6,10 @@ import Footer from 'components/footer'
 import { siteMetadata } from '../../../gatsby-config'
 
 import 'modern-normalize/modern-normalize.css'
-import 'prismjs/themes/prism.css'
+
+// ramstetter: use gatsby-browser and require my theme
+//import 'prismjs/themes/prism.css'
+
 import 'scss/gatstrap.scss'
 import 'animate.css/animate.css'
 import 'font-awesome/css/font-awesome.css'
