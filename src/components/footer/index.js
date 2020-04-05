@@ -4,14 +4,17 @@ import './style.scss'
 
 const Footer = ({ author, title }) => (
   <div className="footer">
-    <div className="container">
+    <div className="container text-center text-muted">
       <hr className="border-primary" />
       <p>
-        {title}
-        <Link to="/profile/">
+        <small>
+          Copyright © {new Date().getFullYear()}{' '}
+          <Link to="/contact/">{author}</Link>.
           <br />
-          <strong>{author}</strong> on Profile
-        </Link>
+          Licensed under <Link to="CC-BY-NC-ND-4.0.txt">CC BY-NC-ND 4.0</Link>.{' '}
+          <Link to="/privacy/">Privacy policy</Link>.
+          <br />
+        </small>
       </p>
     </div>
   </div>
