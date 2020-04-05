@@ -25,6 +25,9 @@ $theme-colors: (
   dark: $gray-200,
 ) !default;
 
+// ramstetter: change link color in bootstrapjs
+$link-color: $blue;
+
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
