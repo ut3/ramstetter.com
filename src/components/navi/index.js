@@ -32,6 +32,17 @@ class Navi extends React.Component {
                   Profile
                 </Link>
               </li>
+              <li
+                className={
+                  location.pathname === '/contact/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/contact/" className="nav-link">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="navbar-nav flex-row ml-md-auto d-none d-md-flex" />
