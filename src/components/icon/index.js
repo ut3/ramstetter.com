@@ -3,32 +3,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import React from 'react'
 
 import {
-  faApple,
-  faAws,
-  faFacebook,
   faGithub,
-  faHtml5,
-  faJs,
-  faNode,
-  faPhp,
-  faReact,
-  faTwitter,
-  faVuejs,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
 import './style.scss'
 
 library.add(
-  faApple,
-  faAws,
-  faFacebook,
   faGithub,
-  faHtml5,
-  faJs,
-  faNode,
-  faPhp,
-  faReact,
-  faTwitter,
-  faVuejs
+  faLinkedin,
 )
 
 const Icon = ({ name }) => (
@@ -37,4 +19,9 @@ const Icon = ({ name }) => (
   </div>
 )
 
+const UnsizedIcon = ({ name }) => (
+    <FontAwesomeIcon icon={['fab', name]} />
+)
+
+export { UnsizedIcon as UnsizedIcon }
 export default Icon
