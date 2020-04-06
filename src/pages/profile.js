@@ -23,7 +23,7 @@ class Profile extends React.Component {
     return (
       <Layout location={location}>
         <Meta site={siteMetadata} title="Profile" />
-        <div>
+        <div className="">
           <section className="top-pad">
             <div className="container">
               <Img fixed={profile} className="rounded-circle" />
@@ -38,9 +38,9 @@ class Profile extends React.Component {
             </div>
           </section>
 
-          <section className="jumboimage">
+          <section className="">
             <Img sizes={displayproject} className="cover-image opacity-2" />
-            <div className="container text-left cover-over">
+            <div className="container text-left">
               <h2 className="section-heading">Academics</h2>
               <p>
                 J Rick Ramstetter graduated from{' '}
@@ -84,9 +84,9 @@ class Profile extends React.Component {
             </div>
           </section>
 
-          <section id="aeou" className="jumboimage">
+          <section className="">
             <Img sizes={raverdubanner} className="cover-image opacity-2" />
-            <div className="container cover-over text-left">
+            <div className="container text-left">
               <h2 className="section-heading">Industry</h2>
               <p>
                 Rick's initial involvement with the aerospace industry came when
@@ -104,7 +104,7 @@ class Profile extends React.Component {
                   OpenMCAPI
                 </a>{' '}
                 and “asymmetric multiprocessing.” SpaceX was also Rick's first
-                experience with remote work, as he bounced between Hawhorne, CA,
+                experience with remote work, as he bounced between Hawthorne, CA,
                 USA and New Brunswick, NJ, USA to complete degree work while
                 employed.
               </p>
