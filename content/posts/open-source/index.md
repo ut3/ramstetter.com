@@ -1,14 +1,13 @@
 ---
-title: "FOSS commits"
-date: "2020-04-06T00:00:00.000Z"
+title: "Open Source"
+date: "2016-03-01T22:12:03.284Z"
 layout: post
 path: "/open-source/"
-image: none
+image: ./one-px-black.jpg
 description: "I'm trying to increase my upstream commits. After years of working for companies for whom FOSS is a secondary priority, I'd like to contribute."
-category: OpenSource
+category: Work
 tags:
-- none
--
+- FOSS
 ---
 
 |Project   |   Description   |   Commit URL   |
