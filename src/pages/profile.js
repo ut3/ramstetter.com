@@ -1,6 +1,7 @@
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import Img from 'gatsby-image'
+import Link from 'gatsby-link'
 import React from 'react'
 
 import { siteMetadata } from '../../gatsby-config'
@@ -12,144 +13,138 @@ class Profile extends React.Component {
   render() {
     const { location, data } = this.props
     const profile = get(data, 'profile.childImageSharp.fixed')
-    const work1 = get(data, 'work1.childImageSharp.sizes')
-    const work2 = get(data, 'work2.childImageSharp.sizes')
-    const back1 = get(data, 'back1.childImageSharp.sizes')
-    const back2 = get(data, 'back2.childImageSharp.sizes')
+    const kearsarge = get(data, 'kearsarge.childImageSharp.fixed')
+    const saleae = get(data, 'saleae.childImageSharp.sizes')
+    const displayproject = get(data, 'displayproject.childImageSharp.sizes')
+    const raverdubanner = get(data, 'raverdubanner.childImageSharp.sizes')
+    const rdurickroll = get(data, 'rdurickroll.childImageSharp.sizes')
+    const notforflight = get(data, 'notforflight.childImageSharp.sizes')
 
     return (
       <Layout location={location}>
         <Meta site={siteMetadata} title="Profile" />
         <div>
-          <section className="text-center">
+
+          <section className="top-pad">
             <div className="container">
               <Img fixed={profile} className="rounded-circle" />
-              <h1>jaxx2104</h1>
-              <p className="lead text-muted">Front-end engineer.</p>
-              <div>
-                <a
-                  ref="twButton"
-                  href="https://twitter.com/jaxx2104"
-                  className="twitter-follow-button"
-                  data-show-count="false"
-                >
-                  Follow @jaxx2104
+              <p className="lead">
+                Software engineer specializing in remote embedded work
+              </p>
+              <p>
+                <a href="https://ramstetter.com/Ramstetter-Rick--resume.pdf">
+                  J Rick Ramstetter's resume
                 </a>
-              </div>
+              </p>
             </div>
           </section>
 
-          <section className="bg-primary text-white text-center">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="section-heading">SKILL</h2>
-                  <hr className="border-white" />
-                </div>
-              </div>
-            </div>
-            <div className="container">
-              <div className="row justify-content-md-center">
-                <div className="col-lg-3 col-6">
-                  <Icon title="HTML" name="html5" />
-                </div>
-                <div className="col-lg-3 col-6">
-                  <Icon title="JavaScript" name="js" />
-                </div>
-                <div className="col-lg-3 col-6">
-                  <Icon title="React.js" name="react" />
-                </div>
-                <div className="col-lg-3 col-6">
-                  <Icon title="Vue.js" name="vuejs" />
-                </div>
-              </div>
-              <div className="row justify-content-md-center">
-                <div className="col-lg-3 col-6">
-                  <Icon title="Node.js" name="node" />
-                </div>
-                <div className="col-lg-3 col-6 ">
-                  <Icon title="PHP" name="php" />
-                </div>
-                <div className="col-lg-3 col-6 ">
-                  <Icon title="AWS" name="aws" />
-                </div>
-                <div className="col-lg-3 col-6 ">
-                  <Icon title="Swift" name="apple" />
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="features" className="text-center jumboimage">
-            <Img sizes={back1} className="cover-image" />
+          <section className="jumboimage">
+            <Img sizes={displayproject} className="cover-image opacity-2" />
             <div className="container">
               <div className="row cover-over">
                 <div className="col-md-12 text-left">
-                  <h2 className="section-heading">Features</h2>
+                  <h2 className="section-heading">Academics</h2>
                   <p>
-                    I'm a front-end engineer in Japan 🗼
-                    <br />
-                    Used to be a designer of furniture and architecture.
-                    <br />
+                    J Rick Ramstetter graduated from{' '}
+                    <a href="https://www.cs.rutgers.edu">Rutgers University</a>{' '}
+                    in 2010 with a Master of Science degree in computer science
+                    (GPA 3.85/4.0). His Master's final project was a simulator
+                    for{' '}
+                    <a href="http://www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
+                      trajectory based routing
+                    </a>{' '}
+                    protocols, along with a few whitepaper-sourced protocols
+                    implemented atop that simulator. Other interesting degree
+                    work included a distributed{' '}
+                    <a href="http://en.wikipedia.org/wiki/Consistent_hashing">
+                      consistent hashing
+                    </a>{' '}
+                    file store with a{' '}
+                    <a href="http://en.wikipedia.org/wik/Filesystem_in_Userspace">
+                      FUSE
+                    </a>{' '}
+                    frontend and a modification to the{' '}
+                    <a href="https://web.archive.org/web/20100129163345/http://madwifi-project.org/">
+                      madwifi
+                    </a>{' '}
+                    WLAN drivers to support{' '}
+                    <a href="/academic/stable-ping-paper.pdf">
+                      stable latency ICMP pings
+                    </a>{' '}
+                    suitable for use in localization.
                   </p>
-                  <li>2013 ~ 2017: J-CAST News</li>
-                  <li>2017 ~ : Recruit Lifestyle</li>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section
-            className="bg-primary text-white text-center color-inverse"
-            id="concept"
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="section-heading">WORKS</h2>
-                  <hr className="border-white" />
-                </div>
-              </div>
-            </div>
-            <div className="container">
-              <div className="row">
-                <div className="col-md-6 slide-left" data-emergence="hidden">
-                  <Img sizes={work1} />
-                  <p>Yomu</p>
-                </div>
-                <div className="col-md-6 slide-right" data-emergence="hidden">
-                  <Img sizes={work2} />
-                  <p>Detector</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="repos">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-12 text-left">
-                  <h2 className="section-heading">Repositories</h2>
                   <p>
-                    リポジトリは
-                    <a href="https://github.com/jaxx2104/">こちら</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="features" className="jumboimage">
-            <Img sizes={back2} className="cover-image" />
-            <div className="container">
-              <div className="row cover-over">
-                <div className="col-md-12 text-left">
-                  <h2 className="section-heading">Degree Works</h2>
-                  <p>
-                    過去の制作は
-                    <a className="text-white" href="https://old.jaxx2104.info/">
-                      こちら
+                    Prior to Rutgers, Rick graduated from the{' '}
+                    <a href="https://www.ics.uci.edu">
+                      University of California, Irvine
                     </a>
+                    , with a Bachelor of Science in Computer Science &
+                    Engineering, where his senior project was a series of{' '}
+                    <a href="/academic/display-project.jpg">
+                      small display units
+                    </a>{' '}
+                    which reconfigured into a single larger display when
+                    interconnected.
                   </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="aeou" className="jumboimage">
+            <Img sizes={raverdubanner} className="cover-image opacity-2" />
+            <div className="container">
+              <div className="row cover-over">
+                <div className="col-md-12 text-left">
+                  <h2 className="section-heading">Industry</h2>
+                  <p>
+                    Rick's initial involvement with the aerospace industry came
+                    when he was recruited by{' '}
+                    <a href="https://spacex.com">SpaceX</a>. There, Rick worked
+                    primarily on low-level tasks, including board bringup and
+                    firmware, for the{' '}
+                    <a href="https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1">
+                      COTS C1 & C2 missions.
+                    </a>{' '}
+                    This included leading a short, ultimately failed R&D project
+                    to execute two instances of Linux on a single, multi-core
+                    PowerPC device, this to enable fault tolerant flight control
+                    calculations via{' '}
+                    <a href="https://weekly-geekly.github.io/articles/186806/index.html">
+                      OpenMCAPI
+                    </a>{' '}
+                    and “asymmetric multiprocessing.” SpaceX was also Rick's
+                    first experience with remote work, as he bounced between
+                    Hawhorne, CA, USA and New Brunswick, NJ, USA to complete
+                    degree work while employed.
+                  </p>
+                  <p>
+                    After SpaceX, Rick moved to the in-flight entertainment and
+                    in-flight wifi industries at Zodiac Aerospace (now{' '}
+                    <a href="https://www.safran-group.com/">Safran</a>). There,
+                    he worked as a full-stack generalist with an emphasis on low
+                    level work. In this industry, Rick worked at all levels of
+                    the software stack, from initial board bringup to Qt5/QML.
+                    Rick has developed a reputation as a focused, high
+                    performance team member, as evidenced by the dozens of times
+                    his contract for remote work was renewed by Safran.
+                  </p>
+                  <p>Rick is a strong supporter of FOSS software.</p>
+                  <div className="row justify-content-md-center">
+                    <div className="col-lg-3 col-6">
+                      <Img sizes={rdurickroll} className="" />
+                    </div>
+                    <div className="col-lg-3 col-6">
+                      <Img sizes={notforflight} className="" />
+                    </div>
+                    <div className="col-lg-3 col-6">
+                      <Img sizes={saleae} className="" />
+                    </div>
+                    <div className="col-lg-3 col-6">
+                      <Icon title="Vue.js" name="vuejs" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -164,28 +159,49 @@ export default Profile
 
 export const query = graphql`
   query ProfilePageQuery {
-    profile: file(name: { eq: "profile" }) {
+    profile: file(name: { eq: "rick-ramstetter" }) {
       childImageSharp {
-        fixed(width: 120, height: 120) {
+        fixed(width: 200, height: 200) {
           ...GatsbyImageSharpFixed_withWebp
         }
       }
     }
-    work1: file(name: { eq: "work1" }) {
+    kearsarge: file(name: { eq: "kearsarge-pass" }) {
+      childImageSharp {
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed_withWebp
+        }
+      }
+    }
+    saleae: file(name: { eq: "saleae" }) {
       childImageSharp {
         sizes(quality: 100) {
           ...GatsbyImageSharpSizes_withWebp
         }
       }
     }
-    work2: file(name: { eq: "work2" }) {
+    displayproject: file(name: { eq: "display-project-banner" }) {
       childImageSharp {
         sizes(quality: 100) {
           ...GatsbyImageSharpSizes_withWebp
         }
       }
     }
-    work3: file(name: { eq: "work3" }) {
+    raverdubanner: file(name: { eq: "rave-rdu-banner" }) {
+      childImageSharp {
+        sizes(quality: 100) {
+          ...GatsbyImageSharpSizes_withWebp
+        }
+      }
+    }
+    rdurickroll: file(name: { eq: "rdu-rickroll" }) {
+      childImageSharp {
+        sizes(quality: 100) {
+          ...GatsbyImageSharpSizes_withWebp
+        }
+      }
+    }
+    notforflight: file(name: { eq: "not-for-flight" }) {
       childImageSharp {
         sizes(quality: 100) {
           ...GatsbyImageSharpSizes_withWebp
