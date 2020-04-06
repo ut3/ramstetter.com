@@ -50,10 +50,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatstrap',
-        short_name: 'Gatstrap',
-        description: 'Gatsby starter for bootstrap a blog',
-        homepage_url: 'https://gatstrap.netlify.com',
+        name: 'ramstetter.com',
+        short_name: 'ramstetter.com',
+        description: 'ramstetter.com',
+        homepage_url: 'https://ramstetter.com',
         start_url: '/',
         background_color: '#000000',
         theme_color: '#ffffff',
