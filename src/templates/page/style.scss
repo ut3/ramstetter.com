@@ -25,13 +25,16 @@ section {
       object-fit: cover !important;
       object-position: 0% 50% !important;
     }
-    max-height: 20vh;
+    max-height: 15vh;
   }
 
   .content-image
   {
     width: auto;
+    height: auto;
     max-height: 10vh;
+    max-width: 100%;
+    object-fit: contain;
   }
 
   .cover-over {
