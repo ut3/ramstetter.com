@@ -24,7 +24,6 @@ class Profile extends React.Component {
       <Layout location={location}>
         <Meta site={siteMetadata} title="Profile" />
         <div>
-
           <section className="top-pad">
             <div className="container">
               <Img fixed={profile} className="rounded-circle" />
@@ -41,110 +40,98 @@ class Profile extends React.Component {
 
           <section className="jumboimage">
             <Img sizes={displayproject} className="cover-image opacity-2" />
-            <div className="container">
-              <div className="row cover-over">
-                <div className="col-md-12 text-left">
-                  <h2 className="section-heading">Academics</h2>
-                  <p>
-                    J Rick Ramstetter graduated from{' '}
-                    <a href="https://www.cs.rutgers.edu">Rutgers University</a>{' '}
-                    in 2010 with a Master of Science degree in computer science
-                    (GPA 3.85/4.0). His Master's final project was a simulator
-                    for{' '}
-                    <a href="http://www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
-                      trajectory based routing
-                    </a>{' '}
-                    protocols, along with a few whitepaper-sourced protocols
-                    implemented atop that simulator. Other interesting degree
-                    work included a distributed{' '}
-                    <a href="http://en.wikipedia.org/wiki/Consistent_hashing">
-                      consistent hashing
-                    </a>{' '}
-                    file store with a{' '}
-                    <a href="http://en.wikipedia.org/wik/Filesystem_in_Userspace">
-                      FUSE
-                    </a>{' '}
-                    frontend and a modification to the{' '}
-                    <a href="https://web.archive.org/web/20100129163345/http://madwifi-project.org/">
-                      madwifi
-                    </a>{' '}
-                    WLAN drivers to support{' '}
-                    <a href="/academic/stable-ping-paper.pdf">
-                      stable latency ICMP pings
-                    </a>{' '}
-                    suitable for use in localization.
-                  </p>
-                  <p>
-                    Prior to Rutgers, Rick graduated from the{' '}
-                    <a href="https://www.ics.uci.edu">
-                      University of California, Irvine
-                    </a>
-                    , with a Bachelor of Science in Computer Science &
-                    Engineering, where his senior project was a series of{' '}
-                    <a href="/academic/display-project.jpg">
-                      small display units
-                    </a>{' '}
-                    which reconfigured into a single larger display when
-                    interconnected.
-                  </p>
-                </div>
-              </div>
+            <div className="container text-left cover-over">
+              <h2 className="section-heading">Academics</h2>
+              <p>
+                J Rick Ramstetter graduated from{' '}
+                <a href="https://www.cs.rutgers.edu">Rutgers University</a> in
+                2010 with a Master of Science degree in computer science (GPA
+                3.85/4.0). His Master's final project was a simulator for{' '}
+                <a href="http://www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
+                  trajectory based routing
+                </a>{' '}
+                protocols, along with a few whitepaper-sourced protocols
+                implemented atop that simulator. Other interesting degree work
+                included a distributed{' '}
+                <a href="http://en.wikipedia.org/wiki/Consistent_hashing">
+                  consistent hashing
+                </a>{' '}
+                file store with a{' '}
+                <a href="http://en.wikipedia.org/wik/Filesystem_in_Userspace">
+                  FUSE
+                </a>{' '}
+                frontend and a modification to the{' '}
+                <a href="https://web.archive.org/web/20100129163345/http://madwifi-project.org/">
+                  madwifi
+                </a>{' '}
+                WLAN drivers to support{' '}
+                <a href="/academic/stable-ping-paper.pdf">
+                  stable latency ICMP pings
+                </a>{' '}
+                suitable for use in localization.
+              </p>
+              <p>
+                Prior to Rutgers, Rick graduated from the{' '}
+                <a href="https://www.ics.uci.edu">
+                  University of California, Irvine
+                </a>
+                , with a Bachelor of Science in Computer Science & Engineering,
+                where his senior project was a series of{' '}
+                <a href="/academic/display-project.jpg">small display units</a>{' '}
+                which reconfigured into a single larger display when
+                interconnected.
+              </p>
             </div>
           </section>
 
           <section id="aeou" className="jumboimage">
             <Img sizes={raverdubanner} className="cover-image opacity-2" />
-            <div className="container">
-              <div className="row cover-over">
-                <div className="col-md-12 text-left">
-                  <h2 className="section-heading">Industry</h2>
-                  <p>
-                    Rick's initial involvement with the aerospace industry came
-                    when he was recruited by{' '}
-                    <a href="https://spacex.com">SpaceX</a>. There, Rick worked
-                    primarily on low-level tasks, including board bringup and
-                    firmware, for the{' '}
-                    <a href="https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1">
-                      COTS C1 & C2 missions.
-                    </a>{' '}
-                    This included leading a short, ultimately failed R&D project
-                    to execute two instances of Linux on a single, multi-core
-                    PowerPC device, this to enable fault tolerant flight control
-                    calculations via{' '}
-                    <a href="https://weekly-geekly.github.io/articles/186806/index.html">
-                      OpenMCAPI
-                    </a>{' '}
-                    and “asymmetric multiprocessing.” SpaceX was also Rick's
-                    first experience with remote work, as he bounced between
-                    Hawhorne, CA, USA and New Brunswick, NJ, USA to complete
-                    degree work while employed.
-                  </p>
-                  <p>
-                    After SpaceX, Rick moved to the in-flight entertainment and
-                    in-flight wifi industries at Zodiac Aerospace (now{' '}
-                    <a href="https://www.safran-group.com/">Safran</a>). There,
-                    he worked as a full-stack generalist with an emphasis on low
-                    level work. In this industry, Rick worked at all levels of
-                    the software stack, from initial board bringup to Qt5/QML.
-                    Rick has developed a reputation as a focused, high
-                    performance team member, as evidenced by the dozens of times
-                    his contract for remote work was renewed by Safran.
-                  </p>
-                  <p>Rick is a strong supporter of FOSS software.</p>
-                  <div className="row justify-content-md-center">
-                    <div className="col-lg-3 col-6">
-                      <Img sizes={rdurickroll} className="" />
-                    </div>
-                    <div className="col-lg-3 col-6">
-                      <Img sizes={notforflight} className="" />
-                    </div>
-                    <div className="col-lg-3 col-6">
-                      <Img sizes={saleae} className="" />
-                    </div>
-                    <div className="col-lg-3 col-6">
-                      <Icon title="Vue.js" name="vuejs" />
-                    </div>
-                  </div>
+            <div className="container cover-over text-left">
+              <h2 className="section-heading">Industry</h2>
+              <p>
+                Rick's initial involvement with the aerospace industry came when
+                he was recruited by <a href="https://spacex.com">SpaceX</a>.
+                There, Rick worked primarily on low-level tasks, including board
+                bringup and firmware, for the{' '}
+                <a href="https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1">
+                  COTS C1 & C2 missions.
+                </a>{' '}
+                This included leading a short, ultimately failed R&D project to
+                execute two instances of Linux on a single, multi-core PowerPC
+                device, this to enable fault tolerant flight control
+                calculations via{' '}
+                <a href="https://weekly-geekly.github.io/articles/186806/index.html">
+                  OpenMCAPI
+                </a>{' '}
+                and “asymmetric multiprocessing.” SpaceX was also Rick's first
+                experience with remote work, as he bounced between Hawhorne, CA,
+                USA and New Brunswick, NJ, USA to complete degree work while
+                employed.
+              </p>
+              <p>
+                After SpaceX, Rick moved to the in-flight entertainment and
+                in-flight wifi industries at Zodiac Aerospace (now{' '}
+                <a href="https://www.safran-group.com/">Safran</a>). There, he
+                worked as a full-stack generalist with an emphasis on low level
+                work. In this industry, Rick worked at all levels of the
+                software stack, from initial board bringup to Qt5/QML. Rick has
+                developed a reputation as a focused, high performance team
+                member, as evidenced by the dozens of times his contract for
+                remote work was renewed by Safran.
+              </p>
+              <p>Rick is a strong supporter of FOSS software.</p>
+              <div className="row justify-content-md-center">
+                <div className="col-lg-3 col-6">
+                  <Img sizes={rdurickroll} className="" />
+                </div>
+                <div className="col-lg-3 col-6">
+                  <Img sizes={notforflight} className="" />
+                </div>
+                <div className="col-lg-3 col-6">
+                  <Img sizes={saleae} className="" />
+                </div>
+                <div className="col-lg-3 col-6">
+                  <Icon title="Vue.js" name="vuejs" />
                 </div>
               </div>
             </div>
