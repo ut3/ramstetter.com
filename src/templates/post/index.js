@@ -9,6 +9,22 @@ import Adsense from 'components/adsense'
 
 import './style.scss'
 
+const NonStretchedImage = props => {
+  let normalizedProps = props
+  if (props.fluid && props.fluid.presentationWidth) {
+    normalizedProps = {
+      ...props,
+      style: {
+        ...(props.style || {}),
+        maxWidth: props.fluid.presentationWidth,
+        margin: "0 auto", // Used to center the image
+      },
+    }
+  }
+
+  return <Img {...normalizedProps} />
+}
+
 const Post = ({ data, options }) => {
   const {
     category,
@@ -38,7 +54,7 @@ const Post = ({ data, options }) => {
         <div className="content">
           <p>{description}</p>
           {fluid ? (
-            <Img fluid={fluid} style={{ display: 'block', margin: '0 auto' }} />
+            <NonStretchedImage fluid={fluid} />
           ) : (
             ''
           )}

@@ -56,6 +56,7 @@ export const pageQuery = graphql`
               childImageSharp {
                 fluid(maxWidth: 500) {
                   ...GatsbyImageSharpFluid
+                  presentationWidth
                 }
               }
             }
