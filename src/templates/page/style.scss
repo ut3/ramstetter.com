@@ -1,10 +1,13 @@
 @import 'scss/colors.scss';
 @import 'scss/fonts.scss';
 
-section {
+.top-pad
+{
   padding: 50px 0;
-  min-height: 300px;
+}
 
+section {
+  min-height: 300px;
 
   &.jumboimage {
     position: relative;
