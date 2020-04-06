@@ -26,6 +26,17 @@ class Navi extends React.Component {
               </li>
               <li
                 className={
+                  location.pathname === '/open-source/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/open-source/" className="nav-link">
+                  FOSS
+                </Link>
+              </li>
+              <li
+                className={
                   location.pathname === '/contact/'
                     ? 'nav-item active'
                     : 'nav-item'
