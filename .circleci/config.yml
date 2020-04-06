@@ -1,36 +1,17 @@
-version: 2
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
 jobs:
-  build:
-    working_directory: ~/repo
-    docker:
-      - image: node:10.19.0
+  build-and-test:
+    executor:
+      name: node/default
     steps:
       - checkout
-      - restore_cache:
-          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
-      - run: yarn install
-      - save_cache:
-          paths:
-            - node_modules
-          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
-      - run: yarn build
-      - persist_to_workspace:
-          root: .
-          paths:
-            - .
-  test:
-    working_directory: ~/repo
-    docker:
-      - image: node:10.19.0
-    steps:
-      - attach_workspace:
-          at: .
-      - run: yarn test
+      - node/with-cache:
+          steps:
+            - run: npm install
+            - run: npm test
 workflows:
-  version: 2
-  build_and_test:
-    jobs:
-      - build
-      - test:
-          requires:
-            - build
+    build-and-test:
+      jobs:
+        - build-and-test
