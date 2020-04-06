@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Icon, { UnsizedIcon } from 'components/icon'
 
 class Navi extends React.Component {
   render() {
@@ -12,15 +13,6 @@ class Navi extends React.Component {
           </Link>
           <div className="navbar-nav-scroll">
             <ul className="navbar-nav bd-navbar-nav flex-row">
-              <li
-                className={
-                  location.pathname === '/' ? 'nav-item active' : 'nav-item'
-                }
-              >
-                <Link to="/" className="nav-link">
-                  Home
-                </Link>
-              </li>
               <li
                 className={
                   location.pathname === '/profile/'
@@ -42,6 +34,16 @@ class Navi extends React.Component {
                 <Link to="/contact/" className="nav-link">
                   Contact
                 </Link>
+              </li>
+              <li className="nav-item">
+                <a href="https://github.com/ut3" className="nav-link">
+                  <UnsizedIcon name="github" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="https://linkedin.com/in/jramstet" className="nav-link">
+                  <UnsizedIcon name="linkedin" />
+                </a>
               </li>
             </ul>
           </div>
