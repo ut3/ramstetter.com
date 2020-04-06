@@ -20,13 +20,18 @@ section {
   }
 
   .cover-image {
-    height: 50vh;
     width: 100%;
     & > img {
       object-fit: cover !important;
       object-position: 0% 50% !important;
     }
-    max-height: 200px;
+    max-height: 20vh;
+  }
+
+  .content-image
+  {
+    width: auto;
+    max-height: 10vh;
   }
 
   .cover-over {
@@ -37,7 +42,7 @@ section {
   hr {
     border-color: $red;
     border-width: 3px;
-    max-width: 50px;
+    max-width: 5em;
 
     &.light {
       border-color: $white;

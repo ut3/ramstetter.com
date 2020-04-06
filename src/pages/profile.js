@@ -121,17 +121,14 @@ class Profile extends React.Component {
               </p>
               <p>Rick is a strong supporter of FOSS software.</p>
               <div className="row justify-content-md-center">
-                <div className="col-lg-3 col-6">
-                  <Img sizes={rdurickroll} className="" />
+                <div className="col-sm-4 py-2">
+                  <Img sizes={rdurickroll} className="content-image" />
                 </div>
-                <div className="col-lg-3 col-6">
-                  <Img sizes={notforflight} className="" />
+                <div className="col-sm-4 py-2">
+                  <Img sizes={notforflight} className="content-image" />
                 </div>
-                <div className="col-lg-3 col-6">
-                  <Img sizes={saleae} className="" />
-                </div>
-                <div className="col-lg-3 col-6">
-                  <Icon title="Vue.js" name="vuejs" />
+                <div className="col-sm-4 py-2">
+                  <Img sizes={saleae} className="content-image" />
                 </div>
               </div>
             </div>
