@@ -20,8 +20,8 @@ class Navi extends React.Component {
                     : 'nav-item'
                 }
               >
-                <Link to="/profile/" className="nav-link">
-                  Profile
+                <Link to="/blog/" className="nav-link">
+                  Blog
                 </Link>
               </li>
               <li
