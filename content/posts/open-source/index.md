@@ -15,7 +15,9 @@ tags:
 - BSD
 ---
 
-I'm trying to increase my upstream commits. After years of working for companies for whom FOSS is a secondary priority, I'd like to contribute.
+I'm trying to increase my upstream commits. After years of working for companies for whom FOSS is a secondary priority, I'd like to contribute more. Here's a summary of my upstreamed commits:
+
+<!--more-->
 
 <div class="bottom-margin">
 
