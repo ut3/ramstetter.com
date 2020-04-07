@@ -19,15 +19,18 @@ class Contact extends React.Component {
             <h1>Contact information</h1>
             <h2>E-mail</h2>
             <p>
-              For directly work related items:{' '}
-              <a href="mailto:rick@anteaterllc.com">rick@anteaterllc.com</a>
-            </p>
-            <p>
-              For other items, or to reach me urgently:{' '}
               <a href="mailto:rick.ramstetter@gmail.com">
                 rick.ramstetter@gmail.com
-              </a>{' '}
+              </a>
               <br />
+              <small>Recruiters: use the address above</small>
+            </p>
+            <p>
+              <small>
+                Current and former clients, please send technical and/or
+                administrative correspondence to: <br />
+                <a href="mailto:rick@anteaterllc.com">rick@anteaterllc.com</a>
+              </small>
             </p>
             <p>
               You can encrypt emails to me using GPG
