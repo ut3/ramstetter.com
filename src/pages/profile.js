@@ -27,7 +27,7 @@ class Profile extends React.Component {
         <div className="">
           <div className="container">
             <ProfileBlurb data={data} />
- 	  <p>
+ 	       <p>
             <a href="https://ramstetter.com/Ramstetter-Rick--resume.pdf">
               J Rick Ramstetter's resume
             </a>

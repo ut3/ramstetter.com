@@ -5,10 +5,8 @@ import get from 'lodash/get'
 
 import './style.scss'
 
-
-
 const ProfileBlurb = ({ data }) => (
-    <StaticQuery
+  <StaticQuery
     query={graphql`
       query ProfileBlurbQuery {
         profile: file(name: { eq: "rick-ramstetter" }) {
@@ -22,7 +20,7 @@ const ProfileBlurb = ({ data }) => (
     `}
     render={data => (
       <section className="top-pad">
-        <div className="container">
+        <div className="container text-center">
           <Link to="/profile/">
             <Img
               fixed={get(data, 'profile.childImageSharp.fixed')}
@@ -34,7 +32,8 @@ const ProfileBlurb = ({ data }) => (
           </Link>
         </div>
       </section>
-    )} />
+    )}
+  />
 )
 
 export default ProfileBlurb
