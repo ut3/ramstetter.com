@@ -2,20 +2,15 @@
 @import 'scss/fonts.scss';
 
 .article {
-  color: $gray-200;
   padding-top: 0;
   padding-bottom: 0.5em;
 
   .info {
-    color: $white;
-    padding-bottom: 0;
-    margin-bottom: 0;
     border-bottom: 1px solid $gray-200;
     word-break: break-word;
 
     h1 {
       letter-spacing: -0.5px;
-      color: $white;
     }
 
     .badge {
@@ -24,7 +19,6 @@
 
     time {
       font-size: $font-size-xs;
-      color: $gray-300;
       display: inline;
       margin-right: 10px;
     }
@@ -33,15 +27,10 @@
   .content {
     color: $gray-200;
     padding-bottom: 0.5em;
-    padding-top: 0.5em;
 
     h2 {
       padding-top: 10px;
       margin-bottom: 20px;
-    }
-
-    p {
-      padding-top: 0;
     }
 
     blockquote, pre {
