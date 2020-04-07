@@ -1,5 +1,4 @@
-import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 import React from 'react'
 import get from 'lodash/get'
 
@@ -14,7 +13,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location}>
       <Meta site={get(data, 'site.meta')} />
       <div className="container">
-      <ProfileBlurb data={data} />
+        <ProfileBlurb data={data} />
       </div>
       {posts.map(({ post }, i) => (
         <Post

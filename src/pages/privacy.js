@@ -3,7 +3,6 @@ import React from 'react'
 import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
 import Meta from 'components/meta'
-import Icon from 'components/icon'
 
 class Privacy extends React.Component {
   render() {
@@ -34,9 +33,9 @@ class Privacy extends React.Component {
             <p>
               My Site's server(s) (which is/are hosted by third party service
               providers, including <a href="//netlify.com">Netlify</a> and{' '}
-              <a href="//github">Github</a>) will likely collect similar
-              Log Data. Similarly, I may use services such as Google Analytics
-              to collect, monitor, and analyze Log Data in order to better my
+              <a href="//github">Github</a>) will likely collect similar Log
+              Data. Similarly, I may use services such as Google Analytics to
+              collect, monitor, and analyze Log Data in order to better my
               Site’s functionality. These service providers have their own
               privacy policies addressing how they use such Log Data.
             </p>
@@ -123,10 +122,9 @@ class Privacy extends React.Component {
 
             <h2>Protection of information</h2>
             <p>
-              My email accounts are hosted by{' '}
-              <a href="//zoho.com">Zoho</a> and{' '}
-              <a href="//gmail.com">GMail</a>. You may use GPG to
-              communicate with me via email.
+              My email accounts are hosted by <a href="//zoho.com">Zoho</a> and{' '}
+              <a href="//gmail.com">GMail</a>. You may use GPG to communicate
+              with me via email.
             </p>
             <p>
               Established Services clients may use the{' '}

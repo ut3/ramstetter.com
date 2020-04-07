@@ -7,7 +7,6 @@ import React from 'react'
 import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
 import Meta from 'components/meta'
-import Icon from 'components/icon'
 import ProfileBlurb from 'components/profileblurb'
 
 class Profile extends React.Component {
