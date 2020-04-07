@@ -12,6 +12,19 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Meta site={get(data, 'site.meta')} />
+      <section className="top-pad">
+        <div className="container">
+          <Link to="/profile/">
+            <Img
+              fixed={get(data, 'profile.childImageSharp.fixed')}
+              className="rounded-circle"
+            />
+            <p className="lead">
+              Software engineer specializing in remote embedded work
+            </p>
+          </Link>
+        </div>
+      </section>
       {posts.map(({ post }, i) => (
         <Post
           data={post}
