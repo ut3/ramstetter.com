@@ -37,6 +37,18 @@ class Navi extends React.Component {
               </li>
               <li
                 className={
+                  location.pathname === '/skills/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/skills/" className="nav-link">
+                  Skills 
+                </Link>
+              </li>
+ 
+              <li
+                className={
                   location.pathname === '/contact/'
                     ? 'nav-item active'
                     : 'nav-item'

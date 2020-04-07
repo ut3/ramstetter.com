@@ -8,6 +8,11 @@ description: "none"
 category: Work
 tags:
 - FOSS
+- Open Source
+- license
+- MIT
+- GPL
+- BSD
 ---
 
 I'm trying to increase my upstream commits. After years of working for companies for whom FOSS is a secondary priority, I'd like to contribute.
@@ -22,5 +27,14 @@ I'm trying to increase my upstream commits. After years of working for companies
 | [Coin Price Indicator](https://github.com/bluppfisk/coinprice-indicator/) | Support for Gemini exchange | [3e0ad33](https://github.com/bluppfisk/coinprice-indicator/pull/17/commits/3e0ad33d9a2ae4f54c6d4db47d48039fc40f7967)
 | [snapbtrex](https://github.com/yoshtec/snapbtrex) | Allow ssh port specification | [2ed4c1b](https://github.com/yoshtec/snapbtrex/pull/1/commits/2ed4c1b49a5d8092e11ea34b0ed68eb4499c790b) |
 | [Kimchi](https://github.com/kimchi-project) | Bug reports | [217](https://github.com/kimchi-project/wok/issues/217) [1228](https://github.com/kimchi-project/kimchi/issues/1228) [1224](https://github.com/kimchi-project/kimchi/issues/1224) |
+
+</div>
+
+&nbsp;
+
+<div class="text-center">
+
+![FOSS licenses](./foss-licenses.png)
+*I am mindful of the difference between free beer, copyleft, and unencumbered software*
 
 </div>
