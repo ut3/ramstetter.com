@@ -21,7 +21,7 @@ const ProfileBlurb = ({ data }) => (
     render={data => (
       <section className="top-pad">
         <div className="container text-center">
-          <Link to="/profile/">
+          <Link to="/">
             <Img
               fixed={get(data, 'profile.childImageSharp.fixed')}
               className="rounded-circle"
