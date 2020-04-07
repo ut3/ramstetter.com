@@ -1,6 +1,6 @@
 ---
 title: "Open Source"
-date: "2016-03-01T22:12:03.284Z"
+date: "2020-04-06T22:12:03.284Z"
 layout: post
 path: "/open-source/"
 image: ./one-px-black.jpg
