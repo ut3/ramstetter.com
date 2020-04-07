@@ -65,7 +65,7 @@ const Post = ({ data, options }) => {
             }}
           />
           {isMore ? Button({ path, label: 'MORE', primary: true }) : ''}
-          {getAd(isIndex, adsense)}
+          {/* getAd(isIndex, adsense) */}
         </div>
       </div>
     </div>
