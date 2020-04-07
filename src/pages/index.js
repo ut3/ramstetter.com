@@ -112,8 +112,10 @@ class Profile extends React.Component {
                 work. In this industry, Rick worked at all levels of the
                 software stack, from initial board bringup to Qt5/QML. Rick has
                 developed a reputation as a focused, high performance team
-                member, as evidenced by the dozens of times his contract for
-                remote work was renewed by Safran.
+                member, as evidenced by{' '}
+                <Link to="/client-feedback/">positive client feedback</Link> and
+                the dozens of times his contract for remote work was renewed by
+                Safran.
               </p>
               <p>Rick is a strong supporter of FOSS software.</p>
               <div className="row justify-content-md-center">
