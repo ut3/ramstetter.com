@@ -6,25 +6,16 @@ import get from 'lodash/get'
 import Post from 'templates/post'
 import Meta from 'components/meta'
 import Layout from 'components/layout'
+import ProfileBlurb from 'components/profileblurb'
 
 const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
       <Meta site={get(data, 'site.meta')} />
-      <section className="top-pad">
-        <div className="container">
-          <Link to="/profile/">
-            <Img
-              fixed={get(data, 'profile.childImageSharp.fixed')}
-              className="rounded-circle"
-            />
-            <p className="lead">
-              Software engineer specializing in remote embedded work
-            </p>
-          </Link>
-        </div>
-      </section>
+      <div className="container">
+      <ProfileBlurb data={data} />
+      </div>
       {posts.map(({ post }, i) => (
         <Post
           data={post}
@@ -42,13 +33,6 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
-    profile: file(name: { eq: "rick-ramstetter" }) {
-      childImageSharp {
-        fixed(width: 200, height: 200) {
-          ...GatsbyImageSharpFixed_withWebp
-        }
-      }
-    }
     site {
       meta: siteMetadata {
         title

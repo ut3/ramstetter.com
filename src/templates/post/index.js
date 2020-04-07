@@ -6,6 +6,7 @@ import get from 'lodash/get'
 import map from 'lodash/map'
 
 import Adsense from 'components/adsense'
+import ProfileBlurb from 'components/profileblurb'
 
 import './style.scss'
 
@@ -44,6 +45,7 @@ const Post = ({ data, options }) => {
     <div className="article" key={path}>
       <div className="container">
         <div className="info">
+          {isIndex ? "" : <ProfileBlurb data={data} />}
           <Link style={{ boxShadow: 'none' }} to={path}>
             <h1>{title}</h1>
             <time dateTime={date}>{date}</time>

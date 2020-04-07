@@ -4,6 +4,7 @@ import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
 import Meta from 'components/meta'
 import Icon from 'components/icon'
+import ProfileBlurb from 'components/profileblurb'
 
 class Contact extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Contact extends React.Component {
         <Meta site={siteMetadata} title="Contact" />
         <div>
           <div className="container">
+            <ProfileBlurb data={data} />
             <h1>Contact information</h1>
             <h2>E-mail</h2>
             <p>

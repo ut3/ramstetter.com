@@ -8,6 +8,7 @@ import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
 import Meta from 'components/meta'
 import Icon from 'components/icon'
+import ProfileBlurb from 'components/profileblurb'
 
 class Profile extends React.Component {
   render() {
@@ -24,19 +25,16 @@ class Profile extends React.Component {
       <Layout location={location}>
         <Meta site={siteMetadata} title="Profile" />
         <div className="">
-          <section className="top-pad">
-            <div className="container">
-              <Img fixed={profile} className="rounded-circle" />
-              <p className="lead">
-                Software engineer specializing in remote embedded work
-              </p>
-              <p>
-                <a href="https://ramstetter.com/Ramstetter-Rick--resume.pdf">
-                  J Rick Ramstetter's resume
-                </a>
-              </p>
-            </div>
-          </section>
+          <div className="container">
+            <ProfileBlurb data={data} />
+ 	  <p>
+            <a href="https://ramstetter.com/Ramstetter-Rick--resume.pdf">
+              J Rick Ramstetter's resume
+            </a>
+          </p>
+          </div>
+
+         
 
           <section className="">
             <Img sizes={displayproject} className="cover-image opacity-2" />
@@ -104,8 +102,8 @@ class Profile extends React.Component {
                   OpenMCAPI
                 </a>{' '}
                 and “asymmetric multiprocessing.” SpaceX was also Rick's first
-                experience with remote work, as he bounced between Hawthorne, CA,
-                USA and New Brunswick, NJ, USA to complete degree work while
+                experience with remote work, as he bounced between Hawthorne,
+                CA, USA and New Brunswick, NJ, USA to complete degree work while
                 employed.
               </p>
               <p>
@@ -143,13 +141,6 @@ export default Profile
 
 export const query = graphql`
   query ProfilePageQuery {
-    profile: file(name: { eq: "rick-ramstetter" }) {
-      childImageSharp {
-        fixed(width: 200, height: 200) {
-          ...GatsbyImageSharpFixed_withWebp
-        }
-      }
-    }
     kearsarge: file(name: { eq: "kearsarge-pass" }) {
       childImageSharp {
         fixed(width: 200, height: 200) {
