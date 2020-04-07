@@ -11,7 +11,7 @@ tags:
 - Safran
 ---
 
-I rely on the positive feedback of my clients for success. Some of my past clients have given me permission to post their positive feedback here.
+I rely on the positive feedback of my clients for success. This is what they've had to say:
 
 <!--more-->
 
