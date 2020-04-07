@@ -59,12 +59,12 @@ class Navi extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="https://github.com/ut3" className="nav-link">
+                <a href="//github.com/ut3" className="nav-link">
                   <UnsizedIcon name="github" />
                 </a>
               </li>
               <li className="nav-item">
-                <a href="https://linkedin.com/in/jramstet" className="nav-link">
+                <a href="//linkedin.com/in/jramstet" className="nav-link">
                   <UnsizedIcon name="linkedin" />
                 </a>
               </li>

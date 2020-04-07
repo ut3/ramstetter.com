@@ -38,13 +38,13 @@ class Contact extends React.Component {
               Key fingerprint = 0xF58818CBFB5C8C8E
               <br />
               Available at the{' '}
-              <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0xF58818CBFB5C8C8E">
+              <a href="//pgp.mit.edu/pks/lookup?op=vindex&search=0xF58818CBFB5C8C8E">
                 MIT keyserver
               </a>
             </p>
             <h2>Instant messaging</h2>
             <p>
-              <a href="https://en.wikipedia.org/wiki/Signal_(software)">
+              <a href="//en.wikipedia.org/wiki/Signal_(software)">
                 Signal Software
               </a>{' '}
               (establish via email)

@@ -29,7 +29,7 @@ I have [proven my ability](/client-feedback/) to solve problems in varied and ne
 
 ### C
 
-**High** competency. I've worked in everything from [bootloaders](https://github.com/ut3/barebox/compare/2019.06.0...rr-2019.06.0-scu4-aib-bsp) to the Linux kernel ([1](https://github.com/ut3/linux/commit/a0488dec00631326a7661ba5d930ee28564370cb), [2](https://github.com/ut3/linux/commit/a7e38e9fc0a77eff84ba3958c168ce5aec9c59f3)) to [OpenGL](https://github.com/ut3/demo-gl-antialiasing). I most appreciate C development work targeting GNU/Linux, including integration with dbus and systemd.
+**High** competency. I've worked in everything from [bootloaders](//github.com/ut3/barebox/compare/2019.06.0...rr-2019.06.0-scu4-aib-bsp) to the Linux kernel ([1](//github.com/ut3/linux/commit/a0488dec00631326a7661ba5d930ee28564370cb), [2](//github.com/ut3/linux/commit/a7e38e9fc0a77eff84ba3958c168ce5aec9c59f3)) to [OpenGL](//github.com/ut3/demo-gl-antialiasing). I most appreciate C development work targeting GNU/Linux, including integration with dbus and systemd.
 
 ### C++
 
@@ -37,11 +37,11 @@ I have [proven my ability](/client-feedback/) to solve problems in varied and ne
 
 ### Bash
 
-**High** competency. Through my involvement with systems software at Safran Aerospace and SpaceX, I've become proficient with [POSIX](https://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html) shell scripting for system management tasks. Similarly, Safran's primary release management system is written in [Bash](https://www.gnu.org/software/bash/manual/html_node/Shell-Syntax.html). For all its nuance, syntactic oddities, and non-existent unit tests, that system has managed their major releases for approaching fifteen years.
+**High** competency. Through my involvement with systems software at Safran Aerospace and SpaceX, I've become proficient with [POSIX](//pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html) shell scripting for system management tasks. Similarly, Safran's primary release management system is written in [Bash](//www.gnu.org/software/bash/manual/html_node/Shell-Syntax.html). For all its nuance, syntactic oddities, and non-existent unit tests, that system has managed their major releases for approaching fifteen years.
 
 ### Python
 
-**Moderate** competency. My experience is solely with Python 3. I chose Python for a [tool to help Safran migrate build artifacts across storage technologies](https://github.com/ut3/buildsourcesCompare).
+**Moderate** competency. My experience is solely with Python 3. I chose Python for a [tool to help Safran migrate build artifacts across storage technologies](//github.com/ut3/buildsourcesCompare).
 
 ### Java
 

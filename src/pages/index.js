@@ -28,7 +28,7 @@ class Profile extends React.Component {
           <div className="container text-center">
             <ProfileBlurb data={data} />
             <p>
-              <a href="https://ramstetter.com/Ramstetter-Rick--resume.pdf">
+              <a href="//ramstetter.com/Ramstetter-Rick--resume.pdf">
                 J Rick Ramstetter's resume
               </a>
             </p>
@@ -40,37 +40,38 @@ class Profile extends React.Component {
               <h2 className="section-heading">Academics</h2>
               <p>
                 J Rick Ramstetter graduated from{' '}
-                <a href="https://www.cs.rutgers.edu">Rutgers University</a> in
-                2010 with a Master of Science degree in computer science (GPA
+                <a href="//www.cs.rutgers.edu">Rutgers University</a> in 2010
+                with a Master of Science degree in computer science (GPA
                 3.85/4.0). His Master's final project was a simulator for{' '}
-                <a href="http://www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
+                <a href="//www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
                   trajectory based routing
                 </a>{' '}
                 protocols, along with a few whitepaper-sourced protocols
                 implemented atop that simulator. Other interesting degree work
                 included a distributed{' '}
-                <a href="http://en.wikipedia.org/wiki/Consistent_hashing">
+                <a href="//en.wikipedia.org/wiki/Consistent_hashing">
                   consistent hashing
                 </a>{' '}
                 file store with a{' '}
-                <a href="http://en.wikipedia.org/wik/Filesystem_in_Userspace">
+                <a href="//en.wikipedia.org/wik/Filesystem_in_Userspace">
                   FUSE
                 </a>{' '}
-                frontend and a modification to the{' '}
-                <a href="https://web.archive.org/web/20100129163345/http://madwifi-project.org/">
+                frontend, a modification to the{' '}
+                <a href="//web.archive.org/web/20100129163345///madwifi-project.org/">
                   madwifi
                 </a>{' '}
                 WLAN drivers to support{' '}
                 <a href="/academic/stable-ping-paper.pdf">
                   stable latency ICMP pings
                 </a>{' '}
-                suitable for use in localization.
+                suitable for use in localization, and a{' '}
+                <a href="//www.mdpi.com/1999-5903/2/3/190/pdf">publication</a>{' '}
+                with{' '}
+                <a href="http://people.cs.vt.edu/danfeng/">Dr. Danfeng Yao</a>.
               </p>
               <p>
                 Prior to Rutgers, Rick graduated from the{' '}
-                <a href="https://www.ics.uci.edu">
-                  University of California, Irvine
-                </a>
+                <a href="//www.ics.uci.edu">University of California, Irvine</a>
                 , with a Bachelor of Science in Computer Science & Engineering,
                 where his senior project was a series of{' '}
                 <a href="/academic/display-project.jpg">small display units</a>{' '}
@@ -86,17 +87,17 @@ class Profile extends React.Component {
               <h2 className="section-heading">Industry</h2>
               <p>
                 Rick's initial involvement with the aerospace industry came when
-                he was recruited by <a href="https://spacex.com">SpaceX</a>.
-                There, Rick worked primarily on low-level tasks, including board
+                he was recruited by <a href="//spacex.com">SpaceX</a>. There,
+                Rick worked primarily on low-level tasks, including board
                 bringup and firmware, for the{' '}
-                <a href="https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1">
+                <a href="//en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1">
                   COTS C1 & C2 missions.
                 </a>{' '}
                 This included leading a short, ultimately failed R&D project to
                 execute two instances of Linux on a single, multi-core PowerPC
                 device, this to enable fault tolerant flight control
                 calculations via{' '}
-                <a href="https://weekly-geekly.github.io/articles/186806/index.html">
+                <a href="//weekly-geekly.github.io/articles/186806/index.html">
                   OpenMCAPI
                 </a>{' '}
                 and “asymmetric multiprocessing.” SpaceX was also Rick's first
@@ -107,12 +108,12 @@ class Profile extends React.Component {
               <p>
                 After SpaceX, Rick moved to the in-flight entertainment and
                 in-flight wifi industries at Zodiac Aerospace (now{' '}
-                <a href="https://www.safran-group.com/">Safran</a>). There, he
-                worked as a full-stack generalist with an emphasis on low level
-                work. In this industry, Rick worked at all levels of the
-                software stack, from initial board bringup to Qt5/QML. Rick has
-                developed a reputation as a focused, high performance team
-                member, as evidenced by{' '}
+                <a href="//www.safran-group.com/">Safran</a>). There, he worked
+                as a full-stack generalist with an emphasis on low level work.
+                In this industry, Rick worked at all levels of the software
+                stack, from initial board bringup to Qt5/QML. Rick has developed
+                a reputation as a focused, high performance team member, as
+                evidenced by{' '}
                 <Link to="/client-feedback/">positive client feedback</Link> and
                 the dozens of times his contract for remote work was renewed by
                 Safran.

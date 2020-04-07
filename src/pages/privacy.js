@@ -33,8 +33,8 @@ class Privacy extends React.Component {
             </p>
             <p>
               My Site's server(s) (which is/are hosted by third party service
-              providers, including <a href="https://netlify.com">Netlify</a> and{' '}
-              <a href="https://github">Github</a>) will likely collect similar
+              providers, including <a href="//netlify.com">Netlify</a> and{' '}
+              <a href="//github">Github</a>) will likely collect similar
               Log Data. Similarly, I may use services such as Google Analytics
               to collect, monitor, and analyze Log Data in order to better my
               Site’s functionality. These service providers have their own
@@ -124,13 +124,13 @@ class Privacy extends React.Component {
             <h2>Protection of information</h2>
             <p>
               My email accounts are hosted by{' '}
-              <a href="https://zoho.com">Zoho</a> and{' '}
-              <a href="https://gmail.com">GMail</a>. You may use GPG to
+              <a href="//zoho.com">Zoho</a> and{' '}
+              <a href="//gmail.com">GMail</a>. You may use GPG to
               communicate with me via email.
             </p>
             <p>
               Established Services clients may use the{' '}
-              <a href="https://en.wikipedia.org/wiki/Signal_(software)">
+              <a href="//en.wikipedia.org/wiki/Signal_(software)">
                 Signal Software
               </a>{' '}
               to communicate with me with perfect forward secrecy.
