@@ -52,21 +52,21 @@ const Post = ({ data, options }) => {
           {Badges({ items: tags })}
         </div>
         <div className="content">
-          <p>{description}</p>
+        {('none' != description) ?
+           (<p>{description}</p>) : ('')}
           {fluid ? (
             <NonStretchedImage fluid={fluid} />
           ) : (
             ''
           )}
+          <div
+            dangerouslySetInnerHTML={{
+              __html: isMore ? getDescription(html) : html,
+            }}
+          />
+          {isMore ? Button({ path, label: 'MORE', primary: true }) : ''}
+          {getAd(isIndex, adsense)}
         </div>
-        <div
-          className="content"
-          dangerouslySetInnerHTML={{
-            __html: isMore ? getDescription(html) : html,
-          }}
-        />
-        {isMore ? Button({ path, label: 'MORE', primary: true }) : ''}
-        {getAd(isIndex, adsense)}
       </div>
     </div>
   )

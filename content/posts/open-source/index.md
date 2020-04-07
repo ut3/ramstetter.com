@@ -4,11 +4,13 @@ date: "2020-04-06T22:12:03.284Z"
 layout: post
 path: "/open-source/"
 image: ./one-px-black.jpg
-description: "I'm trying to increase my upstream commits. After years of working for companies for whom FOSS is a secondary priority, I'd like to contribute."
+description: "none"
 category: Work
 tags:
 - FOSS
 ---
+
+I'm trying to increase my upstream commits. After years of working for companies for whom FOSS is a secondary priority, I'd like to contribute."
 
 <div class="bottom-margin">
 
