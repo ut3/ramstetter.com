@@ -92,7 +92,7 @@ const getDescription = body => {
 const Button = ({ path, label, primary }) => (
   <Link className="readmore" to={path}>
     <span
-      className={`btn btn-outline-primary btn-block ${
+      className={`btn btn-outline-secondary btn-lg ${
         primary ? 'btn-outline-primary' : 'btn-outline-secondary'
       }`}
     >
