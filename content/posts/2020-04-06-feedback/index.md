@@ -32,7 +32,7 @@ Safran S.A. is a French multinational aircraft engine, rocket engine, aerospace-
 #### Seat actuation controllers
 
 > "Our work with Rick involved low level communications between an RS-485 seat actuation system and our IFE System. Under an extremely tight schedule for one of our most important customers, Rick provided a software solution that met our customer’s needs with a high degree of quality. The requirements for this software were fluid and Rick was agile enough to update the design and implementation to meet the new requirements in a timely manner while communicating effect with stakeholders."\
-> &nbsp; &nbsp; &nbsp; -- John Aoki, SSr. oftware Manager, Safran Passenger Innovations
+> &nbsp; &nbsp; &nbsp; -- John Aoki, Sr. Software Manager, Safran Passenger Innovations
 
 
 #### Linux driver for a bug affecting ~20,000 shipped units
