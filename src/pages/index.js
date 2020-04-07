@@ -1,4 +1,5 @@
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
+import Img from 'gatsby-image'
 import React from 'react'
 import get from 'lodash/get'
 
@@ -28,6 +29,13 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
+    profile: file(name: { eq: "rick-ramstetter" }) {
+      childImageSharp {
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed_withWebp
+        }
+      }
+    }
     site {
       meta: siteMetadata {
         title
