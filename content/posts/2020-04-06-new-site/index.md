@@ -27,7 +27,7 @@ This new version is also using GatsbyJS, but version 2.11. The site is using [Bo
 
 I'm not a frontend developer by any means, and yet I find web technologies fascinating if only because they're new to me. I've made a number of customizations to this new version of ramstetter.com, which have required that I dabble in CSS & SASS, GraphQL, and React JSX. There's aren't technologies I'd otherwise encounter.
 
-In the few hours that I explored Gatsby's [starters](https://www.gatsbyjs.org/starters/), found that a common design practice is to artifically limit the screen width (see Bootstrap's "container" class). I can't discount that my sample set may have been invalid. Regardless, I understand the temptation to do this: it makes responsive design easier. But I refuse. I paid for the @#$% 4k monitor, and I'm going to use it.
+In the few hours that I explored Gatsby's [starters](https://www.gatsbyjs.org/starters/), I found that a common design practice is to artificially limit the screen width (see Bootstrap's "container" class). I can't discount that my sample set may have been invalid. Regardless, I understand the temptation to do this: it makes responsive design easier. But I refuse. I paid for the @#$% 4k monitor, and I'm going to use it.
 
 Here's a screenshot of me editing this page in [Visual Studio Code (vscode)](https://code.visualstudio.com/):
 
