@@ -40,7 +40,7 @@ export default class HTML extends React.Component {
     "addressLocality": "Vancouver, WA",
     "postalCode": "98683",
     "streetAddress": "305 SE Chkalov Dr Suite 111 PMB 414"
-  },
+  }
 }
 `,
             }}
