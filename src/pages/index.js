@@ -12,8 +12,6 @@ import ProfileBlurb from 'components/profileblurb'
 class Profile extends React.Component {
   render() {
     const { location, data } = this.props
-    const profile = get(data, 'profile.childImageSharp.fixed')
-    const kearsarge = get(data, 'kearsarge.childImageSharp.fixed')
     const saleae = get(data, 'saleae.childImageSharp.sizes')
     const displayproject = get(data, 'displayproject.childImageSharp.sizes')
     const raverdubanner = get(data, 'raverdubanner.childImageSharp.sizes')
@@ -141,13 +139,6 @@ export default Profile
 
 export const query = graphql`
   query ProfilePageQuery {
-    kearsarge: file(name: { eq: "kearsarge-pass" }) {
-      childImageSharp {
-        fixed(width: 200, height: 200) {
-          ...GatsbyImageSharpFixed_withWebp
-        }
-      }
-    }
     saleae: file(name: { eq: "saleae" }) {
       childImageSharp {
         sizes(quality: 100) {
@@ -177,20 +168,6 @@ export const query = graphql`
       }
     }
     notforflight: file(name: { eq: "not-for-flight" }) {
-      childImageSharp {
-        sizes(quality: 100) {
-          ...GatsbyImageSharpSizes_withWebp
-        }
-      }
-    }
-    back1: file(name: { eq: "back1" }) {
-      childImageSharp {
-        sizes(quality: 100) {
-          ...GatsbyImageSharpSizes_withWebp
-        }
-      }
-    }
-    back2: file(name: { eq: "back2" }) {
       childImageSharp {
         sizes(quality: 100) {
           ...GatsbyImageSharpSizes_withWebp
