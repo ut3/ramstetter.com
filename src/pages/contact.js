@@ -53,7 +53,7 @@ class Contact extends React.Component {
         <Meta site={siteMetadata} title="Contact" />
         <div>
           <div className="container">
-            <ProfileBlurb data={data} />
+            <ProfileBlurb />
             <h1>Contact information</h1>
             <h2>E-mail</h2>
             <p>

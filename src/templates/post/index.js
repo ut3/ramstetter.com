@@ -84,7 +84,7 @@ const Post = ({ data, options }) => {
     <div className="article" key={path}>
       <div className="container">
         <div className="info">
-          {isIndex ? "" : <ProfileBlurb data={data} />}
+          {isIndex ? "" : <ProfileBlurb />}
           <Link style={{ boxShadow: 'none' }} to={path}>
             <h1>{title}</h1>
             <time dateTime={date}>{date}</time>

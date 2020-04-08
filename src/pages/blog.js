@@ -52,7 +52,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location}>
       <Meta site={get(data, 'site.meta')} />
       <div className="container">
-        <ProfileBlurb data={data} />
+        <ProfileBlurb />
       </div>
       {posts.map(({ post }, i) => (
         <Post

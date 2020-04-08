@@ -79,7 +79,7 @@ class Profile extends React.Component {
         <Meta site={siteMetadata} title="Profile" />
         <div className="">
           <div className="container text-center">
-            <ProfileBlurb data={data} />
+            <ProfileBlurb isIndex={true} />
             <p>
               <a href="//ramstetter.com/Ramstetter-Rick--resume.pdf">
                 J Rick Ramstetter's resume
