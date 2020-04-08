@@ -9,14 +9,31 @@ import Layout from 'components/layout'
 import Meta from 'components/meta'
 import ProfileBlurb from 'components/profileblurb'
 
+const NonStretchedImage = props => {
+  let normalizedProps = props
+  if (props.fluid && props.fluid.presentationWidth) {
+    normalizedProps = {
+      ...props,
+      style: {
+        ...(props.style || {}),
+        maxWidth: props.fluid.presentationWidth,
+        margin: "0 auto", // Used to center the image
+      },
+    }
+  }
+
+  return <Img {...normalizedProps} />
+}
+
 class Profile extends React.Component {
   render() {
     const { location, data } = this.props
-    const saleae = get(data, 'saleae.childImageSharp.sizes')
-    const displayproject = get(data, 'displayproject.childImageSharp.sizes')
-    const raverdubanner = get(data, 'raverdubanner.childImageSharp.sizes')
-    const rdurickroll = get(data, 'rdurickroll.childImageSharp.sizes')
-    const notforflight = get(data, 'notforflight.childImageSharp.sizes')
+    const displayproject = get(data, 'displayproject.childImageSharp.fluid')
+    const raverdubanner = get(data, 'raverdubanner.childImageSharp.fluid')
+
+    const saleae = get(data, 'saleae.childImageSharp.fluid')
+    const rdurickroll = get(data, 'rdurickroll.childImageSharp.fluid')
+    const notforflight = get(data, 'notforflight.childImageSharp.fluid')
 
     return (
       <Layout location={location}>
@@ -118,13 +135,13 @@ class Profile extends React.Component {
               <p>Rick is a strong supporter of FOSS software.</p>
               <div className="row justify-content-md-center">
                 <div className="col-sm-4 py-2">
-                  <Img sizes={rdurickroll} className="content-image" />
+                  <NonStretchedImage sizes={rdurickroll} className="content-image" />
                 </div>
                 <div className="col-sm-4 py-2">
-                  <Img sizes={notforflight} className="content-image" />
+                  <NonStretchedImage sizes={notforflight} className="content-image" />
                 </div>
                 <div className="col-sm-4 py-2">
-                  <Img sizes={saleae} className="content-image" />
+                  <NonStretchedImage sizes={saleae} className="content-image" />
                 </div>
               </div>
             </div>
@@ -139,38 +156,41 @@ export default Profile
 
 export const query = graphql`
   query ProfilePageQuery {
-    saleae: file(name: { eq: "saleae" }) {
-      childImageSharp {
-        sizes(quality: 100) {
-          ...GatsbyImageSharpSizes_withWebp
-        }
-      }
-    }
     displayproject: file(name: { eq: "display-project-banner" }) {
       childImageSharp {
-        sizes(quality: 100) {
-          ...GatsbyImageSharpSizes_withWebp
+        fluid(quality: 90) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     raverdubanner: file(name: { eq: "rave-rdu-banner" }) {
       childImageSharp {
-        sizes(quality: 100) {
-          ...GatsbyImageSharpSizes_withWebp
+        fluid(quality: 90) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    saleae: file(name: { eq: "saleae" }) {
+      childImageSharp {
+        fluid(quality: 80 ) {
+          ...GatsbyImageSharpFluid_withWebp
+          presentationWidth
         }
       }
     }
     rdurickroll: file(name: { eq: "rdu-rickroll" }) {
       childImageSharp {
-        sizes(quality: 100) {
-          ...GatsbyImageSharpSizes_withWebp
+        fluid(quality: 80) {
+          ...GatsbyImageSharpFluid_withWebp
+          presentationWidth
         }
       }
     }
     notforflight: file(name: { eq: "not-for-flight" }) {
       childImageSharp {
-        sizes(quality: 100) {
-          ...GatsbyImageSharpSizes_withWebp
+        fluid(quality: 80 ) {
+          ...GatsbyImageSharpFluid_withWebp
+          presentationWidth
         }
       }
     }
