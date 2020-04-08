@@ -59,6 +59,9 @@ const NonStretchedImage = props => {
         margin: "0 auto", // Used to center the image
       },
     }
+
+    if (normalizedProps.className && !normalizedProps.className.includes('non-stretched-image'))
+        normalizedProps.className = normalizedProps.className + " non-stretched-image"
   }
 
   return <Img {...normalizedProps} />
@@ -174,13 +177,13 @@ class Profile extends React.Component {
               <p>Rick is a strong supporter of FOSS software.</p>
               <div className="row justify-content-md-center">
                 <div className="col-sm-4 py-2">
-                  <NonStretchedImage sizes={rdurickroll} className="content-image" />
+                  <NonStretchedImage fluid={rdurickroll} className="content-image" />
                 </div>
                 <div className="col-sm-4 py-2">
-                  <NonStretchedImage sizes={notforflight} className="content-image" />
+                  <NonStretchedImage fluid={notforflight} className="content-image" />
                 </div>
                 <div className="col-sm-4 py-2">
-                  <NonStretchedImage sizes={saleae} className="content-image" />
+                  <NonStretchedImage fluid={saleae} className="content-image" />
                 </div>
               </div>
             </div>
