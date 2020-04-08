@@ -160,6 +160,7 @@ export const query = graphql`
       childImageSharp {
         fluid(quality: 90) {
           ...GatsbyImageSharpFluid_withWebp
+          presentationWidth
         }
       }
     }
@@ -167,6 +168,7 @@ export const query = graphql`
       childImageSharp {
         fluid(quality: 90) {
           ...GatsbyImageSharpFluid_withWebp
+          presentationWidth
         }
       }
     }
