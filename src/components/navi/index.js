@@ -50,7 +50,7 @@ class Navi extends React.Component {
           <Link className="text-center" to="/">
             <h1 className="navbar-brand mb-0">{title}</h1>
           </Link>
-          <div className="navbar-nav-scroll">
+          <div className="">
             <ul className="navbar-nav bd-navbar-nav">
               <li
                 className={
@@ -59,7 +59,7 @@ class Navi extends React.Component {
                     : 'nav-item'
                 }
               >
-                <Link to="/blog/" className="nav-link">
+                <Link to="/blog/" className="nav-link pl-0">
                   Blog
                 </Link>
               </li>
@@ -82,10 +82,9 @@ class Navi extends React.Component {
                 }
               >
                 <Link to="/skills/" className="nav-link">
-                  Skills 
+                  Skills
                 </Link>
               </li>
- 
               <li
                 className={
                   location.pathname === '/contact/'
@@ -99,12 +98,12 @@ class Navi extends React.Component {
               </li>
               <li className="nav-item">
                 <a href="//github.com/ut3" className="nav-link">
-                  <UnsizedIcon name="github" />
+                  <Icon name="github" />
                 </a>
               </li>
               <li className="nav-item">
                 <a href="//linkedin.com/in/jramstet" className="nav-link">
-                  <UnsizedIcon name="linkedin" />
+                  <Icon name="linkedin" />
                 </a>
               </li>
             </ul>
