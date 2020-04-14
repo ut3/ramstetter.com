@@ -40,12 +40,17 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Icon, { UnsizedIcon } from 'components/icon'
+import gnome from './gnome.svg'
+import './style.scss'
 
 class Navi extends React.Component {
   render() {
     const { location, title } = this.props
     return (
-      <nav className="navbar navbar-expand navbar-dark flex-column flex-lg-row bg-primary">
+      <nav
+        className="navbar navbar-expand navbar-dark flex-column flex-lg-row bg-primary"
+        id="mainnav"
+      >
         <div className="container flex-wrap">
           <Link className="text-center" to="/">
             <h1 className="navbar-brand mb-0">{title}</h1>
@@ -97,13 +102,22 @@ class Navi extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
+                <a href="//linkedin.com/in/jramstet" className="nav-link">
+                  <Icon name="linkedin" />
+                </a>
+              </li>
+              <li className="nav-item">
                 <a href="//github.com/ut3" className="nav-link">
                   <Icon name="github" />
                 </a>
               </li>
               <li className="nav-item">
-                <a href="//linkedin.com/in/jramstet" className="nav-link">
-                  <Icon name="linkedin" />
+                <a
+                  href="//gitlab.gnome.org/ut3"
+                  className="nav-link"
+                  title="gnome"
+                >
+                  <img src={gnome} alt="gnome" title="gnome" />
                 </a>
               </li>
             </ul>

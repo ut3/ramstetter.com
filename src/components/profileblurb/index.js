@@ -47,22 +47,22 @@ import './style.scss'
 class ProfileBlurb extends React.Component {
   render() {
     var { isIndex, profile } = this.props
-    const ConditionalLink = ({ children, to, condition }) => (!!condition && to)
-      ? <Link to={to}>{children}</Link>
-      : <>{children}</>;
+    const ConditionalLink = ({ children, to, condition }) =>
+      !!condition && to ? <Link to={to}>{children}</Link> : <>{children}</>
 
     return (
-      <section className="top-pad">
+      <section className="pt-2">
         <div className="container text-center">
           <ConditionalLink condition={!isIndex} to="/">
-          <Img
-            fixed={get(profile, 'childImageSharp.fixed')}
-            className="rounded-circle"
-          />
-          <p className="lead">
-            Software engineer specializing in remote embedded work
-          </p>
-          </ConditionalLink>        </div>
+            <Img
+              fixed={get(profile, 'childImageSharp.fixed')}
+              className="rounded-circle"
+            />
+            <p className="lead">
+              Software engineer specializing in remote embedded work
+            </p>
+          </ConditionalLink>{' '}
+        </div>
       </section>
     )
   }
