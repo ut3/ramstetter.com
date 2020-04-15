@@ -102,7 +102,7 @@ class Navi extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="//linkedin.com/in/jramstet" className="nav-link">
+                <a href="//linkedin.com/in/ut3" className="nav-link">
                   <Icon name="linkedin" />
                 </a>
               </li>
