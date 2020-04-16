@@ -111,7 +111,7 @@ class Navi extends React.Component {
                   <Icon name="github" />
                 </a>
               </li>
-              <li className="nav-item">
+{/*              <li className="nav-item">
                 <a
                   href="//gitlab.gnome.org/ut3"
                   className="nav-link"
@@ -120,6 +120,7 @@ class Navi extends React.Component {
                   <img src={gnome} alt="gnome" title="gnome" />
                 </a>
               </li>
+*/}
             </ul>
           </div>
           <div className="navbar-nav flex-row ml-md-auto d-none d-md-flex" />
