@@ -59,7 +59,7 @@ class Navi extends React.Component {
             <ul className="navbar-nav bd-navbar-nav">
               <li
                 className={
-                  location.pathname === '/profile/'
+                  location.pathname === '/blog/'
                     ? 'nav-item active'
                     : 'nav-item'
                 }
