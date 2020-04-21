@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 
-const Meta = ({ site, title }) => {
+const Meta = ({ site, title, location }) => {
   const siteTitle = get(site, 'title')
   title = title ? `${title} | ${siteTitle}` : siteTitle
   return (
@@ -10,6 +10,7 @@ const Meta = ({ site, title }) => {
       title={title}
       meta={[
         { property: 'og:title', content: title },
+        { property: 'og:locale', content: 'en_US' },
         { property: 'og:type', content: 'website' },
         {
           property: 'og:description',
@@ -17,14 +18,36 @@ const Meta = ({ site, title }) => {
         },
         {
           property: 'og:url',
-          content: `${get(site, 'siteUrl')}/profile`,
+          content: `${get(site, 'siteUrl')}/`,
         },
         {
           property: 'og:image',
-          content: `${get(site, 'siteUrl')}/img/profile.jpg`,
+          content: `${get(site, 'siteUrl')}/rick-ramstetter.jpg`,
         },
       ]}
     />
   )
 }
 export default Meta
+
+
+// {
+//   "@context": "http://schema.org/",
+//   "@type": "Person",
+//   "givenName": "J Rick",
+//   "familyName": "Ramstetter",
+//   "name" : "J. Rick Ramstetter",
+//   "jobTitle": "Systems software engineer",
+//   "description": "Systems software engineer",
+//   "email" : "rick@anteaterllc.com",
+//   "url": "https://ramstetter.com",
+//   "image" : "https://ramstetter.com/rick-ramstetter.jpg",
+
+//   "address": {
+//     "@type": "PostalAddress",
+//     "addressLocality": "Vancouver, WA",
+//     "postalCode": "98683",
+//     "streetAddress": "305 SE Chkalov Dr Suite 111 PMB 414"
+//   }
+// }
+

@@ -42,6 +42,7 @@ import get from 'lodash/get'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
@@ -79,7 +80,14 @@ class Profile extends React.Component {
 
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} title="Profile" />
+        <Meta site={siteMetadata} location={location} title="Profile" />
+        <Helmet
+             meta={[
+              { property: 'og:type', content: 'profile' },
+              { property: 'profile:first_name', content: 'J Rick' },
+              { property: 'profile:last_name', content: 'Ramstetter' },
+             ]}
+        />
         <div className="">
           <div className="container text-center">
             <ProfileBlurb isIndex={true} />

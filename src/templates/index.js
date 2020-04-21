@@ -52,12 +52,13 @@ const Template = ({ data, location }) => (
       <Meta
         title={get(data, 'post.frontmatter.title')}
         site={get(data, 'site.meta')}
+        location={location}
       />
       {get(data, 'post.frontmatter.layout') != 'page' ? (
         <Post
           data={get(data, 'post')}
           options={{
-            isIndex: false
+            isIndex: false,
           }}
         />
       ) : (

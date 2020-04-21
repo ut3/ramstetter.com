@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
-      <Meta site={get(data, 'site.meta')} />
+      <Meta site={get(data, 'site.meta')} location={location} title="Blog" />
       <div className="container">
         <ProfileBlurb />
       </div>
