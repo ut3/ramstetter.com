@@ -38,11 +38,9 @@
  */
 
 import { Link, StaticQuery, graphql } from 'gatsby'
-import React from 'react'
 import Img from 'gatsby-image'
+import React from 'react'
 import get from 'lodash/get'
-
-import './style.scss'
 
 class ProfileBlurb extends React.Component {
   render() {

@@ -1,4 +1,5 @@
 import React from 'react'
+import './components/components.scss'
 
 export default class HTML extends React.Component {
   render() {

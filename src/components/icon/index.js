@@ -6,7 +6,6 @@ import {
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
-import './style.scss'
 
 library.add(
   faGithub,

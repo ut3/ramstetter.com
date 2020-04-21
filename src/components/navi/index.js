@@ -41,7 +41,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Icon, { UnsizedIcon } from 'components/icon'
 import gnome from './gnome.svg'
-import './style.scss'
 
 class Navi extends React.Component {
   render() {

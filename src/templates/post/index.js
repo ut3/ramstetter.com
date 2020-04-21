@@ -44,9 +44,10 @@ import React from 'react'
 import get from 'lodash/get'
 import map from 'lodash/map'
 
-import ProfileBlurb from 'components/profileblurb'
 
+import ProfileBlurb from 'components/profileblurb'
 import './style.scss'
+
 
 const NonStretchedImage = props => {
   let normalizedProps = props
