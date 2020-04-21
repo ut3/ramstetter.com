@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'J Rick Ramstetter',
-    description: 'Gatsby starter for bootstrap a blog',
+    description: 'Software engineer specializing in remote embedded work',
     siteUrl: 'https://ramstetter.com',
     author: 'J Rick Ramstetter',
     twitter: '',
