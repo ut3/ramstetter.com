@@ -80,7 +80,7 @@ class Profile extends React.Component {
 
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} location={location} title="Profile" />
+        <Meta site={siteMetadata} title="Profile" location={location} />
         <Helmet
              meta={[
               { property: 'og:type', content: 'profile' },

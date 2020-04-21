@@ -50,8 +50,8 @@ const Template = ({ data, location }) => (
   <div>
     <Layout location={location}>
       <Meta
-        title={get(data, 'post.frontmatter.title')}
         site={get(data, 'site.meta')}
+        title={get(data, 'post.frontmatter.title')}
         location={location}
       />
       {get(data, 'post.frontmatter.layout') != 'page' ? (
@@ -75,7 +75,7 @@ export const pageQuery = graphql`
       meta: siteMetadata {
         title
         description
-        url: siteUrl
+        siteUrl
         author
       }
     }

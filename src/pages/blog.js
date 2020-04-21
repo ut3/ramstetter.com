@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
-      <Meta site={get(data, 'site.meta')} location={location} title="Blog" />
+      <Meta site={get(data, 'site.meta')} title="Blog" location={location}/>
       <div className="container">
         <ProfileBlurb />
       </div>
@@ -75,7 +75,7 @@ export const pageQuery = graphql`
       meta: siteMetadata {
         title
         description
-        url: siteUrl
+		siteUrl
         author
       }
     }
