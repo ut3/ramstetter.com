@@ -130,7 +130,7 @@ class Profile extends React.Component {
                 <a href="//www.ics.uci.edu">University of California, Irvine</a>
                 , with a Bachelor of Science in Computer Science & Engineering,
                 where his senior project was a series of{' '}
-                <a href="/academic/display-project.jpg">small display units</a>{' '}
+                <a href="/img/display-project.jpg">small display units</a>{' '}
                 which reconfigured into a single larger display when
                 interconnected.
               </p>
