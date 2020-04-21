@@ -77,8 +77,6 @@ export const pageQuery = graphql`
         description
         url: siteUrl
         author
-        twitter
-        adsense
       }
     }
     remark: allMarkdownRemark(

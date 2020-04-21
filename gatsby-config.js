@@ -4,8 +4,6 @@ module.exports = {
     description: 'Software engineer specializing in remote embedded work',
     siteUrl: 'https://ramstetter.com',
     author: 'J Rick Ramstetter',
-    twitter: '',
-    adsense: '',
   },
   pathPrefix: '/',
   plugins: [
@@ -92,7 +90,6 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-twitter',
     'gatsby-transformer-sharp',
   ],
 }
