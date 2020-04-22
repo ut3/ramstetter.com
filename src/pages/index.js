@@ -142,12 +142,12 @@ class Profile extends React.Component {
                 <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Rutgers_University" />
                 <a href="//www.cs.rutgers.edu"><span itemprop="name" itemtype="//schema.org/Text">Rutgers University</span></a>
                 </span> in 2010
-                with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Master of Science</span>
-                 <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span> in 
+                with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Master of Science</span>{' '}
+                 <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span> in{' '}
                  <span itemprop="about" itemScope itemtype="//schema.org/Thing">
                    <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_science" />
                    <span itemprop="name" itemtype="//schema.org/Text">computer science</span>
-                </span>
+                </span>{' '}
                  (<span itemprop="award" itemtype="//schema.org/Text">GPA 3.85/4.0</span>).
                  His Master's final project was a simulator for{' '}
                 <a href="//www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
@@ -184,8 +184,8 @@ class Profile extends React.Component {
                 <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/University_of_California,_Irvine" />
                 <a href="//www.ics.uci.edu"><span itemprop="name" itemtype="//schema.org/Text">University of California, Irvine</span></a>
                 </span>
-                , with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Bachelor of Science</span>
-                <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span>
+                , with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Bachelor of Science</span>{' '}
+                <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span>{' '}
                  in <span itemprop="about" itemScope itemtype="//schema.org/Thing">
                    <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_engineering" />
                    <span itemprop="name" itemtype="//schema.org/Text">computer engineering</span>
