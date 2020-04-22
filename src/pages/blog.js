@@ -75,7 +75,7 @@ export const pageQuery = graphql`
       meta: siteMetadata {
         title
         description
-		siteUrl
+        siteUrl
         author
       }
     }
