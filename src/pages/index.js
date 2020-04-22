@@ -79,14 +79,49 @@ class Profile extends React.Component {
     return (
       <Layout location={location}>
         <Meta title="Profile" location={location} />
-        <Helmet
-             meta={[
-              { property: 'og:type', content: 'profile' },
-              { property: 'profile:first_name', content: 'J Rick' },
-              { property: 'profile:last_name', content: 'Ramstetter' },
-             ]}
-        />
-        <div className="">
+        <Helmet encodeSpecialCharacters={false}>
+          <meta name="og:type" content="profile" />
+          <meta name="profile:first_name" content="J Rick" />
+          <meta name="profile:last_name" content="Ramstetter" />
+          <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org/",
+            "@type": 'Person',
+            "@id" : "https://ramstetter.com/#rick",
+            "name": 'J Rick Ramstetter',
+            givenName: 'J Rick',
+            familyName: 'Ramstetter',
+            name: 'J. Rick Ramstetter',
+            jobTitle: 'Software engineer',
+            honorificSuffix: "M.Sc.",
+            email: ['rick.ramstetter@gmail.com', 'rick@anteaterllc.com'],
+            url: '//ramstetter.com',
+            image: '//ramstetter.com/rick-ramstetter.jpg',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Vancouver, WA',
+              postalCode: '98683',
+              streetAddress: '305 SE Chkalov Dr Suite 111 PMB 414',
+            },
+            alumniOf: [
+              {
+                '@type' : 'EducationalOrganization',
+                '@id' : 'https://rutgers.edu',
+                'name' : 'Rutgers, The State University of New Jersey',
+                'sameAs' : '//en.wikipedia.org/wiki/Rutgers_University',
+              },
+              {
+                '@type' : 'EducationalOrganization',
+                '@id' : 'https://uci.edu',
+                'name' : 'University of Califorina, Irvine',
+                'sameAs' : '//en.wikipedia.org/wiki/University_of_California,_Irvine',
+              }
+            ],
+          })}
+        </script>
+        </Helmet>
+          <div className="" itemScope itemtype ="//schema.org/Person" itemid="https://ramstetter.com/#rick">
+          <meta itemprop="name" content="J Rick Ramstetter" />
           <div className="container text-center">
             <ProfileBlurb isIndex={true} />
             <p>
@@ -100,11 +135,21 @@ class Profile extends React.Component {
             <Img sizes={displayproject} className="cover-image opacity-2" />
             <div className="container text-left">
               <h2 className="section-heading">Academics</h2>
-              <p>
+              <p itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential">
+              <meta itemprop="competencyRequired" itemtype="//schema.org/Text" content="Operating systems, circuit fundamentals, Linux, C, C++, algorithms" />
                 J Rick Ramstetter graduated from{' '}
-                <a href="//www.cs.rutgers.edu">Rutgers University</a> in 2010
-                with a Master of Science degree in computer science (GPA
-                3.85/4.0). His Master's final project was a simulator for{' '}
+                <span itemprop="recognizedBy" itemtype="//schema.org/EducationalOrganization" itemScope itemid="https://rutgers.edu">
+                <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Rutgers_University" />
+                <a href="//www.cs.rutgers.edu"><span itemprop="name" itemtype="//schema.org/Text">Rutgers University</span></a>
+                </span> in 2010
+                with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Master of Science</span>
+                 <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span> in 
+                 <span itemprop="about" itemScope itemtype="//schema.org/Thing">
+                   <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_science" />
+                   <span itemprop="name" itemtype="//schema.org/Text">computer science</span>
+                </span>
+                 (<span itemprop="award" itemtype="//schema.org/Text">GPA 3.85/4.0</span>).
+                 His Master's final project was a simulator for{' '}
                 <a href="//www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
                   trajectory based routing
                 </a>{' '}
@@ -118,7 +163,8 @@ class Profile extends React.Component {
                 <a href="//en.wikipedia.org/wik/Filesystem_in_Userspace">
                   FUSE
                 </a>{' '}
-                frontend, a modification to the{' '}
+                frontend
+                 a modification to the{' '}
                 <a href="//web.archive.org/web/20100129163345///madwifi-project.org/">
                   madwifi
                 </a>{' '}
@@ -129,12 +175,21 @@ class Profile extends React.Component {
                 suitable for use in localization, and a{' '}
                 <a href="//www.mdpi.com/1999-5903/2/3/190/pdf">publication</a>{' '}
                 with{' '}
-                <a href="http://people.cs.vt.edu/danfeng/">Dr. Danfeng Yao</a>.
+                <a href="//people.cs.vt.edu/danfeng/">Dr. Danfeng Yao</a>.
               </p>
-              <p>
+              <p itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential">
+              <meta itemprop="competencyRequired" itemtype="//schema.org/Text" content="English, Mathematics, Signal Processing, C, Java, C++, Python" />
                 Prior to Rutgers, Rick graduated from the{' '}
-                <a href="//www.ics.uci.edu">University of California, Irvine</a>
-                , with a Bachelor of Science in Computer Science & Engineering,
+                <span itemprop="recognizedBy" itemtype="//schema.org/EducationalOrganization" itemScope itemid="https://uci.edu">
+                <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/University_of_California,_Irvine" />
+                <a href="//www.ics.uci.edu"><span itemprop="name" itemtype="//schema.org/Text">University of California, Irvine</span></a>
+                </span>
+                , with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Bachelor of Science</span>
+                <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span>
+                 in <span itemprop="about" itemScope itemtype="//schema.org/Thing">
+                   <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_engineering" />
+                   <span itemprop="name" itemtype="//schema.org/Text">computer engineering</span>
+                </span>,
                 where his senior project was a series of{' '}
                 <a href="/img/display-project.jpg">small display units</a>{' '}
                 which reconfigured into a single larger display when

@@ -8,30 +8,39 @@ class Meta extends React.Component {
     const { aTitle, location, meta } = this.props
     const siteTitle = get(meta, 'title')
     var title = aTitle ? `${aTitle} | ${siteTitle}` : siteTitle
-    console.log(title)
-    console.log(meta)
-    console.log(location)
     return (
-      <Helmet
-        title={title}
-        meta={[
-          { property: 'og:title', content: title },
-          { property: 'og:locale', content: 'en_US' },
-          { property: 'og:type', content: 'website' },
-          {
-            property: 'og:description',
-            content: get(meta, 'description'),
-          },
-          {
-            property: 'og:url',
-            content: `${get(meta, 'siteUrl')}/${location.pathname}`,
-          },
-          {
-            property: 'og:image',
-            content: `${get(meta, 'siteUrl')}/rick-ramstetter.jpg`,
-          },
-        ]}
-      />
+      <Helmet encodeSpecialCharacters={false}>
+        <title>{title}</title>
+        <meta name="description" content={get(meta, 'description')} />
+        <meta name="og:type" content="website" />
+        <meta name="og:title" content={title} />
+        <meta name="og:description" content={get(meta, 'description')} />
+        <meta name="og:locale" content="en_US" />
+        <meta
+          name="og:url"
+          content={get(meta, 'siteUrl') + location.pathname}
+        />
+        <meta
+          name="og:image"
+          content={get(meta, 'siteUrl') + '/rick-ramstetter.jpg'}
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'http://schema.org/',
+            '@type': 'Website',
+            '@id': 'https://ramstetter.com/',
+            headline: title,
+            name: title,
+            description: get(meta, 'description'),
+            url: get(meta, 'siteUrl') + location.pathname,
+            image: '//ramstetter.com/rick-ramstetter.jpg',
+            about: {
+              '@type': 'Person',
+              '@id': 'https://ramstetter.com/#rick',
+            },
+          })}
+        </script>
+      </Helmet>
     )
   }
 }
@@ -51,27 +60,7 @@ export default ({ title, location }) => (
       }
     `}
     render={data => (
-      <Meta meta={data.site.meta} title={title} location={location} />
+      <Meta meta={data.site.meta} aTitle={title} location={location} />
     )}
   />
 )
-
-// {
-//   "@context": "http://schema.org/",
-//   "@type": "Person",
-//   "givenName": "J Rick",
-//   "familyName": "Ramstetter",
-//   "name" : "J. Rick Ramstetter",
-//   "jobTitle": "Systems software engineer",
-//   "description": "Systems software engineer",
-//   "email" : "rick@anteaterllc.com",
-//   "url": "https://ramstetter.com",
-//   "image" : "https://ramstetter.com/rick-ramstetter.jpg",
-
-//   "address": {
-//     "@type": "PostalAddress",
-//     "addressLocality": "Vancouver, WA",
-//     "postalCode": "98683",
-//     "streetAddress": "305 SE Chkalov Dr Suite 111 PMB 414"
-//   }
-// }
