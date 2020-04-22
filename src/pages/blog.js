@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
-      <Meta site={get(data, 'site.meta')} title="Blog" location={location}/>
+      <Meta title="Blog" location={location}/>
       <div className="container">
         <ProfileBlurb />
       </div>
@@ -71,14 +71,6 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
-    site {
-      meta: siteMetadata {
-        title
-        description
-        siteUrl
-        author
-      }
-    }
     remark: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
     ) {

@@ -39,7 +39,6 @@
 
 import React from 'react'
 
-import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
 import Meta from 'components/meta'
 import ProfileBlurb from 'components/profileblurb'
@@ -50,7 +49,7 @@ class Contact extends React.Component {
 
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} title="Contact" location={location} />
+        <Meta title="Contact" location={location} />
         <div>
           <div className="container">
             <ProfileBlurb />

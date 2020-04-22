@@ -39,7 +39,6 @@
 
 import React from 'react'
 
-import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
 import Meta from 'components/meta'
 
@@ -49,7 +48,7 @@ class Privacy extends React.Component {
 
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} title="Privacy" location={location} />
+        <Meta title="Privacy" location={location} />
         <div>
           <div className="container">
             <h1>Privacy policy</h1>

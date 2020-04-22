@@ -1,12 +1,16 @@
+import { StaticQuery, graphql } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 
 class Meta extends React.Component {
   render() {
-    const { site, title, location } = this.props
-    const siteTitle = get(site, 'title')
-    title = title ? `${title} | ${siteTitle}` : siteTitle
+    const { aTitle, location, meta } = this.props
+    const siteTitle = get(meta, 'title')
+    var title = aTitle ? `${aTitle} | ${siteTitle}` : siteTitle
+    console.log(title)
+    console.log(meta)
+    console.log(location)
     return (
       <Helmet
         title={title}
@@ -16,23 +20,41 @@ class Meta extends React.Component {
           { property: 'og:type', content: 'website' },
           {
             property: 'og:description',
-            content: get(site, 'description'),
+            content: get(meta, 'description'),
           },
           {
             property: 'og:url',
-            content: `${get(site, 'siteUrl')}/`,
+            content: `${get(meta, 'siteUrl')}/${location.pathname}`,
           },
           {
             property: 'og:image',
-            content: `${get(site, 'siteUrl')}/rick-ramstetter.jpg`,
+            content: `${get(meta, 'siteUrl')}/rick-ramstetter.jpg`,
           },
         ]}
       />
     )
   }
 }
-export default Meta
 
+export default ({ title, location }) => (
+  <StaticQuery
+    query={graphql`
+      query MetaQuery {
+        site {
+          meta: siteMetadata {
+            title
+            description
+            siteUrl
+            author
+          }
+        }
+      }
+    `}
+    render={data => (
+      <Meta meta={data.site.meta} title={title} location={location} />
+    )}
+  />
+)
 
 // {
 //   "@context": "http://schema.org/",
@@ -53,4 +75,3 @@ export default Meta
 //     "streetAddress": "305 SE Chkalov Dr Suite 111 PMB 414"
 //   }
 // }
-

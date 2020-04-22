@@ -44,11 +44,9 @@ import Link from 'gatsby-link'
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import { siteMetadata } from '../../gatsby-config'
 import Layout from 'components/layout'
 import Meta from 'components/meta'
 import ProfileBlurb from 'components/profileblurb'
-
 const NonStretchedImage = props => {
   let normalizedProps = props
   if (props.fluid && props.fluid.presentationWidth) {
@@ -80,7 +78,7 @@ class Profile extends React.Component {
 
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} title="Profile" location={location} />
+        <Meta title="Profile" location={location} />
         <Helmet
              meta={[
               { property: 'og:type', content: 'profile' },

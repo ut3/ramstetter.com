@@ -50,7 +50,6 @@ const Template = ({ data, location }) => (
   <div>
     <Layout location={location}>
       <Meta
-        site={get(data, 'site.meta')}
         title={get(data, 'post.frontmatter.title')}
         location={location}
       />
@@ -71,14 +70,6 @@ export default Template
 
 export const pageQuery = graphql`
   query PostByPath($path: String!) {
-    site {
-      meta: siteMetadata {
-        title
-        description
-        siteUrl
-        author
-      }
-    }
     post: markdownRemark(frontmatter: { path: { eq: $path } }) {
       id
       html
