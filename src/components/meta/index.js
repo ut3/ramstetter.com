@@ -28,13 +28,16 @@ class Meta extends React.Component {
           {JSON.stringify({
             '@context': 'http://schema.org/',
             '@type': 'Website',
-            '@id': 'https://ramstetter.com/',
             headline: title,
             name: title,
             description: get(meta, 'description'),
-            url: get(meta, 'siteUrl') + location.pathname,
+            url: get(meta, 'siteUrl'),
             image: '//ramstetter.com/rick-ramstetter.jpg',
             about: {
+              '@type': 'Person',
+              '@id': 'https://ramstetter.com/#rick',
+            },
+            mainEntity: {
               '@type': 'Person',
               '@id': 'https://ramstetter.com/#rick',
             },
