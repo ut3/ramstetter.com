@@ -118,6 +118,7 @@ class Profile extends React.Component {
           <link itemprop="alumniOf" href="https://ramstetter.com/#rutgers" />
           <link itemprop="alumniOf" href="https://ramstetter.com/#uci" />
           <link itemprop="address" href="https://ramstetter.com/#address" />
+          <meta itemprop="nationality" content="USA" />
 
           <div className="container text-center">
             <ProfileBlurb isIndex={true} />
@@ -129,17 +130,110 @@ class Profile extends React.Component {
           </div>
 
           <section className="">
+            <div className="container text-left">
+            <Img sizes={raverdubanner} className="cover-image opacity-2" />
+              <h2 className="section-heading">Industry</h2>
+              <p>
+                <span itemprop="hasOccupation" itemScope itemType='//schema.org/Occupation'>
+                  I'm a{' '}
+                  <span itemprop="occupationLocation" itemScope itemType="//schema.org/AdministrativeArea" itemid="https://ramstetter.com/#usabased">
+                    <link itemprop="address" href="https://ramstetter.com/#address" />
+                    <span itemprop="name">USA-based</span>{' '}
+                  </span>
+                  <span itemprop="name">software engineer</span>{' '}
+                  <meta itemprop="occupationalCategory" content="15-1252.00" />
+                  <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Software_engineering" />
+                  <link itemprop="qualifications" href="https://ramstetter.com/#rutgersmsc" itemtype="//schema.org/EducationalOccupationalCredential" />
+                  <link itemprop="qualifications" href="https://ramstetter.com/#ucibsc" itemtype="//schema.org/EducationalOccupationalCredential" />
+                  having <span itemprop="experienceRequirements">10 years of experience</span>{' '}
+                  <meta itemprop="estimatedSalary" content="0" />
+                </span>
+                 with{' '}
+                <span id="naicscodes">
+                  <meta itemprop="naics" content="541511" />
+                  <meta itemprop="naics" content="541512" />
+                  <span itemprop="knowsAbout">GNU/Linux</span>{' '}
+                  <span itemprop="knowsAbout">system software</span> and{' '}
+                  <span itemprop="knowsAbout">embedded devices</span>.{' '}
+                  I've worked in many industries, including{' '}
+                  <meta itemprop="naics" content="541614"/> logistics,{' '}
+                  <meta itemprop="naics" content="334511" />passenger aircraft,{' '}
+                  <meta itemprop="naics" content="927110" />space launch, {' '}
+                  <meta itemprop="naics" content="611310" />academia, and{' '} 
+                  <meta itemprop="naics" content="541922"	/>sports photography.
+                  <meta itemprop="isicv4" content="6202" />
+                </span>
+              </p>
+              <p>
+                My most enduring <span itemprop="knowsAbout">business relationship</span> is with{' '}
+                <a href="//www.safran-group.com/" target="_blank">Safran S.A.</a>, where I serve as a{' '}
+                <span itemprop="knowsAbout">contract</span> <span itemprop="knowsAbout">system software</span>{' '}
+                generalist. Their myriad <span itemprop="knowsAbout">embedded devices</span> in the areas of{' '}
+                seatback <span itemprop="knowsAbout">in-flight entertainment</span>,{' '}
+                <span itemprop="knowsAbout">in-flight WiFi</span>, and{' '}
+                <span itemprop="knowsAbout">aircraft cabin</span> <span itemprop="knowsAbout">power delivery</span>{' '}
+                give me opportunity to work with everything from <span itemprop="knowsAbout">bootloaders</span>{' '}
+                (<span itemprop="knowsAbout">BareBox</span> and <span itemprop="knowsAbout">U-Boot</span>) to{' '}
+                <span itemprop="knowsAbout">Qt5</span>/<span itemprop="knowsAbout">QML</span>. The bulk of my experience{' '}
+                is at the level of <span itemprop="knowsAbout">systemd</span> or below--
+                <span itemprop="knowsAbout">GStreamer</span> work is frequent. Languages I use most often include{' '}
+                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="name">C</span>
+                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/C_(programming_language)"/>
+                </span>,{' '}
+                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="name">C++</span>
+                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/C%2B%2B"/>
+                </span>, shell (
+                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="name">posix</span>{' '}
+                  <meta itemtype="sameAs" content="https://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html"/>
+                </span>
+                  and{' '}
+                  <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="name">bash</span>
+                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"/>
+                </span>),{' '}
+                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="name">Python</span>
+                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Python_(programming_language)"/>
+                </span>, and {' '}
+                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="name">QML</span>
+                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/QML"/>
+                </span>. 
+                I've developed a reputation as a focused, high performance team member, 
+                as evidenced by the dozens of times my contract for remote work has been renewed,
+                 and also by <Link to="/client-feedback/">highly positive client feedback</Link>.
+              </p>
+              <p>
+                I perform my <span itemprop="knowsAbout">contract work</span> through{' '}
+                <span itemprop="brand" itemScope itemtype="//schema.org/Organization" itemref="naicscodes">
+                  <span itemprop="name">Anteater LLC</span>,{' '}
+                  <link name="areaServed" href="https://ramstetter.com/#usabased" />
+                  <link name="address" href="https://ramstetter.com/#address" />
+                  a <span itemprop="numberOfEmployees">two</span> person Washington state LLC{' '}
+                  which carries PLI/E&O insurance and is registered to do business in{' '}
+                  <span itemprop="areaServed">Washington state</span>,{' '}
+                  <span itemprop="areaServed">Oregon</span>, and{' '}
+                  <span itemprop="areaServed">California</span>.
+                </span>
+              </p>
+            </div>
+          </section>
+
+          <section className="">
             <Img sizes={displayproject} className="cover-image opacity-2" />
             <div className="container text-left">
               <h2 className="section-heading">Academics</h2>
               <p>
-              <span itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential">
+              <span itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#rutgersmsc">
               <meta itemprop="competencyRequired" itemtype="//schema.org/Text" content="Operating systems, circuit fundamentals, Linux, C, C++, algorithms" />
-                J Rick Ramstetter graduated from{' '}
+                I graduated from{' '}
                 <span itemprop="recognizedBy" itemtype="//schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#rutgers">
                 <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Rutgers_University" />
-                <a href="//www.cs.rutgers.edu"><span itemprop="name" itemtype="//schema.org/Text">Rutgers University</span></a>
-                </span> in 2010
+                <a href="//www.cs.rutgers.edu"><span itemprop="name" itemtype="//schema.org/Text">Rutgers University</span></a>{' '}
+                </span>
                 with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Master of Science</span>{' '}
                  <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span> in{' '}
                  <span itemprop="about" itemScope itemtype="//schema.org/Thing">
@@ -148,12 +242,16 @@ class Profile extends React.Component {
                 </span>{' '}
                  (<span itemprop="award" itemtype="//schema.org/Text">GPA 3.85/4.0</span>).
                  </span>{' '}
-                 His Master's final project was a simulator for{' '}
+                 My Master's final project was a <a href="/academic/bezier-spline-routing.pdf">Bezier-spline routing protocol</a>{' '}
+                 implemented atop a{' '}
+                 <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="name">Matlab</span>
+                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Matlab"/>
+                </span>{' '}
+                simulator for{' '}
                 <a href="//www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
                 <span itemprop="knowsAbout">trajectory based routing</span>
-                </a>{' '}
-                <span itemprop="knowsAbout">protocols</span>, along with a few whitepaper-sourced protocols
-                implemented atop that simulator. Other interesting degree work
+                </a>. Other interesting degree work
                 included a distributed{' '}
                 <a href="//en.wikipedia.org/wiki/Consistent_hashing">
                 <span itemprop="knowsAbout">consistent hashing</span>
@@ -196,9 +294,9 @@ class Profile extends React.Component {
                 </span>
               </p>
               <p>
-              <span itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential">
+              <span itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#ucibsc">
               <meta itemprop="competencyRequired" itemtype="//schema.org/Text" content="English, Mathematics, Signal Processing, C, Java, C++, Python" />
-                Prior to Rutgers, Rick graduated from the{' '}
+                Prior to Rutgers, I graduated from the{' '}
                 <span itemprop="recognizedBy" itemtype="//schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#uci">
                 <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/University_of_California,_Irvine" />
                 <a href="//www.ics.uci.edu"><span itemprop="name" itemtype="//schema.org/Text">University of California, Irvine</span></a>
@@ -210,81 +308,12 @@ class Profile extends React.Component {
                    <span itemprop="name" itemtype="//schema.org/Text">computer engineering</span>
                 </span>,{' '}
                 </span>
-                where his senior project was a series of{' '}
+                where my senior project was a series of{' '}
                 <a href="/img/display-project.jpg"><span itemprop="knowsAbout">embedded</span> display units</a>{' '}
                 which reconfigured into a single larger display when
-                interconnected, written in{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
-                  <span itemprop="name">C</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/C_(programming_language)"/>
-                </span>.
+                interconnected.
               </p>
-            </div>
-          </section>
-
-          <section className="">
-            <Img sizes={raverdubanner} className="cover-image opacity-2" />
-            <div className="container text-left">
-              <h2 className="section-heading">Industry</h2>
-              <p>
-                Rick's initial involvement with the aerospace industry came when
-                he was recruited by <a href="//spacex.com">SpaceX</a>. There,
-                Rick worked primarily on <span itemprop="knowsAbout">low-level</span> tasks, including <span itemprop="knowsAbout">board
-                bringup</span> and <span itemprop="knowsAbout">firmware</span>, for the{' '}
-                <a href="//en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1">
-                  COTS C1 & C2 missions.
-                </a>{' '}
-                This included leading a short, ultimately failed R&D project to
-                execute two instances of Linux on a single, <span itemprop="knowsAbout">multi-core PowerPC</span>{' '}
-                device, this to enable fault tolerant flight control
-                calculations via{' '}
-                <a href="//weekly-geekly.github.io/articles/186806/index.html">
-                  OpenMCAPI
-                </a>{' '}
-                and “asymmetric multiprocessing.” SpaceX was also Rick's first
-                experience with <span itemprop="knowsAbout">remote work</span>, as he bounced between Hawthorne,
-                CA, USA and New Brunswick, NJ, USA to complete degree work while
-                employed.
-              </p>
-              <p>
-                After SpaceX, Rick moved to the <span itemprop="knowsAbout">in-flight entertainment</span> and
-                in-flight <span itemprop="knowsAbout">wifi</span> industries at Zodiac Aerospace (now{' '}
-                <a href="//www.safran-group.com/">Safran</a>). There, he worked
-                as a generalist with an emphasis on <span itemprop="knowsAbout">low level</span> work in{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
-                  <span itemprop="name">C</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/C_(programming_language)"/>
-                </span>, 
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
-                  <span itemprop="name">C++</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/C%2B%2B"/>
-                </span>, shell (
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
-                  <span itemprop="name">posix</span>{' '}
-                  <meta itemtype="sameAs" content="https://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html"/>
-                </span>
-                  and{' '}
-                  <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
-                  <span itemprop="name">bash</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"/>
-                </span>),{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
-                  <span itemprop="name">Python</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Python_(programming_language)"/>
-                </span>, and Qt5/
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
-                  <span itemprop="name">QML</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/QML"/>
-                </span>. 
-
-                Rick has worked at all levels of the stack, from <span itemprop="knowsAbout">initial board bringup</span> to <span itemprop="knowsAbout">GUIs</span>. Rick has developed
-                a reputation as a focused, high performance team member, as
-                evidenced by{' '}
-                <Link to="/client-feedback/">positive client feedback</Link> and
-                the dozens of times his contract for <span itemprop="knowsAbout">remote work</span> was renewed by
-                Safran.
-              </p>
-              <p>Rick is a strong supporter of FOSS software.</p>
+        
               <div className="row justify-content-md-center">
                 <div className="col-sm-4 py-2">
                   <NonStretchedImage fluid={rdurickroll} className="content-image" />
