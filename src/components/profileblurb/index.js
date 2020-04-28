@@ -57,7 +57,7 @@ class ProfileBlurb extends React.Component {
               className="rounded-circle"
             />
             <p className="lead">
-              Software engineer specializing in remote embedded work
+              Remote-first GNU/Linux system and embedded software engineer
             </p>
           </ConditionalLink>{' '}
         </div>
