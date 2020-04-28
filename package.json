@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-bootstrap",
-  "description": "Simple starter for Gatsby",
+  "name": "Ramstetter.com",
+  "description": "based on gatsby-starter-bootstrap",
   "version": "2.0.1",
-  "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+  "author": "Rick Ramstetter <rick.ramstetter@gmail.com>",
   "dependencies": {
     "gatsby": "^2.20.28",
     "gatsby-image": "^2.3.4",
