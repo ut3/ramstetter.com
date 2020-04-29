@@ -11,18 +11,18 @@ class Meta extends React.Component {
     return (
       <Helmet encodeSpecialCharacters={false}>
         <title>{title}</title>
-        <meta name="author" content="J Rick Ramstetter"> 
+        <meta name="author" content="J Rick Ramstetter" />
         <meta name="description" content={get(meta, 'description')} />
-        <meta name="og:type" content="website" />
-        <meta name="og:title" content={title} />
-        <meta name="og:description" content={get(meta, 'description')} />
-        <meta name="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={get(meta, 'description')} />
+        <meta property="og:locale" content="en_US" />
         <meta
-          name="og:url"
+          property="og:url"
           content={get(meta, 'siteUrl') + location.pathname}
         />
         <meta
-          name="og:image"
+          property="og:image"
           content={get(meta, 'siteUrl') + '/rick-ramstetter.jpg'}
         />
         <script type="application/ld+json">
