@@ -57,22 +57,10 @@ class Contact extends React.Component {
             <h2>E-mail</h2>
             <p>
               <a href="mailto:rick.ramstetter@gmail.com">
-                <span
-                  itemScope
-                  itemtype="//schema.org/Text"
-                >
+                <span itemScope itemtype="//schema.org/Text">
                   rick.ramstetter@gmail.com
                 </span>
               </a>
-              <br />
-              <small>Recruiters: use the address above</small>
-            </p>
-            <p>
-              <small>
-                Current and former clients, please send technical and/or
-                administrative correspondence to: <br />
-                <a href="mailto:rick@anteaterllc.com">rick@anteaterllc.com</a>
-              </small>
             </p>
             <p>
               You can encrypt emails to me using GPG
