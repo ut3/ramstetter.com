@@ -145,10 +145,10 @@ class Profile extends React.Component {
                   <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Software_engineering" />
                   <link itemprop="qualifications" href="https://ramstetter.com/#rutgersmsc" itemtype="//schema.org/EducationalOccupationalCredential" />
                   <link itemprop="qualifications" href="https://ramstetter.com/#ucibsc" itemtype="//schema.org/EducationalOccupationalCredential" />
-                  having <span itemprop="experienceRequirements">10 years of experience</span>{' '}
+                  with <span itemprop="experienceRequirements">10 years of experience</span>{' '}
                   <meta itemprop="estimatedSalary" content="0" />
                 </span>
-                 with{' '}
+                 in{' '}
                 <span id="naicscodes">
                   <meta itemprop="naics" content="541511" />
                   <meta itemprop="naics" content="541512" />
