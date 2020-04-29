@@ -80,7 +80,7 @@ class Profile extends React.Component {
       <Layout location={location}>
         <Meta title="Profile" location={location} />
         <Helmet encodeSpecialCharacters={false}>
-          <meta name="og:type" content="profile" />
+          <meta property="og:type" content="profile" />
           <meta name="profile:first_name" content="J Rick" />
           <meta name="profile:last_name" content="Ramstetter" />
           <script type="application/ld+json">
