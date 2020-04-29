@@ -44,7 +44,7 @@ import get from 'lodash/get'
 
 class ProfileBlurb extends React.Component {
   render() {
-    var { isIndex, profile } = this.props
+    var { isIndex, profile, site } = this.props
     const ConditionalLink = ({ children, to, condition }) =>
       !!condition && to ? <Link to={to}>{children}</Link> : <>{children}</>
 
@@ -56,9 +56,7 @@ class ProfileBlurb extends React.Component {
               fixed={get(profile, 'childImageSharp.fixed')}
               className="rounded-circle"
             />
-            <p className="lead">
-              Remote-first GNU/Linux system and embedded software engineer
-            </p>
+            <p className="lead">{site.meta.description}</p>
           </ConditionalLink>{' '}
         </div>
       </section>
@@ -75,6 +73,14 @@ export default ({ isIndex }) => (
             fixed(width: 200, height: 200) {
               ...GatsbyImageSharpFixed_withWebp
             }
+          }
+        }
+        site {
+          meta: siteMetadata {
+            title
+            description
+            siteUrl
+            author
           }
         }
       }

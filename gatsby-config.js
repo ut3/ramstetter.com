@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'J Rick Ramstetter',
-    description: 'Software engineer specializing in remote embedded work',
+    description: 'Remote-first GNU/Linux system and embedded software engineer',
     siteUrl: 'https://ramstetter.com',
     author: 'J Rick Ramstetter',
   },
