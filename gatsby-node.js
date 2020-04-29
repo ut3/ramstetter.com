@@ -3,7 +3,13 @@ const path = require('path')
 const PostTemplate = path.resolve('./src/templates/index.js')
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
+
+  createRedirect({
+    fromPath: '/about/',
+    toPath: '/',
+    isPermanent: true
+  })
 
   return new Promise((resolve, reject) => {
     resolve(
