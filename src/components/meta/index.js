@@ -11,6 +11,7 @@ class Meta extends React.Component {
     return (
       <Helmet encodeSpecialCharacters={false}>
         <title>{title}</title>
+        <meta name="author" content="J Rick Ramstetter"> 
         <meta name="description" content={get(meta, 'description')} />
         <meta name="og:type" content="website" />
         <meta name="og:title" content={title} />
