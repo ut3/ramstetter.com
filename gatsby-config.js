@@ -93,5 +93,12 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+        whitelist: ['body', 'html', 'fa', 'fa-github', 'fa-linkedin'],
+      },
+    },
   ],
 }
