@@ -143,10 +143,10 @@ class Profile extends React.Component {
                   <span itemprop="name">software engineer</span>{' '}
                   <meta itemprop="occupationalCategory" content="15-1252.00" />
                   <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Software_engineering" />
-                  <link itemprop="qualifications" href="https://ramstetter.com/#rutgersmsc" itemtype="//schema.org/EducationalOccupationalCredential" />
-                  <link itemprop="qualifications" href="https://ramstetter.com/#ucibsc" itemtype="//schema.org/EducationalOccupationalCredential" />
+                  <link itemprop="qualifications" href="https://ramstetter.com/#rutgersmsc" />
+                  <link itemprop="qualifications" href="https://ramstetter.com/#ucibsc" />
                   with <span itemprop="experienceRequirements">10 years of experience</span>{' '}
-                  <meta itemprop="estimatedSalary" content="0" />
+                  <meta itemprop="estimatedSalary" itemtype="//schema.org/Number" content="0" />
                 </span>
                  in{' '}
                 <span id="naicscodes">
@@ -278,7 +278,7 @@ class Profile extends React.Component {
                   </span>
                   <meta itemprop="URL" itemtype="//schema.org/URL" content="//www.mdpi.com/1999-5903/2/3/190/pdf" />
                   <meta itemprop="datePublished" itemtype="//schema.org/Text" content="2010-07-28" />
-                  <link itemprop="publisher" itemtype="//schema.org/Organization" href="https://ramstetter.com/#mdpi" />
+                  <link itemprop="publisher" href="https://ramstetter.com/#mdpi" />
                   <a href="//www.mdpi.com/1999-5903/2/3/190/pdf">
                       <span itemprop="name headline">
                         Applications and Security of Next-Generation, User-Centric Wireless Systems
