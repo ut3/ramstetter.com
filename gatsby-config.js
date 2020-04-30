@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'J Rick Ramstetter',
     description: 'Remote-first GNU/Linux system and embedded software engineer',
+    descriptionExtra:
+      '. USA-based with 10 years of experience in the passenger aircraft, logistics, and space launch industries.',
     siteUrl: 'https://ramstetter.com',
     author: 'J Rick Ramstetter',
   },

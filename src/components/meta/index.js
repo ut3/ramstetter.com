@@ -7,15 +7,18 @@ class Meta extends React.Component {
   render() {
     const { aTitle, location, meta } = this.props
     const siteTitle = get(meta, 'title')
-    var title = aTitle ? `${aTitle} | ${siteTitle}` : siteTitle
+    const description =
+      get(meta, 'description') +
+      ('' != meta.descriptionExtra ? meta.descriptionExtra : '')
+    const title = aTitle ? `${aTitle} | ${siteTitle}` : siteTitle
     return (
       <Helmet encodeSpecialCharacters={false}>
         <title>{title}</title>
         <meta name="author" content="J Rick Ramstetter" />
-        <meta name="description" content={get(meta, 'description')} />
+        <meta name="description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:description" content={get(meta, 'description')} />
+        <meta property="og:description" content={description} />
         <meta property="og:locale" content="en_US" />
         <meta
           property="og:url"
@@ -57,6 +60,7 @@ export default ({ title, location }) => (
           meta: siteMetadata {
             title
             description
+            descriptionExtra
             siteUrl
             author
           }
