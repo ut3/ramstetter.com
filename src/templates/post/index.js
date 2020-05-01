@@ -81,14 +81,14 @@ const Post = ({ data, options }) => {
   const fluid = get(image, 'childImageSharp.fluid')
 
   return (
-    <div className="article" key={path} itemprop="blogPosting" itemScope itemtype="//schema.org/BlogPosting">
+    <div className="article" key={path} itemScope itemtype="http://schema.org/BlogPosting">
       <meta itemprop="image" content="//ramstetter.com/rick-ramstetter.jpg" />
-       <span itemprop="author" itemScope itemtype="//schema.org/Person">
-        <meta itemprop="sameAs" itemtype="//schema.org/URL" content="http://ramstetter.com/#rick" />
+       <span itemprop="author" itemScope itemtype="http://schema.org/Person">
+        <meta itemprop="sameAs" content="https://ramstetter.com/#rick" />
         <meta itemprop="name" content="J Rick Ramstetter" />
       </span>
-      <span itemprop="publisher" itemScope itemtype="//schema.org/Organization">
-        <meta itemprop="sameAs" itemtype="//schema.org/URL" content="http://ramstetter.com/#anteaterllc" />
+      <span itemprop="publisher" itemScope itemtype="http://schema.org/Organization">
+        <meta itemprop="sameAs" content="https://ramstetter.com/#anteaterllc" />
         <meta itemprop="name" content="Anteater LLC" />
       </span>
       <div className="container">

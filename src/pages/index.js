@@ -107,7 +107,7 @@ class Profile extends React.Component {
           </script>
           </Helmet>
 
-          <div itemScope itemtype ="//schema.org/Person" itemid="https://ramstetter.com/#rick">
+          <div itemScope itemtype="http://schema.org/Person" itemid="https://ramstetter.com/#rick">
           <meta itemprop="image" content="//ramstetter.com/rick-ramstetter.jpg" />
           <meta itemprop="honorificSuffix" content="M.Sc." />
           <meta itemprop="familyName" content="Ramstetter" />
@@ -134,9 +134,9 @@ class Profile extends React.Component {
             <Img sizes={raverdubanner} className="cover-image opacity-2" />
               <h2 className="section-heading">Industry</h2>
               <p>
-                <span itemprop="hasOccupation" itemScope itemType='//schema.org/Occupation'>
+                <span itemprop="hasOccupation" itemScope itemType='http://schema.org/Occupation'>
                   I'm a{' '}
-                  <span itemprop="occupationLocation" itemScope itemType="//schema.org/AdministrativeArea" itemid="https://ramstetter.com/#usabased">
+                  <span itemprop="occupationLocation" itemScope itemType="http://schema.org/AdministrativeArea" itemid="https://ramstetter.com/#usabased">
                     <link itemprop="address" href="https://ramstetter.com/#address" />
                     <span itemprop="name">USA-based</span>{' '}
                   </span>
@@ -146,7 +146,7 @@ class Profile extends React.Component {
                   <link itemprop="qualifications" href="https://ramstetter.com/#rutgersmsc" />
                   <link itemprop="qualifications" href="https://ramstetter.com/#ucibsc" />
                   with <span itemprop="experienceRequirements">10 years of experience</span>{' '}
-                  <meta itemprop="estimatedSalary" itemtype="//schema.org/Number" content="0" />
+                  <meta itemprop="estimatedSalary" content="0" />
                 </span>
                  in{' '}
                 <span id="naicscodes">
@@ -177,30 +177,30 @@ class Profile extends React.Component {
                 <span itemprop="knowsAbout">Qt5</span>/<span itemprop="knowsAbout">QML</span>. The bulk of my experience{' '}
                 is at the level of <span itemprop="knowsAbout">systemd</span> or below--
                 <span itemprop="knowsAbout">GStreamer</span> work is frequent. Languages I use most often include{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                <span itemprop="knowsAbout" itemScope itemtype="http://schema.org/ComputerLanguage">
                   <span itemprop="name">C</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/C_(programming_language)"/>
+                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/C_(programming_language)"/>
                 </span>,{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
                   <span itemprop="name">C++</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/C%2B%2B"/>
+                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/C%2B%2B"/>
                 </span>, shell (
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
                   <span itemprop="name">posix</span>{' '}
-                  <meta itemtype="sameAs" content="https://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html"/>
+                  <meta itemprop="sameAs" content="https://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html"/>
                 </span>
                   and{' '}
-                  <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                  <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
                   <span itemprop="name">bash</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"/>
+                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"/>
                 </span>),{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
                   <span itemprop="name">Python</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Python_(programming_language)"/>
+                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Python_(programming_language)"/>
                 </span>, and {' '}
-                <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
                   <span itemprop="name">QML</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/QML"/>
+                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/QML"/>
                 </span>. 
                 I've developed a reputation as a focused, high performance team member, 
                 as evidenced by the dozens of times my contract for remote work has been renewed,
@@ -208,10 +208,10 @@ class Profile extends React.Component {
               </p>
               <p>
                 I perform my <span itemprop="knowsAbout">contract work</span> through{' '}
-                <span itemprop="brand" itemScope itemtype="//schema.org/Organization" itemref="naicscodes" itemid="https://ramstetter.org/#anteaterllc">
+                <span itemprop="brand" itemScope itemtype="http://schema.org/Organization" itemref="naicscodes" itemid="https://ramstetter.org/#anteaterllc">
                   <span itemprop="name">Anteater LLC</span>,{' '}
-                  <link name="areaServed" href="https://ramstetter.com/#usabased" />
-                  <link name="address" href="https://ramstetter.com/#address" />
+                  <link itemprop="areaServed" href="https://ramstetter.com/#usabased" />
+                  <link itemprop="address" href="https://ramstetter.com/#address" />
                   a <span itemprop="numberOfEmployees">two</span> person Washington state LLC{' '}
                   which carries PLI/E&O insurance and is registered to do business in{' '}
                   <span itemprop="areaServed">Washington state</span>,{' '}
@@ -227,26 +227,26 @@ class Profile extends React.Component {
             <div className="container text-left">
               <h2 className="section-heading">Academics</h2>
               <p>
-              <span itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#rutgersmsc">
-              <meta itemprop="competencyRequired" itemtype="//schema.org/Text" content="Operating systems, circuit fundamentals, Linux, C, C++, algorithms" />
+              <span itemprop="hasCredential" itemScope itemtype="http://schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#rutgersmsc">
+              <meta itemprop="competencyRequired" content="Operating systems, circuit fundamentals, Linux, C, C++, algorithms" />
                 I graduated from{' '}
-                <span itemprop="recognizedBy" itemtype="//schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#rutgers">
+                <span itemprop="recognizedBy" itemtype="http://schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#rutgers">
                 <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Rutgers_University" />
-                <a href="//www.cs.rutgers.edu"><span itemprop="name" itemtype="//schema.org/Text">Rutgers University</span></a>{' '}
+                <a href="//www.cs.rutgers.edu"><span itemprop="name">Rutgers University</span></a>{' '}
                 </span>
-                with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Master of Science</span>{' '}
-                 <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span> in{' '}
-                 <span itemprop="about" itemScope itemtype="//schema.org/Thing">
+                with a <span itemprop="educationalLevel">Master of Science</span>{' '}
+                 <span itemprop="credentialCategory">degree</span> in{' '}
+                 <span itemprop="about" itemScope itemtype="http://schema.org/Thing">
                    <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_science" />
-                   <span itemprop="name" itemtype="//schema.org/Text">computer science</span>
+                   <span itemprop="name">computer science</span>
                 </span>{' '}
-                 (<span itemprop="award" itemtype="//schema.org/Text">GPA 3.85/4.0</span>).
+                 (<span itemprop="award">GPA 3.85/4.0</span>).
                  </span>{' '}
                  My Master's final project was a <a href="/academic/bezier-spline-routing.pdf">Bezier-spline routing protocol</a>{' '}
                  implemented atop a{' '}
-                 <span itemprop="knowsAbout" itemScope itemtype='schema.org/ComputerLanguage'>
+                 <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
                   <span itemprop="name">Matlab</span>
-                  <meta itemtype="sameAs" content="https://en.wikipedia.org/wiki/Matlab"/>
+                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Matlab"/>
                 </span>{' '}
                 simulator for{' '}
                 <a href="//www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
@@ -270,14 +270,14 @@ class Profile extends React.Component {
                   stable latency <span itemprop="knowsAbout">ICMP</span> pings
                 </a>{' '}
                 suitable for use in <span itemprop="knowsAbout">localization</span>, and a publication{' '}
-                <span itemScope itemtype="//schema.org/ScholarlyArticle">
+                <span itemScope itemtype="http://schema.org/ScholarlyArticle">
                   <meta itemprop="image" content="//ramstetter.com/academic/applications-and-security-of-next-generation-user-centric-wireless-systems.jpg" />
-                  <span itemprop="author" itemScope itemtype="//schema.org/Person">
-                    <meta itemprop="sameAs" itemtype="//schema.org/URL" content="https://ramstetter.com/#rick" />
+                  <span itemprop="author" itemScope itemtype="http://schema.org/Person">
+                    <meta itemprop="sameAs" content="https://ramstetter.com/#rick" />
                     <meta itemprop="name" content="J Rick Ramstetter" />
                   </span>
-                  <meta itemprop="URL" itemtype="//schema.org/URL" content="//www.mdpi.com/1999-5903/2/3/190/pdf" />
-                  <meta itemprop="datePublished" itemtype="//schema.org/Text" content="2010-07-28" />
+                  <meta itemprop="URL" content="//www.mdpi.com/1999-5903/2/3/190/pdf" />
+                  <meta itemprop="datePublished" content="2010-07-28" />
                   <link itemprop="publisher" href="https://ramstetter.com/#mdpi" />
                   <a href="//www.mdpi.com/1999-5903/2/3/190/pdf">
                       <span itemprop="name headline">
@@ -285,27 +285,27 @@ class Profile extends React.Component {
                       </span>
                   </a>{' '}
                   with{' '}
-                  <span itemprop="author" itemScope itemtype="//schema.org/Person">
-                    <meta itemprop="sameAs" itemtype="//schema.org/URL" content="//people.cs.vt.edu/danfeng" />
+                  <span itemprop="author" itemScope itemtype="http://schema.org/Person">
+                    <meta itemprop="sameAs" content="//people.cs.vt.edu/danfeng" />
                     <a href="//people.cs.vt.edu/danfeng/">
-                      <span itemprop="name" itemtype="//schema.org/Text">Dr. Danfeng Yao</span>
+                      <span itemprop="name">Dr. Danfeng Yao</span>
                     </a>.
                   </span>
                 </span>
               </p>
               <p>
-              <span itemprop="hasCredential" itemScope itemtype="//schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#ucibsc">
-              <meta itemprop="competencyRequired" itemtype="//schema.org/Text" content="English, Mathematics, Signal Processing, C, Java, C++, Python" />
+              <span itemprop="hasCredential" itemScope itemtype="http://schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#ucibsc">
+              <meta itemprop="competencyRequired" content="English, Mathematics, Signal Processing, C, Java, C++, Python" />
                 Prior to Rutgers, I graduated from the{' '}
-                <span itemprop="recognizedBy" itemtype="//schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#uci">
+                <span itemprop="recognizedBy" itemtype="http://schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#uci">
                 <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/University_of_California,_Irvine" />
-                <a href="//www.ics.uci.edu"><span itemprop="name" itemtype="//schema.org/Text">University of California, Irvine</span></a>
+                <a href="//www.ics.uci.edu"><span itemprop="name">University of California, Irvine</span></a>
                 </span>
-                , with a <span itemprop="educationalLevel" itemtype="//schema.org/Text">Bachelor of Science</span>{' '}
-                <span itemprop="credentialCategory" itemtype="//schema.org/Text">degree</span>{' '}
-                 in <span itemprop="about" itemScope itemtype="//schema.org/Thing">
+                , with a <span itemprop="educationalLevel">Bachelor of Science</span>{' '}
+                <span itemprop="credentialCategory">degree</span>{' '}
+                 in <span itemprop="about" itemScope itemtype="http://schema.org/Thing">
                    <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_engineering" />
-                   <span itemprop="name" itemtype="//schema.org/Text">computer engineering</span>
+                   <span itemprop="name">computer engineering</span>
                 </span>,{' '}
                 </span>
                 where my senior project was a series of{' '}
