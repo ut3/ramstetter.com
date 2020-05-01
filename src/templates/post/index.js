@@ -81,13 +81,22 @@ const Post = ({ data, options }) => {
   const fluid = get(image, 'childImageSharp.fluid')
 
   return (
-    <div className="article" key={path}>
+    <div className="article" key={path} itemprop="blogPosting" itemScope itemtype="//schema.org/BlogPosting">
+      <meta itemprop="image" content="//ramstetter.com/rick-ramstetter.jpg" />
+       <span itemprop="author" itemScope itemtype="//schema.org/Person">
+        <meta itemprop="sameAs" itemtype="//schema.org/URL" content="http://ramstetter.com/#rick" />
+        <meta itemprop="name" content="J Rick Ramstetter" />
+      </span>
+      <span itemprop="publisher" itemScope itemtype="//schema.org/Organization">
+        <meta itemprop="sameAs" itemtype="//schema.org/URL" content="http://ramstetter.com/#anteaterllc" />
+        <meta itemprop="name" content="Anteater LLC" />
+      </span>
       <div className="container">
         <div className="info">
           {isIndex ? "" : <ProfileBlurb />}
           <Link style={{ boxShadow: 'none' }} to={path}>
-            <h1>{title}</h1>
-            <time dateTime={date}>{date}</time>
+            <h1 itemprop="name headline">{title}</h1>
+            <time itemprop="datePublished dateCreated" dateTime={date}>{date}</time>
           </Link>
           {Badges({ items: [category], primary: true })}
           {Badges({ items: tags })}
@@ -100,7 +109,7 @@ const Post = ({ data, options }) => {
           ) : (
             ''
           )}
-          <div
+          <div itemprop="articleBody"
             dangerouslySetInnerHTML={{
               __html: isMore ? getDescription(html) : html,
             }}

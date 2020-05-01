@@ -50,19 +50,21 @@ const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
-      <Meta title="Blog" location={location}/>
+      <Meta title="Blog" location={location} />
       <div className="container">
         <ProfileBlurb />
       </div>
-      {posts.map(({ post }, i) => (
-        <Post
-          data={post}
-          options={{
-            isIndex: true,
-          }}
-          key={i}
-        />
-      ))}
+      <span itemsScope itemType="//schema.org/Blog">
+        {posts.map(({ post }, i) => (
+          <Post
+            data={post}
+            options={{
+              isIndex: true,
+            }}
+            key={i}
+          />
+        ))}
+      </span>
     </Layout>
   )
 }

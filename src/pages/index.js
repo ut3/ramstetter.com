@@ -208,7 +208,7 @@ class Profile extends React.Component {
               </p>
               <p>
                 I perform my <span itemprop="knowsAbout">contract work</span> through{' '}
-                <span itemprop="brand" itemScope itemtype="//schema.org/Organization" itemref="naicscodes">
+                <span itemprop="brand" itemScope itemtype="//schema.org/Organization" itemref="naicscodes" itemid="https://ramstetter.org/#anteaterllc">
                   <span itemprop="name">Anteater LLC</span>,{' '}
                   <link name="areaServed" href="https://ramstetter.com/#usabased" />
                   <link name="address" href="https://ramstetter.com/#address" />
