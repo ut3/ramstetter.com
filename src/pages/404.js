@@ -42,7 +42,6 @@ import Link from 'gatsby-link'
 
 import Layout from 'components/layout'
 import Meta from 'components/meta'
-import ProfileBlurb from 'components/profileblurb'
 
 class Contact extends React.Component {
   render() {
@@ -51,18 +50,15 @@ class Contact extends React.Component {
     return (
       <Layout location={location}>
         <Meta title="Not Found" location={location} />
-        <div>
-          <div className="container">
-            <ProfileBlurb />
-            <h1>Resource not found</h1>
-            <p>
-              The content you requested was not found. You've followed a broken
-              link or entered a URL that doesn't exist on this site.
-            </p>
-            <p>
-              <Link to="/">Main page</Link>
-            </p>
-          </div>
+        <div className="container">
+          <h1>Resource not found</h1>
+          <p>
+            The content you requested was not found. You've followed a broken
+            link or entered a URL that doesn't exist on this site.
+          </p>
+          <p>
+            <Link to="/">Main page</Link>
+          </p>
         </div>
       </Layout>
     )

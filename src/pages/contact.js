@@ -41,57 +41,53 @@ import React from 'react'
 
 import Layout from 'components/layout'
 import Meta from 'components/meta'
-import ProfileBlurb from 'components/profileblurb'
 
 class Contact extends React.Component {
   render() {
-    const { location, data } = this.props
+    const { location } = this.props
 
     return (
       <Layout location={location}>
         <Meta title="Contact" location={location} />
-        <div>
-          <div className="container">
-            <ProfileBlurb />
-            <h1>Contact information</h1>
-            <h2>E-mail</h2>
-            <p>
-              <a href="mailto:rick.ramstetter@gmail.com">
-                <span itemScope itemType="//schema.org/Text">
-                  rick.ramstetter@gmail.com
-                </span>
-              </a>
-            </p>
-            <p>
-              You can encrypt emails to me using GPG
-              <br />
-              Key fingerprint = 0xF58818CBFB5C8C8E
-              <br />
-              Available at the{' '}
-              <a href="//pgp.mit.edu/pks/lookup?op=vindex&search=0xF58818CBFB5C8C8E">
-                MIT keyserver
-              </a>
-            </p>
-            <h2>Instant messaging</h2>
-            <p>
-              <a href="//en.wikipedia.org/wiki/Signal_(software)">
-                Signal Software
-              </a>{' '}
-              (establish via email)
-            </p>
-            <h2>Physical</h2>
-            <p itemScope itemType="//schema.org/PostalAddress">
-              J Rick Ramstetter <br />
-              Anteater LLC
-              <br />
-              <span itemProp="streetAddress">305 SE Chkalov Dr #111-414</span>
-              <br />
-              <span itemProp="addressLocality">Vancouver</span>,{' '}
-              <span itemProp="addressRegion">WA</span>,{' '}
-              <span itemProp="postalCode">98683</span>,{' '}
-              <span itemProp="addressCountry">USA</span>
-            </p>
-          </div>
+        <div className="container">
+          <h1>Contact information</h1>
+          <h2>E-mail</h2>
+          <p>
+            <a href="mailto:rick.ramstetter@gmail.com">
+              <span itemScope itemType="//schema.org/Text">
+                rick.ramstetter@gmail.com
+              </span>
+            </a>
+          </p>
+          <p>
+            You can encrypt emails to me using GPG
+            <br />
+            Key fingerprint = 0xF58818CBFB5C8C8E
+            <br />
+            Available at the{' '}
+            <a href="//pgp.mit.edu/pks/lookup?op=vindex&search=0xF58818CBFB5C8C8E">
+              MIT keyserver
+            </a>
+          </p>
+          <h2>Instant messaging</h2>
+          <p>
+            <a href="//en.wikipedia.org/wiki/Signal_(software)">
+              Signal Software
+            </a>{' '}
+            (establish via email)
+          </p>
+          <h2>Physical</h2>
+          <p itemScope itemType="//schema.org/PostalAddress">
+            J Rick Ramstetter <br />
+            Anteater LLC
+            <br />
+            <span itemProp="streetAddress">305 SE Chkalov Dr #111-414</span>
+            <br />
+            <span itemProp="addressLocality">Vancouver</span>,{' '}
+            <span itemProp="addressRegion">WA</span>,{' '}
+            <span itemProp="postalCode">98683</span>,{' '}
+            <span itemProp="addressCountry">USA</span>
+          </p>
         </div>
       </Layout>
     )

@@ -46,7 +46,7 @@ import Helmet from 'react-helmet'
 
 import Layout from 'components/layout'
 import Meta from 'components/meta'
-import ProfileBlurb from 'components/profileblurb'
+
 const NonStretchedImage = props => {
   let normalizedProps = props
   if (props.fluid && props.fluid.presentationWidth) {
@@ -121,7 +121,6 @@ class Profile extends React.Component {
           <meta itemProp="nationality" content="USA" />
 
           <div className="container text-center">
-            <ProfileBlurb isIndex={true} />
             <p>
               <a href="//ramstetter.com/Ramstetter-Rick--resume.pdf">
                 <span itemProp="name">J Rick Ramstetter</span>'s resume

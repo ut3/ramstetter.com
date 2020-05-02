@@ -44,8 +44,6 @@ import React from 'react'
 import get from 'lodash/get'
 import map from 'lodash/map'
 
-
-import ProfileBlurb from 'components/profileblurb'
 import './style.scss'
 
 
@@ -93,7 +91,6 @@ const Post = ({ data, options }) => {
       </span>
       <div className="container">
         <div className="info">
-          {isIndex ? "" : <ProfileBlurb />}
           <Link style={{ boxShadow: 'none' }} to={path}>
             <h1 itemProp="name headline">{title}</h1>
             <time itemProp="datePublished dateCreated" dateTime={date}>{date}</time>

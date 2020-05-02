@@ -44,16 +44,12 @@ import get from 'lodash/get'
 import Post from 'templates/post'
 import Meta from 'components/meta'
 import Layout from 'components/layout'
-import ProfileBlurb from 'components/profileblurb'
 
 const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
       <Meta title="Blog" location={location} />
-      <div className="container">
-        <ProfileBlurb />
-      </div>
       <span itemScope itemType="//schema.org/Blog">
         {posts.map(({ post }, i) => (
           <Post

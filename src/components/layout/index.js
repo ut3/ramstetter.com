@@ -43,6 +43,7 @@ import emergence from 'emergence.js'
 
 import Navi from 'components/navi'
 import Footer from 'components/footer'
+import ProfileBlurb from 'components/profileblurb'
 
 import 'modern-normalize/modern-normalize.css'
 
@@ -64,6 +65,7 @@ class Layout extends React.Component {
     return (
       <div>
         <Navi title={site.meta.title} location={location} />
+        <ProfileBlurb isIndex={'/' === location.pathname} />
         {children}
         <Footer title={site.meta.title} author={site.meta.author} />
       </div>
