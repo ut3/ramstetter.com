@@ -79,7 +79,7 @@ export default ({ isIndex }) => (
           meta: siteMetadata {
             title
             description
-	    descriptionExtra
+            descriptionExtra
             siteUrl
             author
           }
