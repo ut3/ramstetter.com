@@ -57,7 +57,7 @@ class Contact extends React.Component {
             <h2>E-mail</h2>
             <p>
               <a href="mailto:rick.ramstetter@gmail.com">
-                <span itemScope itemtype="//schema.org/Text">
+                <span itemScope itemType="//schema.org/Text">
                   rick.ramstetter@gmail.com
                 </span>
               </a>
@@ -80,16 +80,16 @@ class Contact extends React.Component {
               (establish via email)
             </p>
             <h2>Physical</h2>
-            <p itemScope itemtype="//schema.org/PostalAddress">
+            <p itemScope itemType="//schema.org/PostalAddress">
               J Rick Ramstetter <br />
               Anteater LLC
               <br />
-              <span itemprop="streetAddress">305 SE Chkalov Dr #111-414</span>
+              <span itemProp="streetAddress">305 SE Chkalov Dr #111-414</span>
               <br />
-              <span itemprop="addressLocality">Vancouver</span>,{' '}
-              <span itemprop="addressRegion">WA</span>,{' '}
-              <span itemprop="postalCode">98683</span>,{' '}
-              <span itemprop="addressCountry">USA</span>
+              <span itemProp="addressLocality">Vancouver</span>,{' '}
+              <span itemProp="addressRegion">WA</span>,{' '}
+              <span itemProp="postalCode">98683</span>,{' '}
+              <span itemProp="addressCountry">USA</span>
             </p>
           </div>
         </div>

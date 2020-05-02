@@ -54,7 +54,7 @@ const BlogIndex = ({ data, location }) => {
       <div className="container">
         <ProfileBlurb />
       </div>
-      <span itemsScope itemType="//schema.org/Blog">
+      <span itemScope itemType="//schema.org/Blog">
         {posts.map(({ post }, i) => (
           <Post
             data={post}

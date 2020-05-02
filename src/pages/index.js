@@ -107,24 +107,24 @@ class Profile extends React.Component {
           </script>
           </Helmet>
 
-          <div itemScope itemtype="http://schema.org/Person" itemid="https://ramstetter.com/#rick">
-          <meta itemprop="image" content="//ramstetter.com/rick-ramstetter.jpg" />
-          <meta itemprop="honorificSuffix" content="M.Sc." />
-          <meta itemprop="familyName" content="Ramstetter" />
-          <meta itemprop="givenName" content="J Rick" />
-          <meta itemprop="email" content="rick.ramstetter@gmail.com" />
-          <meta itemprop="email" content="rick@anteaterllc.com" />
-          <meta itemprop="jobTitle" content="Embedded and systems software engineer" />
-          <link itemprop="alumniOf" href="https://ramstetter.com/#rutgers" />
-          <link itemprop="alumniOf" href="https://ramstetter.com/#uci" />
-          <link itemprop="address" href="https://ramstetter.com/#address" />
-          <meta itemprop="nationality" content="USA" />
+          <div itemScope itemType="http://schema.org/Person" itemID="https://ramstetter.com/#rick">
+          <meta itemProp="image" content="//ramstetter.com/rick-ramstetter.jpg" />
+          <meta itemProp="honorificSuffix" content="M.Sc." />
+          <meta itemProp="familyName" content="Ramstetter" />
+          <meta itemProp="givenName" content="J Rick" />
+          <meta itemProp="email" content="rick.ramstetter@gmail.com" />
+          <meta itemProp="email" content="rick@anteaterllc.com" />
+          <meta itemProp="jobTitle" content="Embedded and systems software engineer" />
+          <link itemProp="alumniOf" href="https://ramstetter.com/#rutgers" />
+          <link itemProp="alumniOf" href="https://ramstetter.com/#uci" />
+          <link itemProp="address" href="https://ramstetter.com/#address" />
+          <meta itemProp="nationality" content="USA" />
 
           <div className="container text-center">
             <ProfileBlurb isIndex={true} />
             <p>
               <a href="//ramstetter.com/Ramstetter-Rick--resume.pdf">
-                <span itemprop="name">J Rick Ramstetter</span>'s resume
+                <span itemProp="name">J Rick Ramstetter</span>'s resume
               </a>
             </p>
           </div>
@@ -134,89 +134,89 @@ class Profile extends React.Component {
             <Img sizes={raverdubanner} className="cover-image opacity-2" />
               <h2 className="section-heading">Industry</h2>
               <p>
-                <span itemprop="hasOccupation" itemScope itemType='http://schema.org/Occupation'>
+                <span itemProp="hasOccupation" itemScope itemType='http://schema.org/Occupation'>
                   I'm a{' '}
-                  <span itemprop="occupationLocation" itemScope itemType="http://schema.org/AdministrativeArea" itemid="https://ramstetter.com/#usabased">
-                    <link itemprop="address" href="https://ramstetter.com/#address" />
-                    <span itemprop="name">USA-based</span>{' '}
+                  <span itemProp="occupationLocation" itemScope itemType="http://schema.org/AdministrativeArea" itemID="https://ramstetter.com/#usabased">
+                    <link itemProp="address" href="https://ramstetter.com/#address" />
+                    <span itemProp="name">USA-based</span>{' '}
                   </span>
-                  <span itemprop="name">software engineer</span>{' '}
-                  <meta itemprop="occupationalCategory" content="15-1252.00" />
-                  <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Software_engineering" />
-                  <link itemprop="qualifications" href="https://ramstetter.com/#rutgersmsc" />
-                  <link itemprop="qualifications" href="https://ramstetter.com/#ucibsc" />
-                  with <span itemprop="experienceRequirements">10 years of experience</span>{' '}
-                  <meta itemprop="estimatedSalary" content="0" />
+                  <span itemProp="name">software engineer</span>{' '}
+                  <meta itemProp="occupationalCategory" content="15-1252.00" />
+                  <meta itemProp="sameAs" content="//en.wikipedia.org/wiki/Software_engineering" />
+                  <link itemProp="qualifications" href="https://ramstetter.com/#rutgersmsc" />
+                  <link itemProp="qualifications" href="https://ramstetter.com/#ucibsc" />
+                  with <span itemProp="experienceRequirements">10 years of experience</span>{' '}
+                  <meta itemProp="estimatedSalary" content="0" />
                 </span>
                  in{' '}
                 <span id="naicscodes">
-                  <meta itemprop="naics" content="541511" />
-                  <meta itemprop="naics" content="541512" />
-                  <span itemprop="knowsAbout">GNU/Linux</span>{' '}
-                  <span itemprop="knowsAbout">system software</span> and{' '}
-                  <span itemprop="knowsAbout">embedded devices</span>.{' '}
+                  <meta itemProp="naics" content="541511" />
+                  <meta itemProp="naics" content="541512" />
+                  <span itemProp="knowsAbout">GNU/Linux</span>{' '}
+                  <span itemProp="knowsAbout">system software</span> and{' '}
+                  <span itemProp="knowsAbout">embedded devices</span>.{' '}
                   I've worked in many industries, including{' '}
-                  <meta itemprop="naics" content="541614"/> logistics,{' '}
-                  <meta itemprop="naics" content="334511" />passenger aircraft,{' '}
-                  <meta itemprop="naics" content="927110" />space launch, {' '}
-                  <meta itemprop="naics" content="611310" />academia, and{' '} 
-                  <meta itemprop="naics" content="541922"	/>sports photography.
-                  <meta itemprop="isicv4" content="6202" />
+                  <meta itemProp="naics" content="541614"/> logistics,{' '}
+                  <meta itemProp="naics" content="334511" />passenger aircraft,{' '}
+                  <meta itemProp="naics" content="927110" />space launch, {' '}
+                  <meta itemProp="naics" content="611310" />academia, and{' '} 
+                  <meta itemProp="naics" content="541922"	/>sports photography.
+                  <meta itemProp="isicv4" content="6202" />
                 </span>
               </p>
               <p>
-                My most enduring <span itemprop="knowsAbout">business relationship</span> is with{' '}
+                My most enduring <span itemProp="knowsAbout">business relationship</span> is with{' '}
                 <a href="//www.safran-group.com/" target="_blank">Safran S.A.</a>, where I serve as a{' '}
-                <span itemprop="knowsAbout">contract</span> <span itemprop="knowsAbout">system software</span>{' '}
-                generalist. Their myriad <span itemprop="knowsAbout">embedded devices</span> in the areas of{' '}
-                seatback <span itemprop="knowsAbout">in-flight entertainment</span>,{' '}
-                <span itemprop="knowsAbout">in-flight WiFi</span>, and{' '}
-                <span itemprop="knowsAbout">aircraft cabin</span> <span itemprop="knowsAbout">power delivery</span>{' '}
-                give me opportunity to work with everything from <span itemprop="knowsAbout">bootloaders</span>{' '}
-                (<span itemprop="knowsAbout">BareBox</span> and <span itemprop="knowsAbout">U-Boot</span>) to{' '}
-                <span itemprop="knowsAbout">Qt5</span>/<span itemprop="knowsAbout">QML</span>. The bulk of my experience{' '}
-                is at the level of <span itemprop="knowsAbout">systemd</span> or below--
-                <span itemprop="knowsAbout">GStreamer</span> work is frequent. Languages I use most often include{' '}
-                <span itemprop="knowsAbout" itemScope itemtype="http://schema.org/ComputerLanguage">
-                  <span itemprop="name">C</span>
-                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/C_(programming_language)"/>
+                <span itemProp="knowsAbout">contract</span> <span itemProp="knowsAbout">system software</span>{' '}
+                generalist. Their myriad <span itemProp="knowsAbout">embedded devices</span> in the areas of{' '}
+                seatback <span itemProp="knowsAbout">in-flight entertainment</span>,{' '}
+                <span itemProp="knowsAbout">in-flight WiFi</span>, and{' '}
+                <span itemProp="knowsAbout">aircraft cabin</span> <span itemProp="knowsAbout">power delivery</span>{' '}
+                give me opportunity to work with everything from <span itemProp="knowsAbout">bootloaders</span>{' '}
+                (<span itemProp="knowsAbout">BareBox</span> and <span itemProp="knowsAbout">U-Boot</span>) to{' '}
+                <span itemProp="knowsAbout">Qt5</span>/<span itemProp="knowsAbout">QML</span>. The bulk of my experience{' '}
+                is at the level of <span itemProp="knowsAbout">systemd</span> or below--
+                <span itemProp="knowsAbout">GStreamer</span> work is frequent. Languages I use most often include{' '}
+                <span itemProp="knowsAbout" itemScope itemType="http://schema.org/ComputerLanguage">
+                  <span itemProp="name">C</span>
+                  <meta itemProp="sameAs" content="https://en.wikipedia.org/wiki/C_(programming_language)"/>
                 </span>,{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
-                  <span itemprop="name">C++</span>
-                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/C%2B%2B"/>
+                <span itemProp="knowsAbout" itemScope itemType='http://schema.org/ComputerLanguage'>
+                  <span itemProp="name">C++</span>
+                  <meta itemProp="sameAs" content="https://en.wikipedia.org/wiki/C%2B%2B"/>
                 </span>, shell (
-                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
-                  <span itemprop="name">posix</span>{' '}
-                  <meta itemprop="sameAs" content="https://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html"/>
+                <span itemProp="knowsAbout" itemScope itemType='http://schema.org/ComputerLanguage'>
+                  <span itemProp="name">posix</span>{' '}
+                  <meta itemProp="sameAs" content="https://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html"/>
                 </span>
                   and{' '}
-                  <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
-                  <span itemprop="name">bash</span>
-                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"/>
+                  <span itemProp="knowsAbout" itemScope itemType='http://schema.org/ComputerLanguage'>
+                  <span itemProp="name">bash</span>
+                  <meta itemProp="sameAs" content="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"/>
                 </span>),{' '}
-                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
-                  <span itemprop="name">Python</span>
-                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Python_(programming_language)"/>
+                <span itemProp="knowsAbout" itemScope itemType='http://schema.org/ComputerLanguage'>
+                  <span itemProp="name">Python</span>
+                  <meta itemProp="sameAs" content="https://en.wikipedia.org/wiki/Python_(programming_language)"/>
                 </span>, and {' '}
-                <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
-                  <span itemprop="name">QML</span>
-                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/QML"/>
+                <span itemProp="knowsAbout" itemScope itemType='http://schema.org/ComputerLanguage'>
+                  <span itemProp="name">QML</span>
+                  <meta itemProp="sameAs" content="https://en.wikipedia.org/wiki/QML"/>
                 </span>. 
                 I've developed a reputation as a focused, high performance team member, 
                 as evidenced by the dozens of times my contract for remote work has been renewed,
                  and also by <Link to="/client-feedback/">highly positive client feedback</Link>.
               </p>
               <p>
-                I perform my <span itemprop="knowsAbout">contract work</span> through{' '}
-                <span itemprop="brand" itemScope itemtype="http://schema.org/Organization" itemref="naicscodes" itemid="https://ramstetter.org/#anteaterllc">
-                  <span itemprop="name">Anteater LLC</span>,{' '}
-                  <link itemprop="areaServed" href="https://ramstetter.com/#usabased" />
-                  <link itemprop="address" href="https://ramstetter.com/#address" />
-                  a <span itemprop="numberOfEmployees">two</span> person Washington state LLC{' '}
+                I perform my <span itemProp="knowsAbout">contract work</span> through{' '}
+                <span itemProp="brand" itemScope itemType="http://schema.org/Organization" itemRef="naicscodes" itemID="https://ramstetter.org/#anteaterllc">
+                  <span itemProp="name">Anteater LLC</span>,{' '}
+                  <link itemProp="areaServed" href="https://ramstetter.com/#usabased" />
+                  <link itemProp="address" href="https://ramstetter.com/#address" />
+                  a <span itemProp="numberOfEmployees">two</span> person Washington state LLC{' '}
                   which carries PLI/E&O insurance and is registered to do business in{' '}
-                  <span itemprop="areaServed">Washington state</span>,{' '}
-                  <span itemprop="areaServed">Oregon</span>, and{' '}
-                  <span itemprop="areaServed">California</span>.
+                  <span itemProp="areaServed">Washington state</span>,{' '}
+                  <span itemProp="areaServed">Oregon</span>, and{' '}
+                  <span itemProp="areaServed">California</span>.
                 </span>
               </p>
             </div>
@@ -227,89 +227,89 @@ class Profile extends React.Component {
             <div className="container text-left">
               <h2 className="section-heading">Academics</h2>
               <p>
-              <span itemprop="hasCredential" itemScope itemtype="http://schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#rutgersmsc">
-              <meta itemprop="competencyRequired" content="Operating systems, circuit fundamentals, Linux, C, C++, algorithms" />
+              <span itemProp="hasCredential" itemScope itemType="http://schema.org/EducationalOccupationalCredential" itemID="https://ramstetter.com/#rutgersmsc">
+              <meta itemProp="competencyRequired" content="Operating systems, circuit fundamentals, Linux, C, C++, algorithms" />
                 I graduated from{' '}
-                <span itemprop="recognizedBy" itemtype="http://schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#rutgers">
-                <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Rutgers_University" />
-                <a href="//www.cs.rutgers.edu"><span itemprop="name">Rutgers University</span></a>{' '}
+                <span itemProp="recognizedBy" itemType="http://schema.org/EducationalOrganization" itemScope itemID="https://ramstetter.com/#rutgers">
+                <meta itemProp="sameAs" content="//en.wikipedia.org/wiki/Rutgers_University" />
+                <a href="//www.cs.rutgers.edu"><span itemProp="name">Rutgers University</span></a>{' '}
                 </span>
-                with a <span itemprop="educationalLevel">Master of Science</span>{' '}
-                 <span itemprop="credentialCategory">degree</span> in{' '}
-                 <span itemprop="about" itemScope itemtype="http://schema.org/Thing">
-                   <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_science" />
-                   <span itemprop="name">computer science</span>
+                with a <span itemProp="educationalLevel">Master of Science</span>{' '}
+                 <span itemProp="credentialCategory">degree</span> in{' '}
+                 <span itemProp="about" itemScope itemType="http://schema.org/Thing">
+                   <meta itemProp="sameAs" content="//en.wikipedia.org/wiki/Computer_science" />
+                   <span itemProp="name">computer science</span>
                 </span>{' '}
-                 (<span itemprop="award">GPA 3.85/4.0</span>).
+                 (<span itemProp="award">GPA 3.85/4.0</span>).
                  </span>{' '}
                  My Master's final project was a <a href="/academic/bezier-spline-routing.pdf">Bezier-spline routing protocol</a>{' '}
                  implemented atop a{' '}
-                 <span itemprop="knowsAbout" itemScope itemtype='http://schema.org/ComputerLanguage'>
-                  <span itemprop="name">Matlab</span>
-                  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Matlab"/>
+                 <span itemProp="knowsAbout" itemScope itemType='http://schema.org/ComputerLanguage'>
+                  <span itemProp="name">Matlab</span>
+                  <meta itemProp="sameAs" content="https://en.wikipedia.org/wiki/Matlab"/>
                 </span>{' '}
                 simulator for{' '}
                 <a href="//www.academia.edu/7018782/Trajectory_based_forwarding_and_its_applications">
-                <span itemprop="knowsAbout">trajectory based routing</span>
+                <span itemProp="knowsAbout">trajectory based routing</span>
                 </a>. Other interesting degree work
                 included a distributed{' '}
                 <a href="//en.wikipedia.org/wiki/Consistent_hashing">
-                <span itemprop="knowsAbout">consistent hashing</span>
+                <span itemProp="knowsAbout">consistent hashing</span>
                 </a>{' '}
                 file store with a{' '}
                 <a href="//en.wikipedia.org/wik/Filesystem_in_Userspace">
-                <span itemprop="knowsAbout">FUSE</span>
+                <span itemProp="knowsAbout">FUSE</span>
                 </a>{' '}
                 frontend
                  a modification to the{' '}
                 <a href="//web.archive.org/web/20100129163345///madwifi-project.org/">
                   madwifi
                 </a>{' '}
-                <span itemprop="knowsAbout">WLAN drivers</span> to support{' '}
+                <span itemProp="knowsAbout">WLAN drivers</span> to support{' '}
                 <a href="/academic/stable-ping-paper.pdf">
-                  stable latency <span itemprop="knowsAbout">ICMP</span> pings
+                  stable latency <span itemProp="knowsAbout">ICMP</span> pings
                 </a>{' '}
-                suitable for use in <span itemprop="knowsAbout">localization</span>, and a publication{' '}
-                <span itemScope itemtype="http://schema.org/ScholarlyArticle">
-                  <meta itemprop="image" content="//ramstetter.com/academic/applications-and-security-of-next-generation-user-centric-wireless-systems.jpg" />
-                  <span itemprop="author" itemScope itemtype="http://schema.org/Person">
-                    <meta itemprop="sameAs" content="https://ramstetter.com/#rick" />
-                    <meta itemprop="name" content="J Rick Ramstetter" />
+                suitable for use in <span itemProp="knowsAbout">localization</span>, and a publication{' '}
+                <span itemScope itemType="http://schema.org/ScholarlyArticle">
+                  <meta itemProp="image" content="//ramstetter.com/academic/applications-and-security-of-next-generation-user-centric-wireless-systems.jpg" />
+                  <span itemProp="author" itemScope itemType="http://schema.org/Person">
+                    <meta itemProp="sameAs" content="https://ramstetter.com/#rick" />
+                    <meta itemProp="name" content="J Rick Ramstetter" />
                   </span>
-                  <meta itemprop="URL" content="//www.mdpi.com/1999-5903/2/3/190/pdf" />
-                  <meta itemprop="datePublished" content="2010-07-28" />
-                  <link itemprop="publisher" href="https://ramstetter.com/#mdpi" />
+                  <meta itemProp="URL" content="//www.mdpi.com/1999-5903/2/3/190/pdf" />
+                  <meta itemProp="datePublished" content="2010-07-28" />
+                  <link itemProp="publisher" href="https://ramstetter.com/#mdpi" />
                   <a href="//www.mdpi.com/1999-5903/2/3/190/pdf">
-                      <span itemprop="name headline">
+                      <span itemProp="name headline">
                         Applications and Security of Next-Generation, User-Centric Wireless Systems
                       </span>
                   </a>{' '}
                   with{' '}
-                  <span itemprop="author" itemScope itemtype="http://schema.org/Person">
-                    <meta itemprop="sameAs" content="//people.cs.vt.edu/danfeng" />
+                  <span itemProp="author" itemScope itemType="http://schema.org/Person">
+                    <meta itemProp="sameAs" content="//people.cs.vt.edu/danfeng" />
                     <a href="//people.cs.vt.edu/danfeng/">
-                      <span itemprop="name">Dr. Danfeng Yao</span>
+                      <span itemProp="name">Dr. Danfeng Yao</span>
                     </a>.
                   </span>
                 </span>
               </p>
               <p>
-              <span itemprop="hasCredential" itemScope itemtype="http://schema.org/EducationalOccupationalCredential" itemid="https://ramstetter.com/#ucibsc">
-              <meta itemprop="competencyRequired" content="English, Mathematics, Signal Processing, C, Java, C++, Python" />
+              <span itemProp="hasCredential" itemScope itemType="http://schema.org/EducationalOccupationalCredential" itemID="https://ramstetter.com/#ucibsc">
+              <meta itemProp="competencyRequired" content="English, Mathematics, Signal Processing, C, Java, C++, Python" />
                 Prior to Rutgers, I graduated from the{' '}
-                <span itemprop="recognizedBy" itemtype="http://schema.org/EducationalOrganization" itemScope itemid="https://ramstetter.com/#uci">
-                <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/University_of_California,_Irvine" />
-                <a href="//www.ics.uci.edu"><span itemprop="name">University of California, Irvine</span></a>
+                <span itemProp="recognizedBy" itemType="http://schema.org/EducationalOrganization" itemScope itemID="https://ramstetter.com/#uci">
+                <meta itemProp="sameAs" content="//en.wikipedia.org/wiki/University_of_California,_Irvine" />
+                <a href="//www.ics.uci.edu"><span itemProp="name">University of California, Irvine</span></a>
                 </span>
-                , with a <span itemprop="educationalLevel">Bachelor of Science</span>{' '}
-                <span itemprop="credentialCategory">degree</span>{' '}
-                 in <span itemprop="about" itemScope itemtype="http://schema.org/Thing">
-                   <meta itemprop="sameAs" content="//en.wikipedia.org/wiki/Computer_engineering" />
-                   <span itemprop="name">computer engineering</span>
+                , with a <span itemProp="educationalLevel">Bachelor of Science</span>{' '}
+                <span itemProp="credentialCategory">degree</span>{' '}
+                 in <span itemProp="about" itemScope itemType="http://schema.org/Thing">
+                   <meta itemProp="sameAs" content="//en.wikipedia.org/wiki/Computer_engineering" />
+                   <span itemProp="name">computer engineering</span>
                 </span>,{' '}
                 </span>
                 where my senior project was a series of{' '}
-                <a href="/img/display-project.jpg"><span itemprop="knowsAbout">embedded</span> display units</a>{' '}
+                <a href="/img/display-project.jpg"><span itemProp="knowsAbout">embedded</span> display units</a>{' '}
                 which reconfigured into a single larger display when
                 interconnected.
               </p>

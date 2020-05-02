@@ -81,22 +81,22 @@ const Post = ({ data, options }) => {
   const fluid = get(image, 'childImageSharp.fluid')
 
   return (
-    <div className="article" key={path} itemScope itemtype="http://schema.org/BlogPosting">
-      <meta itemprop="image" content="//ramstetter.com/rick-ramstetter.jpg" />
-       <span itemprop="author" itemScope itemtype="http://schema.org/Person">
-        <meta itemprop="sameAs" content="https://ramstetter.com/#rick" />
-        <meta itemprop="name" content="J Rick Ramstetter" />
+    <div className="article" key={path} itemScope itemType="http://schema.org/BlogPosting">
+      <meta itemProp="image" content="//ramstetter.com/rick-ramstetter.jpg" />
+       <span itemProp="author" itemScope itemType="http://schema.org/Person">
+        <meta itemProp="sameAs" content="https://ramstetter.com/#rick" />
+        <meta itemProp="name" content="J Rick Ramstetter" />
       </span>
-      <span itemprop="publisher" itemScope itemtype="http://schema.org/Organization">
-        <meta itemprop="sameAs" content="https://ramstetter.com/#anteaterllc" />
-        <meta itemprop="name" content="Anteater LLC" />
+      <span itemProp="publisher" itemScope itemType="http://schema.org/Organization">
+        <meta itemProp="sameAs" content="https://ramstetter.com/#anteaterllc" />
+        <meta itemProp="name" content="Anteater LLC" />
       </span>
       <div className="container">
         <div className="info">
           {isIndex ? "" : <ProfileBlurb />}
           <Link style={{ boxShadow: 'none' }} to={path}>
-            <h1 itemprop="name headline">{title}</h1>
-            <time itemprop="datePublished dateCreated" dateTime={date}>{date}</time>
+            <h1 itemProp="name headline">{title}</h1>
+            <time itemProp="datePublished dateCreated" dateTime={date}>{date}</time>
           </Link>
           {Badges({ items: [category], primary: true })}
           {Badges({ items: tags })}
@@ -109,7 +109,7 @@ const Post = ({ data, options }) => {
           ) : (
             ''
           )}
-          <div itemprop="articleBody"
+          <div itemProp="articleBody"
             dangerouslySetInnerHTML={{
               __html: isMore ? getDescription(html) : html,
             }}
