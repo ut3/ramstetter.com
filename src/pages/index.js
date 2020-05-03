@@ -120,7 +120,7 @@ class Profile extends React.Component {
           <link itemProp="address" href="https://ramstetter.com/#address" />
           <meta itemProp="nationality" content="USA" />
 
-          <div className="container text-center">
+          <div className="container-fluid text-center">
             <p>
               <a href="//ramstetter.com/Ramstetter-Rick--resume.pdf">
                 <span itemProp="name">J Rick Ramstetter</span>'s resume
@@ -129,7 +129,7 @@ class Profile extends React.Component {
           </div>
 
           <section className="">
-            <div className="container text-left">
+            <div className="container-fluid text-left">
             <Img sizes={raverdubanner} className="cover-image opacity-2" />
               <h2 className="section-heading">Industry</h2>
               <p>
@@ -223,7 +223,7 @@ class Profile extends React.Component {
 
           <section className="">
             <Img sizes={displayproject} className="cover-image opacity-2" />
-            <div className="container text-left">
+            <div className="container-fluid text-left">
               <h2 className="section-heading">Academics</h2>
               <p>
               <span itemProp="hasCredential" itemScope itemType="http://schema.org/EducationalOccupationalCredential" itemID="https://ramstetter.com/#rutgersmsc">

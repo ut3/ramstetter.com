@@ -42,7 +42,7 @@ import React from 'react'
 
 const Footer = ({ author, title }) => (
   <div className="footer">
-    <div className="container text-center text-muted">
+    <div className="container-fluid text-center text-muted">
       <hr className="border-primary" />
       <p>
         <small>

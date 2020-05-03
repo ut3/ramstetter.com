@@ -47,7 +47,7 @@ class Navi extends React.Component {
     const { location, title } = this.props
     return (
       <nav className="navbar navbar-expand navbar-dark bg-primary" id="mainnav">
-        <div className="container flex-wrap">
+        <div className="container-fluid flex-wrap">
           <Link className="text-center" to="/">
             <h1 className="navbar-brand mb-0">{title}</h1>
           </Link>

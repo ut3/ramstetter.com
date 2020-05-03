@@ -49,7 +49,7 @@ class Contact extends React.Component {
     return (
       <Layout location={location}>
         <Meta title="Contact" location={location} />
-        <div className="container">
+        <div className="container-fluid">
           <h1>Contact information</h1>
           <h2>E-mail</h2>
           <p>

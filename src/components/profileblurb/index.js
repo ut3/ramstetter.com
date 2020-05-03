@@ -50,7 +50,7 @@ class ProfileBlurb extends React.Component {
 
     return (
       <section className="pt-2">
-        <div className="container text-center">
+        <div className="container-fluid text-center">
           <ConditionalLink condition={!isIndex} to="/">
             <Img
               fixed={get(profile, 'childImageSharp.fixed')}

@@ -89,7 +89,7 @@ const Post = ({ data, options }) => {
         <meta itemProp="sameAs" content="https://ramstetter.com/#anteaterllc" />
         <meta itemProp="name" content="Anteater LLC" />
       </span>
-      <div className="container">
+      <div className="container-fluid">
         <div className="info">
           <Link style={{ boxShadow: 'none' }} to={path}>
             <h1 itemProp="name headline">{title}</h1>

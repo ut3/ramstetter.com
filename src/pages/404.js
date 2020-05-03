@@ -50,7 +50,7 @@ class Contact extends React.Component {
     return (
       <Layout location={location}>
         <Meta title="Not Found" location={location} />
-        <div className="container">
+        <div className="container-fluid">
           <h1>Resource not found</h1>
           <p>
             The content you requested was not found. You've followed a broken

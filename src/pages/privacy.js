@@ -49,7 +49,7 @@ class Privacy extends React.Component {
     return (
       <Layout location={location}>
         <Meta title="Privacy" location={location} />
-        <div className="container">
+        <div className="container-fluid">
           <h1>Privacy policy</h1>
           <p>
             J. Rick Ramstetter (“I”, "me") operates the ramstetter.com and
