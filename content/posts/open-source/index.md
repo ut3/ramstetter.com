@@ -19,7 +19,7 @@ I'm trying to increase my upstream commits. After years of working for companies
 
 <!--more-->
 
-<div class="bottom-margin">
+<div class="bottom-border">
 
 |Project   |   Description   |   Commit URL   |
 |:---|:---|:---|
