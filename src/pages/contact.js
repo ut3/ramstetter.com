@@ -81,7 +81,9 @@ class Contact extends React.Component {
             J Rick Ramstetter <br />
             Anteater LLC
             <br />
-            <span itemProp="streetAddress">305 SE Chkalov Dr #111-414</span>
+            <span itemProp="streetAddress">
+              305 SE Chkalov Dr Ste 111 PMB 414
+            </span>
             <br />
             <span itemProp="addressLocality">Vancouver</span>,{' '}
             <span itemProp="addressRegion">WA</span>,{' '}
