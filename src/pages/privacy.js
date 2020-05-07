@@ -123,7 +123,7 @@ class Privacy extends React.Component {
             would allow someone to contact you.
           </p>
           <p>
-            Anteater may keep copies of all Communications with you,, including
+            Anteater may keep copies of all Communications with you, including
             emails, text messages, and instant messages.
           </p>
           <p>
@@ -177,10 +177,6 @@ class Privacy extends React.Component {
             Anteater uses Netlify to host the Sites. To facilitate that service,
             Netlify may collect your Log Data. For more information, please see{' '}
             <a href="//www.netlify.com/privacy/">Netlify's Privacy Policy</a>.
-          </p>
-          <p>
-            Anteater may set cookies on your device to collect additional
-            information. See section "Cookies" for details.
           </p>
           <h3>3.3. Cookies</h3>
           <p>
@@ -435,6 +431,13 @@ class Privacy extends React.Component {
             The CCPA may give you the right to be free from discrimination based
             on your exercise of your CCPA rights. Anteater does not discriminate
             against anyone who chooses to exercise their CCPA rights.
+          </p>
+          <p>
+            The CCPA may require Anteater to disclose to you how the Sites
+            respond to web browser "Do Not Track" signals. The Sites do not
+            directly respond to Do Not Track signals because the sites do not
+            directly track you. Third party services such as Google Analytics
+            may respond differently to such signals.
           </p>
         </div>
       </Layout>
