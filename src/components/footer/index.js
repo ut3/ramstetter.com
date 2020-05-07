@@ -47,7 +47,8 @@ const Footer = ({ author, title }) => (
       <p>
         <small>
           Copyright © {new Date().getFullYear()}{' '}
-          <Link to="/contact/">{author}</Link>.
+          <Link to="/contact/">Anteater LLC</Link>
+          .
           <br />
           Content licensed under{' '}
           <a href="/CC-BY-NC-ND-4.0.txt">CC BY-NC-ND 4.0</a>.{' '}
