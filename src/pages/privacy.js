@@ -69,16 +69,19 @@ class Privacy extends React.Component {
             <a href="//anteaterllc.com">anteaterllc.com</a>, and{' '}
             <a href="//amperdash.com">amperdash.com</a>.
           </p>
-          <p class="font-weight-bold text-uppercase">
+          <p>
             This Privacy Policy informs you of Anteater's policies regarding the
             collection, use, and disclosure of information, including Personal
-            Information. By (1) accessing the Sites, or (2) engaging in
-            communication with Anteater, its employees, agents, or subsidiaries,
-            or the employees, agents, and subsidiaries thereof via any medium,
-            ("Communications"), or (3) retaining or otherwise contracting with
-            Anteater or its subsidiaries for business services ("Services"), you
-            are accepting and consenting to this Privacy Policy. Please read
-            this Privacy Policy carefully.
+            Information.{' '}
+            <span class="font-weight-bold text-uppercase">
+              By (1) accessing the Sites, or (2) engaging in communication with
+              Anteater, its employees, agents, or subsidiaries, or the
+              employees, agents, and subsidiaries thereof via any medium
+              ("Communications"), or (3) retaining or otherwise contracting with
+              Anteater or its subsidiaries for business services ("Services"),
+              you are accepting and consenting to this Privacy Policy.
+            </span>{' '}
+            Please read this Privacy Policy carefully.
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
           <h2>1. Inapplicable to Third Parties</h2>
@@ -102,23 +105,13 @@ class Privacy extends React.Component {
             </span>
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>3. Severability</h2>
-          <p>
-            If a provision of this Privacy Policy is or becomes illegal,
-            invalid, or unenforceable in any jurisdiction, that shall not affect
-            the validity or enforceability in that jurisdiction of any other
-            provision of this Privacy Policy, nor the validity or enforceability
-            in other jurisdictions of that or any other provision of this
-            Privacy Policy.
-          </p>
-          <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>4. Types of Collected Information</h2>
+          <h2>3. Types of Collected Information</h2>
           <p>
             This section explains the types of information Anteater collects
             from you: Personal Information, Log Data, and Cookies (collectively,
             "<span class="font-weight-bold">Collected Information</span>").{' '}
           </p>
-          <h3>4.1. Personal Information</h3>
+          <h3>3.1. Personal Information</h3>
           <p>
             “<span class="font-weight-bold">Personal Information</span>” is any
             information that can be used to distinguish, identify, or contact a
@@ -156,7 +149,7 @@ class Privacy extends React.Component {
             recordings, or video recordings of persons not currently or formerly
             directly engaged in a Services relationship with Anteater.
           </p>
-          <h3>4.2. Log Data</h3>
+          <h3>3.2. Log Data</h3>
           <p>
             Anteater may collect information that your browser sends whenever
             you visit a Site ("<span class="font-weight-bold">Log Data</span>").
@@ -189,7 +182,7 @@ class Privacy extends React.Component {
             Anteater may set cookies on your device to collect additional
             information. See section "Cookies" for details.
           </p>
-          <h3>4.3. Cookies</h3>
+          <h3>3.3. Cookies</h3>
           <p>
             Cookies are small files of software which save and retrieve
             information about your visit to a website. Aside from cookies placed
@@ -225,7 +218,7 @@ class Privacy extends React.Component {
             .
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>5. Use of Collected Information</h2>
+          <h2>4. Use of Collected Information</h2>
           <p>
             Anteater may use Log Data and Cookies to present the Sites to you,
             to allow you to participate in interactive features on the Sites, to
@@ -258,7 +251,7 @@ class Privacy extends React.Component {
             for any other purpose not enumerated in this Privacy Policy.
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>6. Sharing of Collected Information</h2>
+          <h2>5. Sharing of Collected Information</h2>
           <p>
             Anteater may share your Collected Information to comply with any
             court order, law, legal process (such as a subpoena), or law
@@ -296,7 +289,7 @@ class Privacy extends React.Component {
             Policy.
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>7. Duration of Storage</h2>
+          <h2>6. Duration of Storage</h2>
           <p>
             Anteater will keep your collected Log Data, Cookies, and information
             derived from cookies only so long as is required to present the
@@ -315,7 +308,7 @@ class Privacy extends React.Component {
             <Link to="/contact">contact information found on this Site.</Link>
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>8. Location of Storage</h2>
+          <h2>7. Location of Storage</h2>
           <p>
             Anteater uses servers located on its premises in Washington state,
             USA, as well as cloud services hosted by third-party service
@@ -329,22 +322,22 @@ class Privacy extends React.Component {
             implemented to protect your Collected Information.
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>9. Protection of Collected Information</h2>
+          <h2>8. Protection of Collected Information</h2>
           <p>
             To protect your Personal Information against loss, theft, misuse,
             unauthorized access, unauthorized disclosure, copying, or
             alteration, Anteater makes use of various safeguards. This sentence
             as demarked by the period (alternatively full stop or dot)
-            characters surrounding it shall have no bearing on this Privacy
-            Policy, and with it Anteater intends to convey that you're an astute
-            reader, and further that you should{' '}
-            <Link to="/contact">send an email</Link> subject line "I'm an astute
-            Privacy Policy reader" to strike up a friendly conversation. The
-            safeguards employed by Anteater to protect your Personal Information
-            include: security of its premises, contractual obligations to bind
-            third-party service providers, security software and firewalls,
-            internal document retention and disposal practices, and passwords
-            that restrict access to its electronic files.
+            characters surrounding it has no bearing on this Privacy Policy, and
+            with it Anteater intends to convey that you're an astute reader, and
+            further that you should <Link to="/contact">send an email</Link>{' '}
+            subject line "I'm an astute Privacy Policy reader" to strike up a
+            friendly conversation. The safeguards employed by Anteater to
+            protect your Personal Information include: security of its premises,
+            contractual obligations to bind third-party service providers,
+            security software and firewalls, internal document retention and
+            disposal practices, and passwords that restrict access to its
+            electronic files.
           </p>
           <p>
             The security of communications sent by electronic means or by post
@@ -355,7 +348,7 @@ class Privacy extends React.Component {
             not within its control.
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>10. Residents of the European Economic Area ("EEA")</h2>
+          <h2>9. Residents of the European Economic Area ("EEA")</h2>
           <p>
             Anteater does not specifically offer services to residents in the
             European Economic Area ("EEA"). If the European Union’s General Data
@@ -389,9 +382,9 @@ class Privacy extends React.Component {
             <ul>
               <li>with consent</li>
               <li>
-                to perform the services you have requested from us or, upon your
-                request, to take the steps necessary to provide you with such
-                services
+                to perform the services you have requested from Anteater or,
+                upon your request, to take the steps necessary to provide you
+                with such services
               </li>
               <li>
                 in the furtherance of its legitimate interests in maintaining
@@ -406,7 +399,7 @@ class Privacy extends React.Component {
             including the right to request access to, obtain, correct, amend,
             delete, or limit the use of your personal data. Individuals who are
             located in to the EEA and who wish to exercise these rights, should
-            contact us using the{' '}
+            contact Anteater using the{' '}
             <Link to="/contact">contact information found on this Site</Link>.
             If the inquiry relates to personal data collected by a third party,
             you should instead contact that third party. Individuals located in
@@ -414,7 +407,7 @@ class Privacy extends React.Component {
             authorities in respect of Anteater's privacy practices.
           </p>
           <hr class="border-primary" Style="width: 80vw; text-align: center;" />
-          <h2>11. Residents of California, USA</h2>
+          <h2>10. Residents of California, USA</h2>
           <p>
             The California Consumer Privacy Act ("CCPA") may give you the right
             to opt out of the sale of your Personal Information to third
