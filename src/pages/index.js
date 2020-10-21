@@ -164,14 +164,14 @@ class Profile extends React.Component {
                 </span>
               </p>
               <p>
-                My most enduring <span itemProp="knowsAbout">business relationship</span> is with{' '}
-                <a href="//www.safran-group.com/" target="_blank">Safran S.A.</a>, where I serve as a{' '}
+                My most enduring <span itemProp="knowsAbout">business relationship</span> was with{' '}
+                <a href="//www.safran-group.com/" target="_blank">Safran S.A.</a>, where I served as a{' '}
                 <span itemProp="knowsAbout">contract</span> <span itemProp="knowsAbout">system software</span>{' '}
                 generalist. Their myriad <span itemProp="knowsAbout">embedded devices</span> in the areas of{' '}
                 seatback <span itemProp="knowsAbout">in-flight entertainment</span>,{' '}
                 <span itemProp="knowsAbout">in-flight WiFi</span>, and{' '}
                 <span itemProp="knowsAbout">aircraft cabin</span> <span itemProp="knowsAbout">power delivery</span>{' '}
-                give me opportunity to work with everything from <span itemProp="knowsAbout">bootloaders</span>{' '}
+                gave me opportunity to work with everything from <span itemProp="knowsAbout">bootloaders</span>{' '}
                 (<span itemProp="knowsAbout">BareBox</span> and <span itemProp="knowsAbout">U-Boot</span>) to{' '}
                 <span itemProp="knowsAbout">Qt5</span>/<span itemProp="knowsAbout">QML</span>. The bulk of my experience{' '}
                 is at the level of <span itemProp="knowsAbout">systemd</span> or below--
@@ -202,9 +202,12 @@ class Profile extends React.Component {
                   <meta itemProp="sameAs" content="https://en.wikipedia.org/wiki/QML"/>
                 </span>. 
                 I've developed a reputation as a focused, high performance team member, 
-                as evidenced by the dozens of times my contract for remote work has been renewed,
+                as evidenced by the dozens of times my contract for remote work was renewed by Safran S.A.,
                  and also by <Link to="/client-feedback/">highly positive client feedback</Link>.
               </p>
+			  <p>
+				<Link to="/2020-09-16-booked/">As of September 2020, I am fully scheduled until Q2 2021.</Link>
+			  </p>
               <p>
                 I perform my <span itemProp="knowsAbout">contract work</span> through{' '}
                 <span itemProp="brand" itemScope itemType="http://schema.org/Organization" itemRef="naicscodes" itemID="https://ramstetter.org/#anteaterllc">
@@ -259,8 +262,7 @@ class Profile extends React.Component {
                 <a href="//en.wikipedia.org/wik/Filesystem_in_Userspace">
                 <span itemProp="knowsAbout">FUSE</span>
                 </a>{' '}
-                frontend
-                 a modification to the{' '}
+                frontend, a modification to the{' '}
                 <a href="//web.archive.org/web/20100129163345///madwifi-project.org/">
                   madwifi
                 </a>{' '}
