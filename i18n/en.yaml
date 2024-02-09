@@ -1,0 +1,14 @@
+# Footer
+- id: footer_credits
+  translation:
+    "Content licensed under <a target=\"_blank\" rel=\"nofollow\" href=\"/files/CC-BY-NC-ND-4.0.txt\">CC BY-NC-ND 4.0</a>. \
+	Generated with <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> and \
+    <a href=\"https://github.com/Vimux/Mainroad/\" rel=\"nofollow noopener\" target=\"_blank\">Mainroad</a> theme."
+
+# 404
+- id: 404_title
+  translation: "404: Page not found"
+
+- id: 404_text
+  translation:
+    "The page you were looking for does not exist. Try the "
