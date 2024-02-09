@@ -3,7 +3,9 @@ title: "Past Clients"
 date: "2024-02-08"
 ---
 
-I rely on the positive feedback of my clients for success. This is what they've had to say:
+You can [view my resume here](/files/rick-ramstetter-resume-20231102.pdf). The password is my given/first name in lowercase repeated three times with no spaces.
+
+Before I became a Meteorcomm employee in 2022, I relied on the positive feedback of my consulting clients for success. This is what those clients had to say:
 
 
 ---
@@ -33,12 +35,12 @@ Spot AI builds a modern AI Camera System to create safer workplaces and smarter 
 
 {{< figure src="safran.png" width="200" alt="Safran Group, S.A." link="https://www.safran-group.com" >}}
 
-Safran S.A. is a French multinational aircraft engine, rocket engine, aerospace-component and defense company. I worked for their divison engaged in in-flight entertainment (IFE) and connectivity.
+Safran S.A. is a French multinational aircraft engine, rocket engine, aerospace-component and defense company. I worked for their division engaged in in-flight entertainment (IFE) and connectivity.
 
-{{< figure src="rdu-rickroll.jpg" alt="Rick Astley RickRoll on an RDU screen" width="300" link="rdu-rickroll.jpg" caption="I was a big fan of Safran's seatback RDU units. They never let me down." >}}
+{{< figure src="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" alt="Rick Astley RickRoll on an RDU screen" width="300" link="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" caption="I was a big fan of Safran's seatback RDU units. They never let me down." >}}
 
-{{< figure src="rdu-mdio-salae.jpg" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rdu-mdio-salae.jpg" width="300">}}
-{{< figure src="rdu-mdio-desk.jpg" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rdu-mdio-desk.jpg" width="300">}}
+{{< figure src="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" width="300">}}
+{{< figure src="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" width="300">}}
 
 
 #### Linux driver for a bug affecting ~20,000 shipped units

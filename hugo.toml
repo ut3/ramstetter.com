@@ -5,8 +5,8 @@ theme = 'mainroad'
 enableEmoji = true
 
 [Params]
-	description = "Remote-first GNU/Linux system and embedded software engineer"
-	copyright = "Rick Ramstetter"
+	description = "system and embedded software engineer"
+	copyright = "Rick Ramstetter. All rights reserved. No reproduction rights are granted"
 
 	opengraph = false
 	schema = false
@@ -28,7 +28,7 @@ enableEmoji = true
 [Params.logo]
 	image = "img/rick-ramstetter.webp"
 	title = "Rick Ramstetter"
-	subtitle = "Remote-first GNU/Linux system and embedded software engineer"
+	subtitle = "system and embedded software engineer"
 
 [Author]
  	name = "Rick Ramstetter"

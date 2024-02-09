@@ -1,5 +1,5 @@
 ---
-title: "My open source contributions"
+title: "Open Source Contributions"
 date: "2024-02-08"
 ---
 

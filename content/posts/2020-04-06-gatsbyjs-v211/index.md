@@ -3,7 +3,7 @@ title: "Switched to GatsbyJS v2.11"
 date: "2020-04-06"
 ---
 
-The [old version of Ramstetter.com](//old.ramstetter.com (now old.ramstetter.com)) was created with [GatsbyJS](//gatsbyjs.org) version 0, which dates to 2016. That software is no longer maintained, and it was becoming increasingly difficult to make updates.
+The old version of Ramstetter.com was created with [GatsbyJS](//gatsbyjs.org) version 0, which dates to 2016. That software is no longer maintained, and it was becoming increasingly difficult to make updates.
 
 ![under-construction-1](./under-construction-1.gif) ![under-construction-2](./under-construction-2.gif)  ![under-construction-3](./under-construction-3.gif) ![under-construction-4](./under-construction-4.gif) 
 
@@ -23,4 +23,4 @@ In the few hours that I explored Gatsby's [starters](//www.gatsbyjs.org/starters
 
 Here's a screenshot of me editing this page in [Visual Studio Code (vscode)](//code.visualstudio.com/):
 
-![vscode](./development.jpg)
+{{< figure link="ramstetter-dot-com-development-in-vscode.jpg" src="ramstetter-dot-com-development-in-vscode.jpg" alt="Development of Ramstetter.com in vscode" >}}

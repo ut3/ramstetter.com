@@ -1,9 +1,10 @@
 +++
 Date = "2024-02-08"
+title = "Contact Info"
 +++
 
 ## E-mail: 
-{{< figure src="email.webp" alt="my email address" width="200" caption=":warning: Do not use PGP key FB5C8C8E. It's lost.">}}
+{{< figure src="email.webp" alt="my email address" width="200" caption=":warning: I no longer use PGP.">}}
 
 &nbsp;
 
