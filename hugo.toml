@@ -6,7 +6,7 @@ enableEmoji = true
 
 [Params]
 	description = "system and embedded software engineer"
-	copyright = "Rick Ramstetter. All rights reserved. No reproduction rights are granted"
+	copyright = "Rick Ramstetter. All rights reserved"
 
 	opengraph = false
 	schema = false
