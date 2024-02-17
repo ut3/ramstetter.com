@@ -11,8 +11,7 @@ I have an M.Sc. in Computer Science from [Rutgers University, New Brunswick](htt
 
 You can [view my resume here](/files/rick-ramstetter-resume-20231102.pdf). The password is my given/first name in lowercase repeated three times with no spaces.
 
-I play recreational ice hockey, and sometimes have injuries to prove it.
-
-{{< figure src="/img/rick-ramstetter-hockey-team-2014.webp" link="/img/rick-ramstetter-hockey-team-2014.webp" width="200" caption="A hockey team I was on in 2014" >}}
-
 I do not use social media, though I maintain accounts on [LinkedIn](https://linkedin.com/in/ut3) and [Github](https://github.com/ut3).
+
+{{< figure class="rick-responsive-figure" src="/img/rick-ramstetter-hockey-team-2014.webp" link="/img/rick-ramstetter-hockey-team-2014.webp" caption="I play recreational ice hockey" >}}
+

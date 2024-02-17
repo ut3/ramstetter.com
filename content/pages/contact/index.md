@@ -4,12 +4,12 @@ title = "Contact Info"
 +++
 
 ## E-mail: 
-{{< figure src="email.webp" alt="my email address" width="200" caption=":warning: I no longer use PGP.">}}
+{{< figure src="email.webp" alt="my email address" caption=":warning: I no longer use PGP" width="215" >}}
 
 &nbsp;
 
 ## Mailing:
-{{< figure src="mailing.webp" alt="my mailing address" width="200">}}
+{{< figure src="mailing.webp" alt="my mailing address" width="215" >}}
 
 &nbsp;
 

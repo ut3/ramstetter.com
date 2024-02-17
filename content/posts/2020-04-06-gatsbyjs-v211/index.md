@@ -23,4 +23,4 @@ In the few hours that I explored Gatsby's [starters](//www.gatsbyjs.org/starters
 
 Here's a screenshot of me editing this page in [Visual Studio Code (vscode)](//code.visualstudio.com/):
 
-{{< figure link="ramstetter-dot-com-development-in-vscode.jpg" src="ramstetter-dot-com-development-in-vscode.jpg" alt="Development of Ramstetter.com in vscode" >}}
+{{< figure class="rick-responsive-figure" link="ramstetter-dot-com-development-in-vscode.jpg" src="ramstetter-dot-com-development-in-vscode.jpg" alt="Development of Ramstetter.com in vscode" >}}

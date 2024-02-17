@@ -3,7 +3,7 @@ title = 'Switched to gohugo.io v0.121.2'
 date = 2024-02-08T12:52:06-08:00
 +++
 
-{{< figure src="under-construction-1.gif" alt="mid-90s under construction gif animation" >}}
+{{< figure class="rick-responsive-figure" src="under-construction-1.gif" alt="mid-90s under construction gif animation" >}}
 
 I've switched from [GatsbyJS](https://gatsbyjs.com) to [gohugo](https://gohugo.io). This new version of the site uses the [Vimux/Mainroad](https://github.com/Vimux/Mainroad/) Hugo theme. I've made a few modifications to the workings of the Mainroad theme, and you can find those modifications in the [Github repository for this site.](https://github.com/ut3/ramstetter.com/)
 

@@ -11,7 +11,7 @@ Before I became a Meteorcomm employee in 2022, I relied on the positive feedback
 ---
 ## Meteorcomm
 
-{{< figure link="https://www.meteorcomm.com" src="meteorcomm.svg" width="200" alt="Meteorcomm, LLC.">}}
+{{< figure class="rick-responsive-figure" link="https://www.meteorcomm.com" src="meteorcomm.svg" alt="Meteorcomm, LLC.">}}
 
 Meteorcomm is the railroad industry’s trusted source of innovative wireless communications and train control technology.
 
@@ -22,7 +22,7 @@ Meteorcomm is the railroad industry’s trusted source of innovative wireless co
 
 ## SpotAI
 
-{{< figure src="spotai.svg" width="200" alt="Spot AI, Inc." link="https://www.spot.ai">}}
+{{< figure class="rick-responsive-figure" src="spotai.svg" alt="Spot AI, Inc." link="https://www.spot.ai">}}
 
 Spot AI builds a modern AI Camera System to create safer workplaces and smarter operations for every organization.
 
@@ -33,14 +33,14 @@ Spot AI builds a modern AI Camera System to create safer workplaces and smarter 
 
 ## Safran Group
 
-{{< figure src="safran.png" width="200" alt="Safran Group, S.A." link="https://www.safran-group.com" >}}
+{{< figure class="rick-responsive-figure" src="safran.png" alt="Safran Group, S.A." link="https://www.safran-group.com" >}}
 
 Safran S.A. is a French multinational aircraft engine, rocket engine, aerospace-component and defense company. I worked for their division engaged in in-flight entertainment (IFE) and connectivity.
 
-{{< figure src="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" alt="Rick Astley RickRoll on an RDU screen" width="300" link="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" caption="I was a big fan of Safran's seatback RDU units. They never let me down." >}}
+{{< figure class="rick-responsive-figure" src="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" alt="Rick Astley RickRoll on an RDU screen" link="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" caption="I was a big fan of Safran's seatback RDU units. They never let me down." >}}
 
-{{< figure src="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" width="300">}}
-{{< figure src="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" width="300">}}
+{{< figure class="rick-responsive-figure" src="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" >}}
+{{< figure class="rick-responsive-figure" src="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" >}}
 
 
 #### Linux driver for a bug affecting ~20,000 shipped units
@@ -61,7 +61,7 @@ Safran S.A. is a French multinational aircraft engine, rocket engine, aerospace-
 ---
 ## Gnarbox
 
-{{< figure src="gnarbox.svg" alt="MyGnar, Inc. (DBA Gnarbox)" width="200" link="https://web.archive.org/web/20180224042302/https://www.gnarbox.com/" >}}
+{{< figure class="rick-responsive-figure" src="gnarbox.svg" alt="MyGnar, Inc. (DBA Gnarbox)" link="https://web.archive.org/web/20180224042302/https://www.gnarbox.com/" >}}
 
 
 Gnarbox was the world’s first mobile solution for viewing, backing-up, editing, and sharing HD footage. 

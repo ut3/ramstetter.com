@@ -13,6 +13,6 @@ date: "2024-02-08"
 | [snapbtrex](//github.com/yoshtec/snapbtrex) | Allow ssh port specification | [2ed4c1b](//github.com/yoshtec/snapbtrex/pull/1/commits/2ed4c1b49a5d8092e11ea34b0ed68eb4499c790b) |
 | [Kimchi](//github.com/kimchi-project) | Bug reports | [217](//github.com/kimchi-project/wok/issues/217) [1228](//github.com/kimchi-project/kimchi/issues/1228) [1224](//github.com/kimchi-project/kimchi/issues/1224) |
 
-I am mindful of the difference between free beer, copyleft, and freedom.
 
-![FOSS licenses](./foss-licenses.png)
+
+{{< figure class="rick-responsive-figure" link="foss-licenses.png" src="foss-licenses.png" caption="I am mindful of the difference between free beer, copyleft, and freedom" alt="I am mindful of the difference between free beer, copyleft, and freedom" >}}

@@ -18,9 +18,7 @@ wireless, context-aware, often decentralized systems. For example, the pervasive
 of such systems allows adversaries to launch stealthy attacks against them. In this review
 paper, we survey several emergent personal wireless systems and their applications...
 
-<div align="center">
-{{< figure link="mdpi-future-internet-ramstetter-yang-yao.pdf" src="mdpi-future-internet-ramstetter-yang-yao.jpg" width="40%" caption="Title content of Applications and Security of Next-Generation, User-Centric Wireless Systems" >}} 
-</div>
+{{< figure class="rick-responsive-figure" link="mdpi-future-internet-ramstetter-yang-yao.pdf" src="mdpi-future-internet-ramstetter-yang-yao.jpg" caption="Title content of Applications and Security of Next-Generation, User-Centric Wireless Systems" >}} 
 
 
 ---
@@ -39,9 +37,7 @@ I implement multiple variations of the same Bezier-spline routing protocol. By u
 representation of trajectories...
 
 
-<div align="center">
-{{< figure link="rick-ramstetter--simulation-of-bezier-spline-trajectory-based-routing.pdf" src="rick-ramstetter--simulation-of-bezier-spline-trajectory-based-routing.webp" width="35%" caption="Sample content from my coursework Simulation and evaluation of Bezier-spline Trajectory Based Routing" alt="Sample content from my coursework Simulation and evaluation of Bezier-spline Trajectory Based Routing" >}}
-</div>
+{{< figure class="rick-responsive-figure" link="rick-ramstetter--simulation-of-bezier-spline-trajectory-based-routing.pdf" src="rick-ramstetter--simulation-of-bezier-spline-trajectory-based-routing.webp" caption="Sample content from my coursework Simulation and evaluation of Bezier-spline Trajectory Based Routing" alt="Sample content from my coursework Simulation and evaluation of Bezier-spline Trajectory Based Routing" >}}
 
 ---
 
@@ -56,9 +52,7 @@ areas of the bump-mapping im- age. Relevant vertices are then moved along their 
 post-stamping position. For extrac- tion, relevant areas of the mesh are interpolated via Moving Least Squares in order to 
 meet the user’s stamp size and resolution requirements.
 
-<div align="center">
-{{< figure link="rick-ramstetter-stamping-and-extracting-bump-maps.pdf" src="rick-ramstetter-stamping-and-extracting-bump-maps.webp" caption="Sample content from my coursework Stamping and Extracting Bump Maps" alt="Sample content from my coursework Stamping and Extracting Bump Maps" width="35%" >}}
-</div>
+{{< figure class="rick-responsive-figure" link="rick-ramstetter-stamping-and-extracting-bump-maps.pdf" src="rick-ramstetter-stamping-and-extracting-bump-maps.webp" caption="Sample content from my coursework Stamping and Extracting Bump Maps" alt="Sample content from my coursework Stamping and Extracting Bump Maps" >}}
 
 ---
 ## [IPv4 will remain sufficient in North America for the next 30 years](rick-ramstetter-IPv4-sufficient-in-North-America.pdf)
@@ -70,9 +64,7 @@ many to question the urgency of deploying IPv6. While recognizing that IPv4’s 
 is indeed finite, I argue that such questioning is warranted, and that IPv4 will be sufficient
 in North America for at least the next 30 years....
 
-<div align="center">
-{{< figure link="rick-ramstetter-IPv4-sufficient-in-North-America.pdf" src="rick-ramstetter-IPv4-sufficient-in-North-America.webp" alt="Sample content from my position paper on IPv4 sufficiency" caption="Sample content from my position paper on IPv4 sufficiency" width="30%">}}
-</div>
+{{< figure class="rick-responsive-figure" link="rick-ramstetter-IPv4-sufficient-in-North-America.pdf" src="rick-ramstetter-IPv4-sufficient-in-North-America.webp" alt="Sample content from my position paper on IPv4 sufficiency" caption="Sample content from my position paper on IPv4 sufficiency" >}} 
 
 
 --- 
@@ -85,9 +77,7 @@ Rutgers M.Sc. coursework in which my lab partners and I modified the Bochs IA32 
 parameters such as total size, line size, associativity, and miss latencies on cache miss rates and average
 memory access times...
 
-<div align="center">
-{{< figure link="rick-ramstetter-bochs-2-level-cache.pdf" src="rick-ramstetter-bochs-2-level-cache.webp" alt="Sample content from my writeup on a 2-level cache simulator in Bochs IA32 emulator" caption="Sample content from my writeup on a 2-level cache simulator in Bochs IA32 emulator" width="50%" >}}
-</div>
+{{< figure class="rick-responsive-figure" link="rick-ramstetter-bochs-2-level-cache.pdf" src="rick-ramstetter-bochs-2-level-cache.webp" alt="Sample content from my writeup on a 2-level cache simulator in Bochs IA32 emulator" caption="Sample content from my writeup on a 2-level cache simulator in Bochs IA32 emulator" >}} 
 
 
 

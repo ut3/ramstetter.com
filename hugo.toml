@@ -25,6 +25,10 @@ enableEmoji = true
 
 	footer_credits = "Test"
 
+	customCSS = ["css/rick-ramstetter.css"]
+
+	googleFontsLink = false
+
 [Params.logo]
 	image = "img/rick-ramstetter.webp"
 	title = "Rick Ramstetter"
