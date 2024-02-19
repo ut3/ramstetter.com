@@ -14,16 +14,17 @@ enableEmoji = true
 	authorbox = false
 	toc = false
 	pager = false
+	readmore = false
 	
 	post_meta = ["author", "date", "categories", "translations"]
 
-	mainSections = []
+	mainSections = ["posts"]
 
 	dateformat = "2006-01-02"
 
 	mathjax = false
 
-	footer_credits = "Test"
+	footer_credits = ""
 
 	customCSS = ["css/rick-ramstetter.css"]
 
@@ -36,32 +37,6 @@ enableEmoji = true
 
 [Author]
  	name = "Rick Ramstetter"
-
-[menus]
-[[menus.main]]
-	name = 'Main'
-	pageref = '/'
-	weight = 10
-
-[[menus.main]]
-	name = 'Posts'
-	pageref = '/posts/'
-	weight = 20
-
-[[menus.main]]
-	name = 'Contact'
-	pageref = '/pages/contact/index.md'
-	weight = 110
-
-[[menus.main]]
-	name = "Open Source"
-	pageref = '/pages/open-source/index.md'
-	weight = 40
-
-[[menus.main]]
-	name = 'Past Clients'
-	pageref = '/pages/past-clients/index.md'
-	weight = 50
 
 [markup.goldmark.renderer]
   unsafe = true

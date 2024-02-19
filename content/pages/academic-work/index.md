@@ -1,13 +1,20 @@
 +++
-title = "Rick Ramstetter's Academic Work"
+title = "Academic Work"
 Date = "2024-02-08"
+menu.main.name = "Academics"
+menu.main.weight = 500
 +++
 
-I enjoyed my time in academia. Here are some papers and other things I wrote:
+I enjoyed my time in academia. Here is some memorable academic work from that era.
+
+### My Degrees
+- M.Sc., Computer Science, [Rutgers University, New Brunswick](https://www.cs.rutgers.edu)
+- B.Sc., Computer Engineering, [University of California, Irvine](https://www.uci.edu)
+
 
 ---
 
-## [Applications and Security of Next-Generation, User-Centric Wireless Systems](mdpi-future-internet-ramstetter-yang-yao-20100728.pdf)
+### [Applications and Security of Next-Generation, User-Centric Wireless Systems](mdpi-future-internet-ramstetter-yang-yao-20100728.pdf)
 
 Publication in an open-access journal, [MDPI's future internet](www.mdpi.com/journal/futureinternet). Date: 2010/07/28
 
@@ -23,7 +30,7 @@ paper, we survey several emergent personal wireless systems and their applicatio
 
 ---
 
-## [Stamping and Extracting Bump Maps](rick-ramstetter-stamping-and-extracting-bump-maps-20090505.pdf)
+### [Stamping and Extracting Bump Maps](rick-ramstetter-stamping-and-extracting-bump-maps-20090505.pdf)
 
 Rutgers M.Sc. coursework in which my lab partner and I implemented a "copy and paste" interface for editting graphics meshes. Date: 2009/05/05
 
@@ -38,7 +45,7 @@ meet the user’s stamp size and resolution requirements.
 
 ---
 
-## [Modifying Bochs IA32 emulator to simulate a 2-level cache](rick-ramstetter-bochs-2-level-cache-20101203.pdf)
+### [Modifying Bochs IA32 emulator to simulate a 2-level cache](rick-ramstetter-bochs-2-level-cache-20101203.pdf)
 
 Rutgers M.Sc. coursework in which my lab partners and I modified the Bochs IA32 emulator to contain a one-off 2-level cache simulator. Date: 2010/12/03
 
@@ -50,7 +57,7 @@ memory access times...
 
 ---
 
-## [Simulation and evaluation of Bezier-spline Trajectory Based Routing](rick-ramstetter-simulation-of-bezier-spline-trajectory-based-routing-20100419.pdf)
+### [Simulation and evaluation of Bezier-spline Trajectory Based Routing](rick-ramstetter-simulation-of-bezier-spline-trajectory-based-routing-20100419.pdf)
 
 Rutgers M.Sc. coursework in which I simulated and evaluated a trajectory-based routing protocol in Matlab. Date: 2010/04/19
 
@@ -69,7 +76,7 @@ representation of trajectories...
 
 ---
 
-## [IPv4 will remain sufficient in North America for the next 30 years](rick-ramstetter-IPv4-sufficient-in-North-America-20081128.pdf)
+### [IPv4 will remain sufficient in North America for the next 30 years](rick-ramstetter-IPv4-sufficient-in-North-America-20081128.pdf)
 
 Rutgers M.Sc. coursework in which I argued that IPv4 will suffice in North America until the year 2039. Date: 2008/11/28
 

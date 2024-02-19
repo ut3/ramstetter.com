@@ -1,9 +1,13 @@
 ---
 title: "Past Clients"
 date: "2024-02-08"
+menu:
+ main:
+  weight: 100
+  name: "Past Clients"
 ---
 
-You can [view my resume here](/files/rick-ramstetter-resume-20231102.pdf). The password is my given/first name in lowercase repeated three times with no spaces.
+[View my resume here](/files/rick-ramstetter-resume-20231102.pdf). The password is my surname in lowercase.
 
 Before I became a Meteorcomm employee in 2022, I relied on the positive feedback of my consulting clients for success. This is what those clients had to say:
 

@@ -1,6 +1,8 @@
 +++
 Date = "2024-02-08"
 title = "Contact Info"
+menu.main.name = "Contact"
+menu.main.weight = 1000
 +++
 
 ## E-mail: 
