@@ -40,6 +40,7 @@ Safran S.A. is a French multinational aircraft engine, rocket engine, aerospace-
 {{< figure class="rick-responsive-figure" src="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" alt="Rick Astley RickRoll on an RDU screen" link="rick-ramstetter-safran-passenger-innovations-rdu-rickroll.webp" caption="I was a big fan of Safran's seatback RDU units. They never let me down." >}}
 
 {{< figure class="rick-responsive-figure" src="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-debug.webp" >}}
+
 {{< figure class="rick-responsive-figure" src="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" alt="Debugging MDIO" caption="Debugging MDIO on a Safran RDU" link="rick-ramstetter-safran-passenger-innovations-mdio-salae.webp" >}}
 
 
