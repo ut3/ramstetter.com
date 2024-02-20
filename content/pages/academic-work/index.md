@@ -32,13 +32,13 @@ paper, we survey several emergent personal wireless systems and their applicatio
 
 ### [Stamping and Extracting Bump Maps](rick-ramstetter-stamping-and-extracting-bump-maps-20090505.pdf)
 
-Rutgers M.Sc. coursework in which my lab partner and I implemented a "copy and paste" interface for editting graphics meshes. Date: 2009/05/05
+Rutgers M.Sc. coursework in which my lab partner and I implemented a "copy and paste" interface for editing graphics meshes. Date: 2009/05/05
 
-> **Abstract:** We have implemented a “copy and paste” styled interface for mesh editting. This interface allows the user to both
+> **Abstract:** We have implemented a “copy and paste” styled interface for mesh editing. This interface allows the user to both
 a) input a grayscale bump-mapping image and “stamp” this image onto parts of a loaded mesh, and b) extract grayscale
-bump-mapping images from a given mesh. For stamp application, mesh faces are umpsampled via Sqrt- 3 subdivision for high gradient
-areas of the bump-mapping im- age. Relevant vertices are then moved along their smoothed-surface nORMAL to achieve their new,
-post-stamping position. For extrac- tion, relevant areas of the mesh are interpolated via Moving Least Squares in order to
+bump-mapping images from a given mesh. For stamp application, mesh faces are upsampled via Sqrt-3 subdivision for high gradient
+areas of the bump-mapping image. Relevant vertices are then moved along their smoothed-surface normal to achieve their new,
+post-stamping position. For extraction, relevant areas of the mesh are interpolated via Moving Least Squares in order to
 meet the user’s stamp size and resolution requirements.
 
 {{< figure class="rick-responsive-figure" link="rick-ramstetter-stamping-and-extracting-bump-maps-20090505.pdf" src="rick-ramstetter-stamping-and-extracting-bump-maps-20090505.webp" caption="Coursework: Stamping and Extracting Bump Maps" alt="Coursework: Stamping and Extracting Bump Maps" >}}
@@ -66,8 +66,8 @@ Rutgers M.Sc. coursework in which I simulated and evaluated a trajectory-based r
 > **Abstract:** In dense sensor networks, Trajectory Based Routing (TBR) allows a source node to encode in some
 packet’s header a mathematical (e.g. polynomial) curve deﬁning that packet’s route. Intermediary nodes
 make a best-effort to route the packet along this curve. Bezier curves, used widely in computer graphics,
-allow message trajectories to be described by complex and non-invertable curves. In this work, I imple-
-ment in Matlab a generalized simulator for TBR protocols in dense sensor networks. Atop that simulator,
+allow message trajectories to be described by complex and non-invertable curves. In this work, I implement
+in Matlab a generalized simulator for TBR protocols in dense sensor networks. Atop that simulator,
 I implement multiple variations of the same Bezier-spline routing protocol. By using a Bezier-spline
 representation of trajectories...
 
