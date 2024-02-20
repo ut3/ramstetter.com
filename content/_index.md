@@ -7,7 +7,7 @@ I'm a USA-based software engineer with 15 years of experience in GNU/Linux syste
 
 I only work remotely, as I've done since 2016. I became an employee at [Meteorcomm](https://www.meteorcomm.com) in 2022 after years of contracting for them. At Meteorcomm I develop radio frequency firmware for devices which operate on a nearly-nationwide 220Mhz network. [Read about my past clients and employers here](/pages/past-clients/).
 
-I have an M.Sc. in Computer Science from [Rutgers University, New Brunswick](https://www.cs.rutgers.edu), and a B.Sc. in Computer Engineering from the [University of California, Irvine](https://www.uci.edu). I posted some [interesting academic work here](/pages/academic-work/).
+I have a M.Sc. in Computer Science from [Rutgers University, New Brunswick](https://www.cs.rutgers.edu), and a B.Sc. in Computer Engineering from the [University of California, Irvine](https://www.uci.edu). I posted some [interesting academic work here](/pages/academic-work/).
 
 [I thru-hiked the Appalachian Trail and hiked parts of the Pacific Crest Trail in 2014 and 2015.](/pages/backpacking/)
 
