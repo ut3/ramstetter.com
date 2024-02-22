@@ -18,5 +18,6 @@ menu:
 | [Kimchi](//github.com/kimchi-project) | Bug reports | [217](//github.com/kimchi-project/wok/issues/217) [1228](//github.com/kimchi-project/kimchi/issues/1228) [1224](//github.com/kimchi-project/kimchi/issues/1224) |
 
 
+&nbsp;
 
-{{< figure class="rick-responsive-figure" link="foss-licenses.png" src="foss-licenses.png" caption="I am mindful of the difference between free beer, copyleft, and freedom" alt="I am mindful of the difference between free beer, copyleft, and freedom" >}}
+{{< figure class="rick-responsive-figure" link="foss-licenses.png" src="foss-licenses.png" caption="I am mindful of the difference between free beer, copyleft, and freedom. <small style=\"font-size:0.6em\">[<a href=\"https://web.archive.org/web/20240205215315/https://dwheeler.com/essays/floss-license-slide.html\" rel=nofollow target=_blank>source</a>]</small>" alt="Illustration of the differences between various FOSS licenses, by David A. Wheeler" >}}
