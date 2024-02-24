@@ -13,6 +13,11 @@ I have a M.Sc. in Computer Science from [Rutgers University, New Brunswick](http
 
 [I thru-hiked the Appalachian Trail and hiked parts of the Pacific Crest Trail in 2014 and 2015.](/pages/backpacking/)
 
-{{< figure class="rick-responsive-figure" src="/img/rick-ramstetter-hockey-team-2014.webp" link="/img/rick-ramstetter-hockey-team-2014.webp" caption="I play recreational ice hockey" >}}
+My current hobbies include [amateur ice hockey](/img/rick-ramstetter-hockey-team-2014.webp) and [running in local races](/img/rick-ramstetter-appletree-running.webp).
+
+{{< figure class="rick-responsive-figure" src="/img/rick-ramstetter-eagle-in-tree.webp" link="/img/rick-ramstetter-eagle-in-tree.webp" caption="I live and work in the beautiful Pacific Northwest" >}}
+
+&nbsp;
 
 ---
+## Recent Posts:

@@ -1,1 +1,55 @@
-@media screen and (min-width:2001px){figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{width:15vw}}@media screen and (max-width:2000px){figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{width:20vw}}@media screen and (max-width:1475px){figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{width:25vw}}@media screen and (max-width:1150px){figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{width:30vw}}@media screen and (max-width:900px){figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{width:50vw}}@media screen and (max-width:767px){figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{width:60vw}}@media screen and (max-width:620px){figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{width:70vw}}figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img{display:block;margin-left:auto;margin-right:auto}figure.rick-responsive-figure>figcaption{text-align:center}
+h2.list__title.post__title {
+ font-size: 16px;
+ font-size: 1rem;
+}
+#recent-posts {
+ font-size: 18px;
+ font-size: 1.125rem;
+}
+@media screen and (min-width: 2001px) {
+ figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+  width: 15vw;
+ }
+}
+@media screen and (max-width: 2000px) {
+ figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+  width: 20vw;
+ }
+}
+@media screen and (max-width: 1475px) {
+ figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+  width: 25vw;
+ }
+}
+@media screen and (max-width: 1150px) {
+ figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+  width: 30vw;
+ }
+}
+@media screen and (max-width: 900px) {
+ figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+  width: 50vw;
+ }
+}
+@media screen and (max-width: 767px) {
+ figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+  width: 60vw;
+ }
+}
+@media screen and (max-width: 620px) {
+ figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+  width: 70vw;
+  h2.list__title.post__title {
+   font-size: 16px;
+   font-size: 1rem;
+  }
+ }
+}
+figure.rick-responsive-figure>img,figure.rick-responsive-figure>a>img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+figure.rick-responsive-figure>figcaption { 
+ text-align: center;
+}
