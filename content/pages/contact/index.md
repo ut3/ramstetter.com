@@ -6,7 +6,7 @@ menu.main.weight = 1000
 +++
 
 ## E-mail: 
-{{< figure src="email.webp" alt="my email address" caption=":warning: I no longer use PGP" width="215" >}}
+{{< figure src="email.webp" alt="my email address" width="215" >}}
 
 &nbsp;
 
